@@ -1,0 +1,1441 @@
+timestamp,flow_m3h,turbidity_ntu,uvt,lamp_power_pct,uv_intensity,uv_dose_mj_cm2,lamp_health_pct,anomaly_score,advisory,cusum_event
+2026-04-25T06:00:00+00:00,98.824,0.763,74.863,70.44,52.676,28.729,96.1,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T06:05:00+00:00,102.327,0.729,76.217,67.58,52.603,29.429,96.3,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T06:10:00+00:00,101.817,0.454,75.949,70.79,53.023,28.271,95.9,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T06:15:00+00:00,105.089,0.735,75.789,68.06,52.382,28.904,96.7,0.105,No rule triggered.,False
+2026-04-25T06:20:00+00:00,106.801,0.333,78.005,72.57,52.662,29.87,96.5,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T06:25:00+00:00,101.902,0.647,75.557,69.94,51.387,28.686,96.4,0.004,"Water is clear, save energy while staying compliant.",False
+2026-04-25T06:30:00+00:00,101.662,0.777,76.403,68.74,54.024,28.244,95.9,0.033,"Water is clear, save energy while staying compliant.",False
+2026-04-25T06:35:00+00:00,99.244,0.279,75.571,71.11,53.472,29.927,97.1,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T06:40:00+00:00,105.849,0.284,78.583,67.21,53.755,29.532,95.2,0.065,"Water is clear, save energy while staying compliant.",False
+2026-04-25T06:45:00+00:00,104.221,0.627,75.979,69.49,53.519,29.313,97.3,0.1,"Water is clear, save energy while staying compliant.",False
+2026-04-25T06:50:00+00:00,98.611,0.549,75.69,68.27,55.469,30.112,97.6,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T06:55:00+00:00,98.714,0.453,76.366,70.77,50.77,28.402,95.1,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T07:00:00+00:00,103.897,0.491,75.104,67.39,54.696,28.592,96.6,0.069,"Water is clear, save energy while staying compliant.",False
+2026-04-25T07:05:00+00:00,98.632,0.262,78.722,70.8,53.902,29.352,96.8,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T07:10:00+00:00,106.58,0.663,76.9,68.29,53.373,28.32,97.1,0.062,"Water is clear, save energy while staying compliant.",False
+2026-04-25T07:15:00+00:00,103.713,0.623,76.861,70.54,54.14,28.282,97.4,0.053,"Water is clear, save energy while staying compliant.",False
+2026-04-25T07:20:00+00:00,98.874,0.553,75.374,71.02,52.561,28.383,95.2,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T07:25:00+00:00,100.443,0.659,77.139,69.28,51.468,29.122,96.2,0.0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T07:30:00+00:00,97.778,0.598,74.826,70.38,53.52,28.883,95.0,0.095,"Water is clear, save energy while staying compliant.",False
+2026-04-25T07:35:00+00:00,105.49,0.791,77.716,70.19,51.23,28.88,95.1,0.07,"Water is clear, save energy while staying compliant.",False
+2026-04-25T07:40:00+00:00,97.438,0.474,76.016,67.2,51.601,29.633,96.4,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T07:45:00+00:00,103.545,0.585,77.746,70.64,53.879,29.304,96.9,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T07:50:00+00:00,101.643,0.697,78.092,72.76,51.753,28.496,97.4,0.006,"Water is clear, save energy while staying compliant.",False
+2026-04-25T07:55:00+00:00,106.888,0.644,77.844,69.3,53.956,28.464,97.5,0.009,"Water is clear, save energy while staying compliant.",False
+2026-04-25T08:00:00+00:00,100.879,0.539,76.847,72.33,53.187,28.33,96.1,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T08:05:00+00:00,105.797,0.338,77.091,70.49,51.365,27.524,95.0,0.101,No rule triggered.,False
+2026-04-25T08:10:00+00:00,102.371,0.59,75.615,68.6,51.795,28.849,96.7,0.042,"Water is clear, save energy while staying compliant.",False
+2026-04-25T08:15:00+00:00,103.621,0.201,78.442,72.18,54.223,29.294,95.2,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T08:20:00+00:00,100.541,0.235,79.449,68.12,51.332,28.426,95.2,0.073,"Water is clear, save energy while staying compliant.",False
+2026-04-25T08:25:00+00:00,97.237,0.768,75.336,71.75,51.616,28.716,96.8,0.002,"Water is clear, save energy while staying compliant.",False
+2026-04-25T08:30:00+00:00,98.556,0.396,77.589,69.03,54.879,29.14,96.5,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T08:35:00+00:00,98.305,0.21,76.339,69.48,54.525,29.362,95.9,0.1,"Water is clear, save energy while staying compliant.",False
+2026-04-25T08:40:00+00:00,106.131,0.602,77.447,67.3,53.853,29.127,95.6,0.026,"Water is clear, save energy while staying compliant.",False
+2026-04-25T08:45:00+00:00,105.774,0.578,76.765,68.78,54.236,29.736,96.1,0.073,"Water is clear, save energy while staying compliant.",False
+2026-04-25T08:50:00+00:00,99.812,0.69,75.588,67.38,54.204,29.42,95.6,0.061,"Water is clear, save energy while staying compliant.",False
+2026-04-25T08:55:00+00:00,100.884,0.285,78.868,69.49,54.184,28.497,95.0,0.041,"Water is clear, save energy while staying compliant.",False
+2026-04-25T09:00:00+00:00,99.094,0.657,77.472,68.41,50.809,27.817,95.2,0.066,"Water is clear, save energy while staying compliant.",False
+2026-04-25T09:05:00+00:00,105.084,0.611,76.439,67.22,51.891,28.133,95.3,0.086,"Water is clear, save energy while staying compliant.",False
+2026-04-25T09:10:00+00:00,105.803,0.605,78.638,72.16,51.431,28.935,96.1,0.084,"Water is clear, save energy while staying compliant.",False
+2026-04-25T09:15:00+00:00,104.941,0.612,78.578,72.26,53.074,29.107,96.6,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T09:20:00+00:00,102.359,0.557,77.188,69.48,52.465,29.802,96.8,0.022,"Water is clear, save energy while staying compliant.",False
+2026-04-25T09:25:00+00:00,105.141,0.536,78.209,67.28,53.041,30.244,97.6,0.018,"Water is clear, save energy while staying compliant.",False
+2026-04-25T09:30:00+00:00,100.396,0.459,77.779,71.46,52.976,28.095,95.9,0.037,"Water is clear, save energy while staying compliant.",False
+2026-04-25T09:35:00+00:00,99.494,0.369,77.405,70.86,54.278,29.515,96.1,0.007,"Water is clear, save energy while staying compliant.",False
+2026-04-25T09:40:00+00:00,98.385,0.219,77.442,68.39,52.166,27.892,96.0,0.105,No rule triggered.,False
+2026-04-25T09:45:00+00:00,106.708,0.651,77.706,68.32,52.87,29.619,96.5,0.06,"Water is clear, save energy while staying compliant.",False
+2026-04-25T09:50:00+00:00,104.336,0.396,75.364,67.12,55.286,29.376,97.9,0.009,"Water is clear, save energy while staying compliant.",False
+2026-04-25T09:55:00+00:00,103.85,0.681,78.058,72.97,54.927,28.979,96.9,0.074,"Water is clear, save energy while staying compliant.",False
+2026-04-25T10:00:00+00:00,104.674,0.314,76.569,72.49,52.795,28.355,97.7,0.05,"Water is clear, save energy while staying compliant.",False
+2026-04-25T10:05:00+00:00,102.958,0.75,78.395,69.52,50.841,29.212,95.3,0.086,"Water is clear, save energy while staying compliant.",False
+2026-04-25T10:10:00+00:00,106.538,0.601,75.527,67.2,54.37,29.213,97.1,0.067,"Water is clear, save energy while staying compliant.",False
+2026-04-25T10:15:00+00:00,100.243,0.608,77.315,71.56,52.954,30.097,97.5,0.08,"Water is clear, save energy while staying compliant.",False
+2026-04-25T10:20:00+00:00,98.982,0.219,77.391,72.28,55.035,28.75,97.5,0.053,"Water is clear, save energy while staying compliant.",False
+2026-04-25T10:25:00+00:00,102.343,0.239,79.221,69.27,52.624,29.537,96.7,0.026,"Water is clear, save energy while staying compliant.",False
+2026-04-25T10:30:00+00:00,98.618,0.346,76.261,72.32,53.898,29.135,96.6,0.022,"Water is clear, save energy while staying compliant.",False
+2026-04-25T10:35:00+00:00,102.214,0.756,76.901,71.7,53.45,28.606,97.1,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T10:40:00+00:00,106.677,0.413,77.731,67.41,51.585,28.45,95.9,0.012,"Water is clear, save energy while staying compliant.",False
+2026-04-25T10:45:00+00:00,102.771,0.409,77.571,67.75,54.478,29.399,97.9,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T10:50:00+00:00,105.834,0.56,78.483,68.41,52.518,28.573,96.7,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T10:55:00+00:00,101.468,0.385,75.61,70.72,53.534,29.754,96.9,0.005,"Water is clear, save energy while staying compliant.",False
+2026-04-25T11:00:00+00:00,100.06,0.407,77.507,67.77,53.823,28.92,95.6,0.022,"Water is clear, save energy while staying compliant.",False
+2026-04-25T11:05:00+00:00,98.149,0.377,76.926,68.5,54.274,29.328,95.2,0.017,"Water is clear, save energy while staying compliant.",False
+2026-04-25T11:10:00+00:00,97.757,0.565,76.303,71.84,51.268,27.99,96.4,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T11:15:00+00:00,104.394,0.7,76.9,68.92,52.313,28.948,97.3,0.062,"Water is clear, save energy while staying compliant.",False
+2026-04-25T11:20:00+00:00,97.352,0.608,75.483,70.24,53.04,28.037,96.2,0.067,"Water is clear, save energy while staying compliant.",False
+2026-04-25T11:25:00+00:00,103.362,0.795,76.361,69.82,53.696,28.022,96.3,0.105,No rule triggered.,False
+2026-04-25T11:30:00+00:00,99.458,0.343,76.672,68.78,54.482,27.968,95.5,0.106,No rule triggered.,False
+2026-04-25T11:35:00+00:00,103.518,0.388,77.838,68.87,53.273,28.575,96.6,0.101,No rule triggered.,False
+2026-04-25T11:40:00+00:00,97.97,0.217,76.686,67.77,51.345,29.213,95.4,0.074,"Water is clear, save energy while staying compliant.",False
+2026-04-25T11:45:00+00:00,97.088,0.638,75.95,68.22,53.182,28.627,95.4,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T11:50:00+00:00,98.188,0.765,76.038,71.51,50.665,27.976,95.2,0.075,"Water is clear, save energy while staying compliant.",False
+2026-04-25T11:55:00+00:00,105.782,0.67,75.645,72.43,54.419,29.368,96.6,0.004,"Water is clear, save energy while staying compliant.",False
+2026-04-25T12:00:00+00:00,97.548,0.729,75.66,71.53,51.938,29.06,95.0,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T12:05:00+00:00,101.829,0.632,77.244,71.98,53.37,27.957,96.2,0.046,"Water is clear, save energy while staying compliant.",False
+2026-04-25T12:10:00+00:00,101.076,0.382,76.446,69.09,55.117,29.922,97.0,0.058,"Water is clear, save energy while staying compliant.",False
+2026-04-25T12:15:00+00:00,97.769,0.584,78.037,71.24,54.313,29.842,97.8,0.008,"Water is clear, save energy while staying compliant.",False
+2026-04-25T12:20:00+00:00,106.52,0.372,77.939,71.31,55.729,29.774,97.9,0.025,"Water is clear, save energy while staying compliant.",False
+2026-04-25T12:25:00+00:00,100.653,0.518,76.159,69.16,50.754,28.291,95.6,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T12:30:00+00:00,97.17,0.406,76.409,70.24,53.436,29.485,95.8,0.001,"Water is clear, save energy while staying compliant.",False
+2026-04-25T12:35:00+00:00,104.653,0.682,74.855,70.87,52.047,29.108,96.3,0.085,"Water is clear, save energy while staying compliant.",False
+2026-04-25T12:40:00+00:00,106.308,0.689,76.432,68.3,52.634,28.974,95.6,0.017,"Water is clear, save energy while staying compliant.",False
+2026-04-25T12:45:00+00:00,103.071,0.788,76.492,72.27,53.023,28.672,97.2,0.107,No rule triggered.,False
+2026-04-25T12:50:00+00:00,103.03,0.732,77.671,71.93,52.905,28.138,96.0,0.092,"Water is clear, save energy while staying compliant.",False
+2026-04-25T12:55:00+00:00,106.034,0.662,74.792,70.55,51.659,27.781,95.7,0.089,"Water is clear, save energy while staying compliant.",False
+2026-04-25T13:00:00+00:00,104.419,0.648,77.004,67.23,55.693,28.412,97.7,0.016,"Water is clear, save energy while staying compliant.",False
+2026-04-25T13:05:00+00:00,99.005,0.569,76.568,72.04,51.812,28.243,95.3,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T13:10:00+00:00,105.466,0.373,75.366,68.21,53.727,27.76,95.2,0.076,"Water is clear, save energy while staying compliant.",False
+2026-04-25T13:15:00+00:00,97.515,0.277,75.593,72.55,53.488,28.018,95.9,0.075,"Water is clear, save energy while staying compliant.",False
+2026-04-25T13:20:00+00:00,105.972,0.684,77.088,72.12,53.842,28.626,97.0,0.053,"Water is clear, save energy while staying compliant.",False
+2026-04-25T13:25:00+00:00,100.729,0.402,75.858,70.99,55.191,29.055,97.0,0.095,"Water is clear, save energy while staying compliant.",False
+2026-04-25T13:30:00+00:00,103.621,0.225,76.788,71.54,55.301,29.367,97.4,0.054,"Water is clear, save energy while staying compliant.",False
+2026-04-25T13:35:00+00:00,99.87,0.761,76.963,70.11,50.79,29.394,95.9,0.019,"Water is clear, save energy while staying compliant.",False
+2026-04-25T13:40:00+00:00,101.108,0.301,76.559,68.7,52.673,28.731,97.3,0.108,No rule triggered.,False
+2026-04-25T13:45:00+00:00,101.821,0.62,75.338,67.11,52.118,28.404,97.5,0.022,"Water is clear, save energy while staying compliant.",False
+2026-04-25T13:50:00+00:00,103.089,0.393,76.668,70.28,52.61,28.93,95.3,0.05,"Water is clear, save energy while staying compliant.",False
+2026-04-25T13:55:00+00:00,103.939,0.499,76.34,68.79,52.339,27.865,96.0,0.065,"Water is clear, save energy while staying compliant.",False
+2026-04-25T14:00:00+00:00,101.533,0.741,75.409,67.97,54.463,29.313,97.4,0.04,"Water is clear, save energy while staying compliant.",False
+2026-04-25T14:05:00+00:00,98.639,0.438,78.663,72.78,50.599,28.089,95.6,0.026,"Water is clear, save energy while staying compliant.",False
+2026-04-25T14:10:00+00:00,97.748,0.538,76.549,72.46,55.227,28.313,97.1,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T14:15:00+00:00,104.882,0.51,77.867,68.02,51.269,28.791,96.6,0.089,"Water is clear, save energy while staying compliant.",False
+2026-04-25T14:20:00+00:00,100.513,0.24,78.267,67.71,51.912,28.925,96.5,0.098,"Water is clear, save energy while staying compliant.",False
+2026-04-25T14:25:00+00:00,99.584,0.753,74.724,71.68,51.345,28.953,95.8,0.046,"Water is clear, save energy while staying compliant.",False
+2026-04-25T14:30:00+00:00,101.726,0.266,75.666,68.87,52.636,28.242,97.2,0.049,"Water is clear, save energy while staying compliant.",False
+2026-04-25T14:35:00+00:00,102.413,0.619,77.669,70.44,53.586,28.09,95.4,0.006,"Water is clear, save energy while staying compliant.",False
+2026-04-25T14:40:00+00:00,105.693,0.641,76.005,67.75,50.903,29.237,95.6,0.021,"Water is clear, save energy while staying compliant.",False
+2026-04-25T14:45:00+00:00,98.237,0.603,78.149,72.18,52.201,30.249,97.8,0.106,No rule triggered.,False
+2026-04-25T14:50:00+00:00,98.53,0.265,76.851,70.2,50.629,29.63,95.6,0.012,"Water is clear, save energy while staying compliant.",False
+2026-04-25T14:55:00+00:00,98.579,0.346,76.312,69.42,52.428,28.824,95.0,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T15:00:00+00:00,104.91,0.557,77.117,67.06,53.616,28.198,96.8,0.007,"Water is clear, save energy while staying compliant.",False
+2026-04-25T15:05:00+00:00,101.468,0.543,76.694,67.44,52.567,27.848,96.0,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T15:10:00+00:00,103.855,0.215,78.55,69.56,51.571,29.293,95.9,0.109,No rule triggered.,False
+2026-04-25T15:15:00+00:00,106.493,0.478,78.429,71.72,51.51,28.909,96.2,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T15:20:00+00:00,104.695,0.232,77.023,68.0,51.48,28.339,96.7,0.087,"Water is clear, save energy while staying compliant.",False
+2026-04-25T15:25:00+00:00,101.592,0.666,78.177,67.18,55.241,29.432,97.9,0.031,"Water is clear, save energy while staying compliant.",False
+2026-04-25T15:30:00+00:00,101.247,0.666,75.489,70.08,54.751,29.924,97.1,0.075,"Water is clear, save energy while staying compliant.",False
+2026-04-25T15:35:00+00:00,98.263,0.562,76.426,69.0,52.286,28.107,96.6,0.072,"Water is clear, save energy while staying compliant.",False
+2026-04-25T15:40:00+00:00,104.149,0.761,76.668,71.42,54.584,29.389,97.9,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T15:45:00+00:00,106.427,0.697,78.167,68.42,51.761,29.144,95.3,0.037,"Water is clear, save energy while staying compliant.",False
+2026-04-25T15:50:00+00:00,98.453,0.467,78.422,72.42,53.576,28.822,97.1,0.107,No rule triggered.,False
+2026-04-25T15:55:00+00:00,101.207,0.727,78.168,70.28,54.33,29.883,97.6,0.018,"Water is clear, save energy while staying compliant.",False
+2026-04-25T16:00:00+00:00,99.953,0.666,77.197,71.52,52.873,29.566,97.9,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T16:05:00+00:00,106.98,0.242,78.747,69.13,53.972,28.709,97.2,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T16:10:00+00:00,104.082,0.535,76.054,71.0,54.201,29.304,96.8,0.093,"Water is clear, save energy while staying compliant.",False
+2026-04-25T16:15:00+00:00,102.774,0.258,78.508,72.37,54.195,29.016,95.8,0.105,No rule triggered.,False
+2026-04-25T16:20:00+00:00,106.09,0.509,75.618,68.88,53.73,28.026,95.7,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T16:25:00+00:00,106.588,0.422,77.754,72.09,55.804,28.712,97.9,0.085,"Water is clear, save energy while staying compliant.",False
+2026-04-25T16:30:00+00:00,104.43,0.429,76.232,67.22,53.148,28.668,97.9,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T16:35:00+00:00,104.455,0.442,78.985,68.65,51.742,27.817,95.8,0.063,"Water is clear, save energy while staying compliant.",False
+2026-04-25T16:40:00+00:00,104.805,0.275,79.164,70.41,51.471,30.002,96.7,0.02,"Water is clear, save energy while staying compliant.",False
+2026-04-25T16:45:00+00:00,103.579,0.747,76.049,72.02,52.815,28.94,97.6,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T16:50:00+00:00,99.883,0.753,75.203,69.91,54.431,28.081,95.9,0.102,No rule triggered.,False
+2026-04-25T16:55:00+00:00,101.919,0.76,77.75,71.53,52.164,29.747,96.2,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T17:00:00+00:00,98.6,0.709,77.133,72.7,52.613,29.035,96.4,0.012,"Water is clear, save energy while staying compliant.",False
+2026-04-25T17:05:00+00:00,101.196,0.766,74.778,71.04,51.949,28.586,97.2,0.077,"Water is clear, save energy while staying compliant.",False
+2026-04-25T17:10:00+00:00,100.027,0.352,75.664,67.71,55.302,28.722,97.7,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T17:15:00+00:00,102.315,0.474,78.905,67.84,51.813,29.947,97.4,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T17:20:00+00:00,105.49,0.541,76.65,71.92,51.273,28.272,96.6,0.075,"Water is clear, save energy while staying compliant.",False
+2026-04-25T17:25:00+00:00,101.517,0.75,74.731,67.58,52.908,29.494,95.1,0.026,"Water is clear, save energy while staying compliant.",False
+2026-04-25T17:30:00+00:00,106.359,0.364,76.739,70.43,52.241,28.846,97.5,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T17:35:00+00:00,99.592,0.269,78.046,68.3,53.402,29.53,97.3,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T17:40:00+00:00,103.95,0.37,75.921,68.06,51.217,29.024,96.3,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T17:45:00+00:00,100.638,0.697,76.748,70.82,53.056,28.584,96.2,0.02,"Water is clear, save energy while staying compliant.",False
+2026-04-25T17:50:00+00:00,106.348,0.21,79.249,72.3,54.084,29.211,97.3,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T17:55:00+00:00,101.164,0.45,76.571,70.75,52.659,28.059,95.1,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T18:00:00+00:00,100.695,0.65,77.443,68.31,53.475,29.686,95.8,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T18:05:00+00:00,106.72,0.706,74.866,68.01,54.473,29.976,96.7,0.093,"Water is clear, save energy while staying compliant.",False
+2026-04-25T18:10:00+00:00,106.304,0.474,77.712,68.99,53.131,28.688,97.9,0.019,"Water is clear, save energy while staying compliant.",False
+2026-04-25T18:15:00+00:00,101.852,0.44,78.046,67.86,54.999,28.311,96.6,0.01,"Water is clear, save energy while staying compliant.",False
+2026-04-25T18:20:00+00:00,106.09,0.22,76.002,72.3,53.779,29.134,95.5,0.084,"Water is clear, save energy while staying compliant.",False
+2026-04-25T18:25:00+00:00,100.835,0.212,79.029,71.12,55.663,30.035,98.0,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T18:30:00+00:00,102.569,0.483,75.295,69.65,52.107,27.915,95.8,0.034,"Water is clear, save energy while staying compliant.",False
+2026-04-25T18:35:00+00:00,106.619,0.358,78.195,71.14,53.114,29.562,97.3,0.039,"Water is clear, save energy while staying compliant.",False
+2026-04-25T18:40:00+00:00,106.924,0.301,78.644,67.91,52.653,28.896,96.8,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T18:45:00+00:00,99.071,0.252,76.424,70.19,50.968,29.534,96.0,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T18:50:00+00:00,97.176,0.626,78.268,72.16,55.134,28.824,96.8,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T18:55:00+00:00,97.436,0.556,77.473,71.3,52.807,28.004,96.1,0.028,"Water is clear, save energy while staying compliant.",False
+2026-04-25T19:00:00+00:00,105.056,0.584,76.098,70.85,54.016,28.514,96.8,0.019,"Water is clear, save energy while staying compliant.",False
+2026-04-25T19:05:00+00:00,97.237,0.775,77.657,71.7,52.326,29.685,97.4,0.054,"Water is clear, save energy while staying compliant.",False
+2026-04-25T19:10:00+00:00,99.087,0.75,76.407,67.95,51.814,27.893,95.4,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T19:15:00+00:00,104.391,0.287,75.451,71.05,52.096,30.009,97.5,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T19:20:00+00:00,101.583,0.357,77.85,68.63,52.529,29.888,96.6,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T19:25:00+00:00,99.8,0.568,76.693,70.46,53.533,29.879,97.8,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T19:30:00+00:00,104.797,0.477,77.094,69.85,54.293,28.102,95.2,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T19:35:00+00:00,100.066,0.373,76.838,69.2,55.508,29.014,97.6,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T19:40:00+00:00,103.744,0.387,79.19,70.17,52.443,28.131,96.4,0.012,"Water is clear, save energy while staying compliant.",False
+2026-04-25T19:45:00+00:00,104.323,0.301,77.472,67.3,53.441,28.986,96.9,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T19:50:00+00:00,103.15,0.703,74.927,72.21,53.839,28.648,96.9,0.06,"Water is clear, save energy while staying compliant.",False
+2026-04-25T19:55:00+00:00,105.433,0.4,75.414,69.33,54.127,28.212,97.3,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T20:00:00+00:00,105.769,0.533,77.721,67.68,54.069,28.64,95.9,0.085,"Water is clear, save energy while staying compliant.",False
+2026-04-25T20:05:00+00:00,102.435,0.356,78.83,69.19,52.704,29.648,97.5,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T20:10:00+00:00,101.557,0.705,75.448,67.42,53.725,29.823,96.8,0.0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T20:15:00+00:00,104.225,0.332,78.831,72.03,51.674,28.975,95.2,0.018,"Water is clear, save energy while staying compliant.",False
+2026-04-25T20:20:00+00:00,104.684,0.204,76.042,71.15,52.266,28.965,96.2,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T20:25:00+00:00,103.2,0.375,75.617,68.18,51.27,29.59,96.7,0.097,"Water is clear, save energy while staying compliant.",False
+2026-04-25T20:30:00+00:00,104.7,0.452,77.735,68.98,51.233,29.741,96.4,0.084,"Water is clear, save energy while staying compliant.",False
+2026-04-25T20:35:00+00:00,106.972,0.222,79.085,72.54,52.333,29.434,96.7,0.026,"Water is clear, save energy while staying compliant.",False
+2026-04-25T20:40:00+00:00,100.327,0.415,75.615,72.67,52.454,28.444,95.1,0.08,"Water is clear, save energy while staying compliant.",False
+2026-04-25T20:45:00+00:00,105.174,0.607,77.539,70.11,51.492,28.045,95.2,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T20:50:00+00:00,100.646,0.712,74.888,68.02,54.846,28.604,97.4,0.069,"Water is clear, save energy while staying compliant.",False
+2026-04-25T20:55:00+00:00,104.677,0.436,77.733,71.01,53.936,30.037,97.7,0.039,"Water is clear, save energy while staying compliant.",False
+2026-04-25T21:00:00+00:00,97.103,0.628,77.864,71.72,51.185,28.31,95.2,0.06,"Water is clear, save energy while staying compliant.",False
+2026-04-25T21:05:00+00:00,100.467,0.545,75.925,67.04,55.25,28.802,97.6,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T21:10:00+00:00,104.119,0.414,78.294,67.07,53.849,29.613,96.4,0.082,"Water is clear, save energy while staying compliant.",False
+2026-04-25T21:15:00+00:00,106.355,0.597,75.106,70.06,53.714,29.154,97.4,0.001,"Water is clear, save energy while staying compliant.",False
+2026-04-25T21:20:00+00:00,103.044,0.318,76.154,70.56,53.562,29.855,96.8,0.069,"Water is clear, save energy while staying compliant.",False
+2026-04-25T21:25:00+00:00,105.882,0.564,77.554,69.29,54.106,29.376,97.7,0.064,"Water is clear, save energy while staying compliant.",False
+2026-04-25T21:30:00+00:00,102.313,0.626,75.324,67.76,52.336,28.276,95.8,0.062,"Water is clear, save energy while staying compliant.",False
+2026-04-25T21:35:00+00:00,102.374,0.733,76.79,69.04,53.793,28.293,95.8,0.103,No rule triggered.,False
+2026-04-25T21:40:00+00:00,97.361,0.709,76.145,72.94,53.188,28.536,95.0,0.03,"Water is clear, save energy while staying compliant.",False
+2026-04-25T21:45:00+00:00,106.902,0.224,77.166,67.16,53.291,30.012,97.7,0.097,"Water is clear, save energy while staying compliant.",False
+2026-04-25T21:50:00+00:00,97.962,0.748,76.018,68.35,53.822,28.376,96.9,0.033,"Water is clear, save energy while staying compliant.",False
+2026-04-25T21:55:00+00:00,106.378,0.669,76.932,72.3,52.056,29.581,97.2,0.109,No rule triggered.,False
+2026-04-25T22:00:00+00:00,101.836,0.315,76.695,69.78,52.091,28.346,97.0,0.106,No rule triggered.,False
+2026-04-25T22:05:00+00:00,97.042,0.531,75.627,70.34,54.33,28.126,95.9,0.062,"Water is clear, save energy while staying compliant.",False
+2026-04-25T22:10:00+00:00,97.028,0.431,76.835,68.69,52.333,28.349,95.1,0.088,"Water is clear, save energy while staying compliant.",False
+2026-04-25T22:15:00+00:00,102.681,0.788,76.943,69.47,51.304,29.679,96.0,0.032,"Water is clear, save energy while staying compliant.",False
+2026-04-25T22:20:00+00:00,102.761,0.232,77.11,68.1,51.379,28.489,95.7,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T22:25:00+00:00,103.912,0.544,75.493,71.55,51.46,27.893,95.6,0.04,"Water is clear, save energy while staying compliant.",False
+2026-04-25T22:30:00+00:00,104.427,0.58,75.389,71.93,53.637,28.434,97.2,0.039,"Water is clear, save energy while staying compliant.",False
+2026-04-25T22:35:00+00:00,101.366,0.52,76.891,67.87,53.015,29.011,97.6,0.091,"Water is clear, save energy while staying compliant.",False
+2026-04-25T22:40:00+00:00,97.628,0.525,77.391,68.76,54.471,30.049,97.1,0.074,"Water is clear, save energy while staying compliant.",False
+2026-04-25T22:45:00+00:00,97.446,0.372,77.955,68.2,53.009,29.342,95.2,0.076,"Water is clear, save energy while staying compliant.",False
+2026-04-25T22:50:00+00:00,98.727,0.205,78.661,71.55,53.688,30.048,97.1,0.001,"Water is clear, save energy while staying compliant.",False
+2026-04-25T22:55:00+00:00,105.554,0.53,77.974,68.66,51.087,28.574,96.5,0.02,"Water is clear, save energy while staying compliant.",False
+2026-04-25T23:00:00+00:00,98.4,0.319,79.086,70.22,53.197,29.56,97.7,0.076,"Water is clear, save energy while staying compliant.",False
+2026-04-25T23:05:00+00:00,101.465,0.559,77.417,72.56,50.422,28.673,95.1,0.046,"Water is clear, save energy while staying compliant.",False
+2026-04-25T23:10:00+00:00,103.6,0.727,76.291,68.44,52.943,28.925,96.4,0.079,"Water is clear, save energy while staying compliant.",False
+2026-04-25T23:15:00+00:00,100.841,0.766,78.445,71.52,51.498,29.47,97.1,0.06,"Water is clear, save energy while staying compliant.",False
+2026-04-25T23:20:00+00:00,100.382,0.363,77.653,72.8,50.794,27.98,95.3,0.006,"Water is clear, save energy while staying compliant.",False
+2026-04-25T23:25:00+00:00,102.702,0.215,77.763,71.68,52.694,29.913,96.5,0.051,"Water is clear, save energy while staying compliant.",False
+2026-04-25T23:30:00+00:00,100.55,0.443,78.771,68.53,54.865,29.638,97.4,0.064,"Water is clear, save energy while staying compliant.",False
+2026-04-25T23:35:00+00:00,101.342,0.464,76.702,67.36,51.131,28.035,95.3,0.011,"Water is clear, save energy while staying compliant.",False
+2026-04-25T23:40:00+00:00,103.544,0.691,76.093,71.01,51.885,28.942,95.4,0.034,"Water is clear, save energy while staying compliant.",False
+2026-04-25T23:45:00+00:00,103.606,0.535,77.634,68.97,53.015,28.714,96.4,0,"Water is clear, save energy while staying compliant.",False
+2026-04-25T23:50:00+00:00,98.273,0.209,77.133,69.65,52.173,29.828,96.9,0.031,"Water is clear, save energy while staying compliant.",False
+2026-04-25T23:55:00+00:00,101.642,0.418,78.145,69.04,51.477,28.617,95.7,0.052,"Water is clear, save energy while staying compliant.",False
+2026-04-26T00:00:00+00:00,104.29,0.711,77.688,67.67,55.139,28.421,96.8,0,"Water is clear, save energy while staying compliant.",False
+2026-04-26T00:05:00+00:00,97.348,0.516,77.877,71.11,51.894,28.651,95.7,0.11,No rule triggered.,False
+2026-04-26T00:10:00+00:00,105.808,0.215,77.153,72.47,53.566,27.77,95.8,0.025,"Water is clear, save energy while staying compliant.",False
+2026-04-26T00:15:00+00:00,99.04,0.723,76.376,67.5,54.724,28.077,96.2,0.017,"Water is clear, save energy while staying compliant.",False
+2026-04-26T00:20:00+00:00,100.222,0.332,78.589,69.33,53.096,29.914,97.7,0,"Water is clear, save energy while staying compliant.",False
+2026-04-26T00:25:00+00:00,104.742,0.762,76.7,70.91,52.327,28.083,96.2,0.078,"Water is clear, save energy while staying compliant.",False
+2026-04-26T00:30:00+00:00,102.364,0.767,76.932,72.09,51.486,29.516,96.8,0.034,"Water is clear, save energy while staying compliant.",False
+2026-04-26T00:35:00+00:00,100.181,0.71,78.432,69.11,51.16,28.687,96.4,0.002,"Water is clear, save energy while staying compliant.",False
+2026-04-26T00:40:00+00:00,106.079,0.531,78.583,72.39,52.242,28.85,95.7,0.019,"Water is clear, save energy while staying compliant.",False
+2026-04-26T00:45:00+00:00,105.414,0.685,77.71,68.16,50.776,29.073,95.1,0.095,"Water is clear, save energy while staying compliant.",False
+2026-04-26T00:50:00+00:00,103.123,0.469,76.567,68.99,53.136,29.431,96.4,0.087,"Water is clear, save energy while staying compliant.",False
+2026-04-26T00:55:00+00:00,106.039,0.265,78.818,72.34,53.673,29.168,97.1,0.032,"Water is clear, save energy while staying compliant.",False
+2026-04-26T01:00:00+00:00,97.675,0.377,76.985,68.95,53.465,28.834,96.5,0.035,"Water is clear, save energy while staying compliant.",False
+2026-04-26T01:05:00+00:00,101.359,0.75,75.011,69.58,52.184,28.328,95.6,0.003,"Water is clear, save energy while staying compliant.",False
+2026-04-26T01:10:00+00:00,101.791,0.427,76.383,69.42,52.471,28.002,96.4,0.041,"Water is clear, save energy while staying compliant.",False
+2026-04-26T01:15:00+00:00,100.375,0.374,76.677,67.34,51.745,29.338,96.7,0.018,"Water is clear, save energy while staying compliant.",False
+2026-04-26T01:20:00+00:00,104.252,0.245,76.233,69.34,54.335,29.743,98.0,0.01,"Water is clear, save energy while staying compliant.",False
+2026-04-26T01:25:00+00:00,97.87,0.282,78.564,70.63,53.735,29.484,97.3,0.057,"Water is clear, save energy while staying compliant.",False
+2026-04-26T01:30:00+00:00,103.088,0.63,75.472,68.13,51.13,29.813,96.4,0.063,"Water is clear, save energy while staying compliant.",False
+2026-04-26T01:35:00+00:00,106.742,0.293,76.699,67.34,52.921,29.729,96.1,0.081,"Water is clear, save energy while staying compliant.",False
+2026-04-26T01:40:00+00:00,104.042,0.586,78.19,68.9,53.379,28.826,97.0,0,"Water is clear, save energy while staying compliant.",False
+2026-04-26T01:45:00+00:00,100.425,0.527,77.302,70.85,51.829,29.306,96.5,0,"Water is clear, save energy while staying compliant.",False
+2026-04-26T01:50:00+00:00,99.768,0.778,76.855,70.53,52.546,28.488,96.1,0.036,"Water is clear, save energy while staying compliant.",False
+2026-04-26T01:55:00+00:00,103.618,0.502,76.029,69.2,52.729,30.045,97.0,0.022,"Water is clear, save energy while staying compliant.",False
+2026-04-26T02:00:00+00:00,97.627,0.399,79.191,72.7,52.971,28.448,95.5,0.078,"Water is clear, save energy while staying compliant.",False
+2026-04-26T02:05:00+00:00,106.949,0.414,77.215,72.95,50.6,28.869,95.1,0.005,"Water is clear, save energy while staying compliant.",False
+2026-04-26T02:10:00+00:00,97.412,0.411,76.886,70.98,52.313,29.49,96.0,0.017,"Water is clear, save energy while staying compliant.",False
+2026-04-26T02:15:00+00:00,103.347,0.253,78.303,67.98,52.042,29.038,95.2,0,"Water is clear, save energy while staying compliant.",False
+2026-04-26T02:20:00+00:00,98.582,0.788,75.795,71.44,51.652,29.634,96.6,0.067,"Water is clear, save energy while staying compliant.",False
+2026-04-26T02:25:00+00:00,97.42,0.49,75.834,68.37,52.853,29.367,97.7,0.026,"Water is clear, save energy while staying compliant.",False
+2026-04-26T02:30:00+00:00,97.32,0.471,75.635,72.52,52.672,29.455,97.4,0.002,"Water is clear, save energy while staying compliant.",False
+2026-04-26T02:35:00+00:00,103.461,0.736,76.559,72.46,53.037,30.013,97.6,0.017,"Water is clear, save energy while staying compliant.",False
+2026-04-26T02:40:00+00:00,102.927,0.243,76.518,69.74,54.712,28.869,96.8,0.012,"Water is clear, save energy while staying compliant.",False
+2026-04-26T02:45:00+00:00,104.527,0.486,77.26,67.69,52.415,27.762,95.7,0,"Water is clear, save energy while staying compliant.",False
+2026-04-26T02:50:00+00:00,105.037,0.687,76.735,71.31,55.553,29.636,97.4,0.068,"Water is clear, save energy while staying compliant.",False
+2026-04-26T02:55:00+00:00,103.492,0.434,76.202,67.63,52.568,29.108,96.9,0.109,No rule triggered.,False
+2026-04-26T03:00:00+00:00,105.805,0.644,77.983,68.03,51.58,28.291,95.5,0.064,"Water is clear, save energy while staying compliant.",False
+2026-04-26T03:05:00+00:00,100.17,0.543,77.62,70.5,53.443,29.467,97.8,0.049,"Water is clear, save energy while staying compliant.",False
+2026-04-26T03:10:00+00:00,106.002,0.37,77.48,70.0,50.732,28.548,95.5,0.055,"Water is clear, save energy while staying compliant.",False
+2026-04-26T03:15:00+00:00,100.424,0.248,77.722,67.4,52.665,28.034,95.6,0.101,No rule triggered.,False
+2026-04-26T03:20:00+00:00,102.182,0.441,76.953,68.49,53.483,29.188,97.1,0.036,"Water is clear, save energy while staying compliant.",False
+2026-04-26T03:25:00+00:00,104.125,0.418,77.409,69.06,52.535,29.139,97.4,0,"Water is clear, save energy while staying compliant.",False
+2026-04-26T03:30:00+00:00,106.328,0.2,76.258,72.73,54.604,28.897,95.8,0,"Water is clear, save energy while staying compliant.",False
+2026-04-26T03:35:00+00:00,104.387,0.238,77.663,70.92,51.151,27.747,95.2,0,"Water is clear, save energy while staying compliant.",False
+2026-04-26T03:40:00+00:00,98.24,0.556,78.855,67.22,51.529,28.724,96.4,0.054,"Water is clear, save energy while staying compliant.",False
+2026-04-26T03:45:00+00:00,97.349,0.669,75.244,71.22,53.524,29.274,96.6,0,"Water is clear, save energy while staying compliant.",False
+2026-04-26T03:50:00+00:00,102.524,0.216,76.801,70.73,53.132,28.72,97.5,0.012,"Water is clear, save energy while staying compliant.",False
+2026-04-26T03:55:00+00:00,105.834,0.378,79.211,67.39,51.792,29.337,97.7,0.002,"Water is clear, save energy while staying compliant.",False
+2026-04-26T04:00:00+00:00,100.778,0.58,77.512,70.19,54.865,29.547,97.9,0.087,"Water is clear, save energy while staying compliant.",False
+2026-04-26T04:05:00+00:00,101.202,0.607,78.614,70.34,54.148,28.577,96.8,0.076,"Water is clear, save energy while staying compliant.",False
+2026-04-26T04:10:00+00:00,99.104,0.628,76.4,68.65,53.369,28.148,95.5,0.029,"Water is clear, save energy while staying compliant.",False
+2026-04-26T04:15:00+00:00,97.452,0.693,76.086,68.58,55.074,29.067,97.6,0.076,"Water is clear, save energy while staying compliant.",False
+2026-04-26T04:20:00+00:00,105.47,0.757,76.806,69.86,53.559,28.32,95.1,0,"Water is clear, save energy while staying compliant.",False
+2026-04-26T04:25:00+00:00,97.445,0.7,76.384,72.54,53.687,28.51,95.9,0,"Water is clear, save energy while staying compliant.",False
+2026-04-26T04:30:00+00:00,100.701,0.696,77.439,67.27,51.739,28.246,95.9,0,"Water is clear, save energy while staying compliant.",False
+2026-04-26T04:35:00+00:00,101.102,0.427,77.464,70.24,55.487,29.907,97.6,0,"Water is clear, save energy while staying compliant.",False
+2026-04-26T04:40:00+00:00,106.364,0.244,76.321,69.58,50.929,29.295,96.1,0.044,"Water is clear, save energy while staying compliant.",False
+2026-04-26T04:45:00+00:00,99.415,0.533,76.232,67.51,52.317,27.942,95.5,0.104,No rule triggered.,False
+2026-04-26T04:50:00+00:00,99.484,0.479,78.475,71.85,52.437,29.325,97.6,0.049,"Water is clear, save energy while staying compliant.",False
+2026-04-26T04:55:00+00:00,100.433,0.769,76.338,72.9,54.045,28.167,95.3,0.053,"Water is clear, save energy while staying compliant.",False
+2026-04-26T05:00:00+00:00,105.783,0.569,77.085,70.21,54.392,28.328,97.2,0,"Water is clear, save energy while staying compliant.",False
+2026-04-26T05:05:00+00:00,100.824,0.664,76.305,67.97,54.207,29.646,97.8,0.053,"Water is clear, save energy while staying compliant.",False
+2026-04-26T05:10:00+00:00,100.748,0.232,79.286,70.46,53.626,28.643,95.9,0,"Water is clear, save energy while staying compliant.",False
+2026-04-26T05:15:00+00:00,105.307,0.661,78.032,68.9,53.993,28.362,96.0,0.085,"Water is clear, save energy while staying compliant.",False
+2026-04-26T05:20:00+00:00,99.702,0.33,77.835,72.62,53.778,29.913,97.4,0.076,"Water is clear, save energy while staying compliant.",False
+2026-04-26T05:25:00+00:00,97.394,0.255,79.42,71.18,53.084,28.321,95.7,0.046,"Water is clear, save energy while staying compliant.",False
+2026-04-26T05:30:00+00:00,98.677,0.249,75.503,68.21,52.035,27.858,95.5,0,"Water is clear, save energy while staying compliant.",False
+2026-04-26T05:35:00+00:00,101.103,0.439,76.54,69.84,54.507,28.908,97.5,0.053,"Water is clear, save energy while staying compliant.",False
+2026-04-26T05:40:00+00:00,102.002,0.264,79.463,68.77,55.277,28.968,98.0,0.01,"Water is clear, save energy while staying compliant.",False
+2026-04-26T05:45:00+00:00,100.415,0.467,78.903,67.03,54.106,28.723,97.8,0.03,"Water is clear, save energy while staying compliant.",False
+2026-04-26T05:50:00+00:00,97.885,0.329,77.194,67.94,54.112,28.307,95.2,0,"Water is clear, save energy while staying compliant.",False
+2026-04-26T05:55:00+00:00,103.575,0.8,76.221,72.56,54.575,28.644,96.3,0.08,"Water is clear, save energy while staying compliant.",False
+2026-04-26T06:00:00+00:00,100.947,0.818,76.968,70.41,54.771,29.853,97.0,0.132,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T06:05:00+00:00,105.577,0.516,78.86,69.54,53.835,29.24,96.8,0.06,Slight degradation detected. Monitor lamp health.,True
+2026-04-26T06:10:00+00:00,101.113,0.833,76.125,73.48,51.391,28.416,94.6,0.104,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T06:15:00+00:00,98.609,0.924,77.664,70.46,52.663,29.351,95.3,0.065,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T06:20:00+00:00,97.138,0.859,75.803,70.11,51.702,28.518,96.2,0.144,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T06:25:00+00:00,106.202,1.033,76.311,74.8,53.972,28.783,95.4,0.137,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T06:30:00+00:00,97.555,1.023,74.157,74.27,50.895,27.332,94.2,0.044,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T06:35:00+00:00,100.848,0.961,76.686,69.15,52.796,28.307,93.4,0.105,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T06:40:00+00:00,98.024,0.706,77.621,69.4,51.802,28.637,94.6,0.031,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T06:45:00+00:00,101.904,0.88,75.698,70.52,53.219,28.326,96.5,0.083,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T06:50:00+00:00,97.914,1.094,75.812,72.82,54.581,28.706,96.3,0.129,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T06:55:00+00:00,101.611,0.828,76.831,74.67,54.427,28.669,96.2,0.035,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T07:00:00+00:00,98.077,0.764,76.502,73.19,53.773,29.035,95.4,0.149,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T07:05:00+00:00,102.83,0.937,76.225,74.56,54.244,27.965,96.4,0.138,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T07:10:00+00:00,100.023,0.724,77.134,74.43,52.843,27.614,94.6,0.054,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T07:15:00+00:00,101.881,0.7,78.222,73.51,52.23,29.122,96.3,0.129,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T07:20:00+00:00,97.673,0.756,75.351,71.67,50.064,27.961,93.9,0.084,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T07:25:00+00:00,105.062,0.626,78.003,73.53,51.347,29.731,96.1,0.003,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T07:30:00+00:00,97.741,0.674,75.898,74.91,53.122,27.989,94.8,0.089,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T07:35:00+00:00,100.348,0.603,76.668,69.89,49.88,28.183,94.0,0.077,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T07:40:00+00:00,101.283,0.78,74.731,75.05,53.205,28.64,95.9,0.104,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T07:45:00+00:00,102.65,0.797,78.369,73.98,51.328,27.723,93.3,0.142,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T07:50:00+00:00,99.087,0.834,74.529,73.9,53.812,29.634,95.6,0.089,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T07:55:00+00:00,104.431,1.046,75.541,74.66,51.219,27.402,93.1,0.128,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T08:00:00+00:00,98.993,0.957,76.402,72.51,51.858,28.56,93.5,0.13,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T08:05:00+00:00,104.078,0.964,74.767,69.54,50.095,28.457,92.3,0.033,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T08:10:00+00:00,104.294,0.585,78.539,74.2,51.839,27.434,93.3,0.035,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T08:15:00+00:00,106.979,0.982,76.972,69.61,51.486,28.837,95.8,0.068,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T08:20:00+00:00,102.229,1.005,76.44,73.33,52.1,27.773,92.4,0.016,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T08:25:00+00:00,105.966,0.863,77.35,70.14,50.045,27.376,92.9,0.032,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T08:30:00+00:00,103.535,0.576,76.259,74.58,53.458,27.727,95.5,0.013,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T08:35:00+00:00,101.239,0.752,77.795,74.49,51.197,27.223,92.9,0.019,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T08:40:00+00:00,102.578,0.582,75.455,73.91,51.682,28.722,94.6,0.098,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T08:45:00+00:00,98.69,0.788,74.706,74.45,52.678,28.325,92.5,0.076,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T08:50:00+00:00,106.683,0.878,77.829,73.07,52.07,28.441,95.6,0.152,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T08:55:00+00:00,105.545,1.033,75.602,74.11,52.074,28.251,94.6,0.103,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T09:00:00+00:00,101.747,1.102,77.274,73.24,51.133,28.832,93.5,0.067,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T09:05:00+00:00,102.561,1.035,76.821,72.25,51.517,28.62,92.8,0.057,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T09:10:00+00:00,106.278,0.551,76.97,72.65,52.188,27.277,93.9,0.145,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T09:15:00+00:00,105.87,0.974,75.489,69.29,51.854,27.114,93.0,0.087,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T09:20:00+00:00,106.455,0.556,78.876,75.21,51.96,28.153,92.2,0.111,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T09:25:00+00:00,106.776,1.004,77.887,71.0,51.031,28.162,95.3,0.11,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T09:30:00+00:00,106.841,0.562,78.121,74.14,52.008,29.525,95.4,0.01,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T09:35:00+00:00,97.913,1.016,77.347,70.4,50.231,28.495,93.8,0.114,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T09:40:00+00:00,100.096,0.683,75.513,73.62,49.973,28.258,93.6,0.129,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T09:45:00+00:00,98.838,0.597,76.375,73.62,51.928,29.029,94.9,0.033,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T09:50:00+00:00,100.147,0.557,76.408,73.14,50.274,27.957,94.7,0.051,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T09:55:00+00:00,99.356,1.037,77.8,73.56,54.209,28.929,95.2,0.118,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T10:00:00+00:00,100.941,0.787,76.956,73.67,52.096,27.3,92.3,0.097,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T10:05:00+00:00,101.195,0.879,75.47,71.41,51.184,28.378,91.8,0.021,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T10:10:00+00:00,101.796,0.732,77.985,75.03,50.496,27.995,91.4,0.124,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T10:15:00+00:00,102.551,0.646,76.89,74.26,49.386,27.929,92.3,0.126,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T10:20:00+00:00,105.521,0.82,77.376,73.81,52.928,28.846,92.9,0.052,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T10:25:00+00:00,101.486,0.671,78.351,71.42,51.719,27.653,93.5,0.131,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T10:30:00+00:00,99.851,0.745,77.713,72.22,51.702,28.243,93.1,0.132,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T10:35:00+00:00,100.87,0.702,76.588,72.87,52.969,28.613,93.8,0.121,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T10:40:00+00:00,103.207,1.078,75.788,69.83,52.115,28.929,94.3,0.143,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T10:45:00+00:00,104.369,0.841,76.945,73.3,50.169,26.821,91.3,0.075,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T10:50:00+00:00,103.122,1.061,77.137,71.43,50.906,27.757,94.9,0.088,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T10:55:00+00:00,99.461,0.806,75.046,70.75,52.304,27.416,92.7,0.036,Slight degradation detected. Monitor lamp health.,True
+2026-04-26T11:00:00+00:00,105.443,0.97,76.438,70.23,49.194,27.036,92.2,0.094,Slight degradation detected. Monitor lamp health.,True
+2026-04-26T11:05:00+00:00,100.946,1.088,75.835,73.59,51.089,27.226,93.3,0.012,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T11:10:00+00:00,102.842,0.849,78.132,73.69,53.789,28.114,94.3,0.056,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T11:15:00+00:00,97.311,1.073,74.465,74.37,50.89,27.214,92.7,0.068,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T11:20:00+00:00,100.538,0.697,75.813,69.79,51.385,28.605,93.8,0.155,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T11:25:00+00:00,103.938,0.888,74.835,75.3,51.344,27.692,91.0,0.011,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T11:30:00+00:00,99.311,0.932,77.206,72.19,50.0,28.721,93.2,0.022,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T11:35:00+00:00,98.323,0.927,75.152,71.41,52.426,27.949,94.2,0.023,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T11:40:00+00:00,101.295,0.619,77.157,69.64,50.957,27.877,94.1,0.036,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T11:45:00+00:00,103.469,1.152,77.333,74.64,52.35,27.817,93.6,0.07,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T11:50:00+00:00,104.084,0.776,75.034,74.68,52.815,27.803,93.8,0.07,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T11:55:00+00:00,99.475,0.783,76.38,74.72,52.479,27.946,94.1,0.124,Slight degradation detected. Monitor lamp health.,True
+2026-04-26T12:00:00+00:00,101.612,0.639,76.412,75.2,53.295,28.322,94.4,0.012,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T12:05:00+00:00,103.507,1.132,77.714,74.14,49.657,27.25,91.6,0.087,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T12:10:00+00:00,102.053,0.709,75.017,73.62,51.007,27.787,93.3,0.044,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T12:15:00+00:00,103.518,0.78,76.441,71.45,50.948,28.525,94.3,0.102,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T12:20:00+00:00,105.786,1.15,77.439,73.85,51.217,28.335,92.9,0.105,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T12:25:00+00:00,102.183,0.618,76.873,74.46,50.273,27.114,90.9,0.129,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T12:30:00+00:00,100.05,0.784,77.367,71.73,52.209,27.114,92.0,0.112,Slight degradation detected. Monitor lamp health.,True
+2026-04-26T12:35:00+00:00,98.214,0.628,75.841,73.19,51.62,27.153,93.8,0.107,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T12:40:00+00:00,102.264,0.734,77.244,72.22,52.412,27.458,91.7,0.11,Slight degradation detected. Monitor lamp health.,True
+2026-04-26T12:45:00+00:00,97.533,0.611,77.803,74.81,49.562,27.647,92.0,0.145,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T12:50:00+00:00,106.177,0.998,75.072,71.13,50.99,28.378,93.3,0.118,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T12:55:00+00:00,103.822,1.013,75.984,72.19,52.31,28.266,93.4,0.149,Slight degradation detected. Monitor lamp health.,True
+2026-04-26T13:00:00+00:00,104.501,0.977,76.584,72.18,52.654,28.154,92.8,0.141,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T13:05:00+00:00,99.3,0.689,75.534,74.29,49.056,26.935,90.7,0.125,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T13:10:00+00:00,106.219,1.124,76.43,72.35,51.099,28.551,92.7,0.03,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T13:15:00+00:00,97.199,0.639,75.026,73.8,49.431,26.605,91.4,0.117,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T13:20:00+00:00,97.32,0.915,75.077,70.69,49.047,27.617,91.7,0.068,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T13:25:00+00:00,101.384,0.639,75.575,72.0,50.808,27.941,93.9,0.129,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T13:30:00+00:00,97.543,0.818,76.323,69.96,50.016,26.598,92.0,0.145,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T13:35:00+00:00,97.193,1.111,75.976,72.19,49.546,27.259,91.1,0.036,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T13:40:00+00:00,106.349,0.697,77.181,70.11,51.375,26.6,91.7,0.161,Slight degradation detected. Monitor lamp health.,True
+2026-04-26T13:45:00+00:00,104.156,1.047,75.021,69.87,49.716,27.478,92.7,0.037,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T13:50:00+00:00,102.774,1.197,75.491,72.24,50.689,27.382,90.2,0.025,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T13:55:00+00:00,105.858,1.007,76.67,74.22,51.944,26.584,90.8,0.101,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T14:00:00+00:00,100.533,1.164,74.675,74.22,50.539,28.378,92.8,0.154,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T14:05:00+00:00,105.288,1.123,76.349,70.24,50.116,27.729,89.7,0.075,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T14:10:00+00:00,99.903,0.993,77.633,74.79,50.055,28.636,92.7,0.093,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T14:15:00+00:00,102.029,1.066,77.69,75.39,50.609,27.794,89.8,0.116,Slight degradation detected. Monitor lamp health.,True
+2026-04-26T14:20:00+00:00,100.854,0.734,77.749,73.46,50.278,26.386,89.7,0.122,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T14:25:00+00:00,99.126,0.776,76.04,71.69,49.771,26.596,92.0,0.038,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T14:30:00+00:00,100.334,0.658,74.768,74.14,49.071,26.371,89.9,0.115,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T14:35:00+00:00,105.21,0.686,74.706,74.9,52.049,28.53,92.5,0.113,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T14:40:00+00:00,102.175,1.092,75.456,74.6,51.286,28.164,92.0,0.036,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T14:45:00+00:00,100.005,1.191,75.467,72.1,51.574,27.8,92.1,0.044,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T14:50:00+00:00,106.61,1.072,76.301,71.86,51.033,27.67,92.1,0.047,Slight degradation detected. Monitor lamp health.,True
+2026-04-26T14:55:00+00:00,97.213,0.968,76.779,70.17,50.739,28.489,91.8,0.145,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T15:00:00+00:00,98.766,1.185,76.985,70.56,49.451,27.773,90.5,0.161,Slight degradation detected. Monitor lamp health.,True
+2026-04-26T15:05:00+00:00,98.636,0.975,74.418,74.97,51.442,27.989,91.0,0.161,Slight degradation detected. Monitor lamp health.,True
+2026-04-26T15:10:00+00:00,102.663,0.918,77.586,71.85,49.621,26.607,91.8,0.085,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T15:15:00+00:00,104.04,0.93,74.265,72.84,51.031,26.306,89.5,0.152,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T15:20:00+00:00,101.742,0.758,74.711,70.34,51.25,26.984,90.2,0.027,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T15:25:00+00:00,97.396,0.935,75.82,70.26,48.209,27.417,89.1,0.056,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T15:30:00+00:00,102.269,1.148,76.219,72.26,48.411,26.726,89.1,0.054,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T15:35:00+00:00,99.491,1.075,75.843,72.24,51.284,27.641,90.2,0.144,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T15:40:00+00:00,100.02,0.948,77.115,73.86,48.873,28.195,90.7,0.021,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T15:45:00+00:00,104.075,0.998,76.267,74.33,52.408,26.916,92.9,0.08,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T15:50:00+00:00,102.042,0.634,77.507,73.27,50.618,26.536,89.2,0.136,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T15:55:00+00:00,104.389,0.639,77.153,73.12,50.18,27.221,92.3,0.102,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T16:00:00+00:00,103.355,0.857,76.758,72.6,48.749,26.629,89.2,0.161,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T16:05:00+00:00,98.892,1.055,76.761,74.78,48.777,26.977,89.3,0.128,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T16:10:00+00:00,98.528,0.931,78.063,72.89,50.135,26.676,89.5,0.08,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T16:15:00+00:00,103.03,1.006,75.361,74.58,52.111,27.111,91.7,0.072,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T16:20:00+00:00,105.844,1.062,74.131,72.45,49.467,27.195,89.7,0.117,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T16:25:00+00:00,99.176,1.102,74.535,75.54,51.447,27.918,90.1,0.025,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T16:30:00+00:00,98.014,1.006,75.546,75.09,50.627,26.861,92.3,0.071,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T16:35:00+00:00,103.445,0.82,77.901,75.13,49.592,26.704,89.1,0.167,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T16:40:00+00:00,97.654,0.692,75.196,74.61,51.866,27.186,91.2,0.051,Slight degradation detected. Monitor lamp health.,True
+2026-04-26T16:45:00+00:00,102.533,0.888,76.323,71.37,48.64,27.028,88.8,0.148,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T16:50:00+00:00,97.581,0.988,74.691,73.49,50.303,26.86,91.5,0.102,Slight degradation detected. Monitor lamp health.,True
+2026-04-26T16:55:00+00:00,102.589,1.084,77.254,75.81,51.271,26.977,90.8,0.087,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T17:00:00+00:00,98.913,1.163,75.828,71.53,48.504,26.719,90.6,0.041,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T17:05:00+00:00,105.67,0.924,76.727,75.57,51.312,27.171,90.9,0.136,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T17:10:00+00:00,103.138,0.69,78.121,72.63,52.157,26.956,91.6,0.105,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T17:15:00+00:00,104.094,0.925,75.958,72.23,49.171,26.59,91.3,0.148,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T17:20:00+00:00,100.392,0.855,76.155,74.33,50.383,27.315,91.7,0.154,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T17:25:00+00:00,99.84,1.014,76.368,70.26,50.793,26.997,88.8,0.117,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T17:30:00+00:00,100.429,1.221,74.725,72.48,48.984,26.382,90.8,0.137,Slight degradation detected. Monitor lamp health.,True
+2026-04-26T17:35:00+00:00,98.041,1.215,77.095,73.22,50.777,27.017,89.7,0.055,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T17:40:00+00:00,97.105,0.977,76.886,72.37,50.74,27.06,90.2,0.06,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T17:45:00+00:00,102.21,0.996,77.581,74.55,48.81,25.84,88.6,0.12,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T17:50:00+00:00,99.237,1.071,77.566,73.4,48.385,26.242,88.4,0.114,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T17:55:00+00:00,104.019,0.943,74.55,74.17,49.401,27.604,89.2,0.107,Slight degradation detected. Monitor lamp health.,True
+2026-04-26T18:00:00+00:00,106.649,1.193,76.962,70.38,47.652,27.788,89.6,0.082,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T18:05:00+00:00,103.217,0.843,74.678,75.41,48.683,26.69,91.3,0.162,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T18:10:00+00:00,106.189,1.21,74.583,73.61,47.94,27.838,89.6,0.158,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T18:15:00+00:00,100.909,0.708,78.499,70.43,49.633,27.282,90.1,0.102,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T18:20:00+00:00,98.391,0.665,77.642,71.03,50.252,27.089,88.9,0.058,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T18:25:00+00:00,102.801,0.673,77.439,73.53,51.669,27.262,91.2,0.155,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T18:30:00+00:00,104.449,1.048,74.044,75.35,48.67,27.986,91.2,0.051,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T18:35:00+00:00,104.054,1.218,76.452,73.06,48.7,27.492,89.7,0.155,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T18:40:00+00:00,102.842,0.985,76.627,71.96,48.97,26.997,89.8,0.08,Slight degradation detected. Monitor lamp health.,True
+2026-04-26T18:45:00+00:00,104.601,1.053,75.742,70.47,49.079,25.711,88.2,0.16,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T18:50:00+00:00,105.71,1.073,77.075,73.37,49.853,27.013,88.7,0.103,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T18:55:00+00:00,100.22,0.866,77.591,75.06,49.688,26.236,88.7,0.025,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T19:00:00+00:00,104.761,1.144,74.457,71.59,48.065,27.244,88.0,0.12,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T19:05:00+00:00,100.363,1.095,76.406,70.55,51.522,27.42,90.4,0.087,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T19:10:00+00:00,102.057,0.88,76.229,73.65,48.626,26.066,88.2,0.063,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T19:15:00+00:00,103.738,1.137,74.213,74.31,49.837,27.474,90.7,0.172,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T19:20:00+00:00,104.005,1.098,75.865,72.61,47.611,26.499,89.6,0.149,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T19:25:00+00:00,99.472,0.949,75.258,70.97,50.309,27.443,89.0,0.129,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T19:30:00+00:00,104.376,1.15,75.075,70.36,50.136,27.398,90.8,0.042,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T19:35:00+00:00,98.527,0.699,76.718,75.84,47.946,27.441,88.5,0.031,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T19:40:00+00:00,104.217,0.795,76.892,71.82,47.913,26.619,89.0,0.093,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T19:45:00+00:00,106.422,1.257,75.635,76.15,48.188,26.913,89.6,0.108,Slight degradation detected. Monitor lamp health.,True
+2026-04-26T19:50:00+00:00,101.214,0.723,78.068,76.11,50.548,27.325,90.2,0.169,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T19:55:00+00:00,99.879,1.198,73.916,71.11,49.838,26.962,89.0,0.138,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T20:00:00+00:00,103.823,0.879,77.981,73.59,48.093,26.898,90.3,0.108,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T20:05:00+00:00,102.045,0.868,77.029,74.15,50.348,26.276,88.8,0.113,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T20:10:00+00:00,100.587,1.131,74.398,71.56,45.971,26.626,87.1,0.085,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T20:15:00+00:00,106.27,0.906,77.477,70.68,51.244,27.931,90.9,0.086,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T20:20:00+00:00,98.341,0.811,77.635,72.45,48.799,25.449,87.4,0.11,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T20:25:00+00:00,102.338,0.825,74.919,75.53,49.14,27.22,87.7,0.137,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T20:30:00+00:00,101.449,0.784,78.051,72.56,48.315,26.5,89.2,0.129,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T20:35:00+00:00,101.708,0.746,77.63,74.32,48.418,25.99,88.8,0.163,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T20:40:00+00:00,103.731,0.94,78.118,73.5,48.981,27.503,90.7,0.029,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T20:45:00+00:00,100.188,1.273,75.55,76.23,47.001,26.479,88.0,0.141,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T20:50:00+00:00,100.671,0.904,75.508,73.29,49.295,25.399,87.4,0.146,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T20:55:00+00:00,98.788,0.823,75.184,73.34,46.825,25.379,86.8,0.042,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T21:00:00+00:00,99.386,1.094,75.161,70.81,48.497,26.309,88.8,0.062,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T21:05:00+00:00,105.772,1.157,76.383,72.72,47.731,26.698,88.7,0.101,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T21:10:00+00:00,98.564,1.188,74.29,73.39,46.877,27.359,88.6,0.045,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T21:15:00+00:00,105.666,1.102,76.394,76.08,49.506,27.429,88.9,0.166,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T21:20:00+00:00,102.855,1.273,77.228,76.17,49.309,27.119,89.5,0.052,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T21:25:00+00:00,103.473,0.959,76.402,76.0,47.389,26.536,87.6,0.067,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T21:30:00+00:00,101.399,0.707,77.876,75.16,47.599,26.993,88.2,0.092,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T21:35:00+00:00,98.928,0.906,74.994,71.51,48.595,26.092,87.8,0.034,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T21:40:00+00:00,106.047,0.996,75.978,74.56,48.857,27.537,89.7,0.073,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T21:45:00+00:00,101.882,0.788,75.587,73.75,50.081,25.806,89.1,0.1,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T21:50:00+00:00,102.161,0.999,76.47,73.71,49.103,27.418,90.1,0.116,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T21:55:00+00:00,105.269,0.917,77.922,75.26,47.472,26.162,86.4,0.126,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T22:00:00+00:00,106.881,1.165,76.327,75.75,47.215,26.894,87.6,0.176,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T22:05:00+00:00,100.418,0.946,74.236,71.38,47.85,26.15,88.4,0.152,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T22:10:00+00:00,103.347,1.17,74.772,74.42,47.2,27.423,89.3,0.03,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T22:15:00+00:00,97.337,1.036,75.492,75.53,47.266,26.497,88.0,0.044,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T22:20:00+00:00,106.164,0.916,76.6,72.22,49.906,26.963,88.1,0.07,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T22:25:00+00:00,102.32,0.916,74.462,72.44,48.276,26.01,88.3,0.161,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T22:30:00+00:00,101.265,1.157,76.845,75.85,46.885,25.314,86.8,0.054,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T22:35:00+00:00,99.701,1.215,74.107,74.34,50.185,25.842,88.0,0.121,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T22:40:00+00:00,97.673,1.241,73.884,71.18,46.544,25.746,87.6,0.116,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T22:45:00+00:00,98.71,1.197,77.485,76.07,47.828,27.74,89.3,0.173,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T22:50:00+00:00,97.353,0.993,74.524,72.26,49.454,26.406,86.9,0.053,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T22:55:00+00:00,106.662,0.761,75.862,70.93,48.62,26.694,89.0,0.104,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T23:00:00+00:00,98.57,1.198,77.523,74.07,49.669,26.091,87.9,0.118,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T23:05:00+00:00,106.243,0.965,78.066,72.7,48.613,25.933,86.8,0.096,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T23:10:00+00:00,99.588,1.006,76.491,72.29,49.436,26.324,87.4,0.176,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T23:15:00+00:00,106.301,1.313,74.942,71.11,50.399,26.667,89.3,0.099,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T23:20:00+00:00,98.097,1.01,75.619,71.18,47.977,25.829,87.1,0.06,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T23:25:00+00:00,103.856,0.882,75.806,74.13,47.803,26.48,86.4,0.074,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T23:30:00+00:00,105.955,1.167,74.264,75.71,48.93,26.123,88.8,0.1,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T23:35:00+00:00,105.827,1.079,75.52,75.19,47.527,25.975,88.4,0.124,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T23:40:00+00:00,99.308,0.747,75.418,74.68,48.745,26.909,88.1,0.167,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T23:45:00+00:00,102.43,0.856,74.644,75.82,49.796,26.251,87.0,0.145,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T23:50:00+00:00,102.081,1.029,75.314,74.39,47.87,26.699,88.9,0.087,Slight degradation detected. Monitor lamp health.,False
+2026-04-26T23:55:00+00:00,103.39,0.842,74.691,73.01,48.627,27.313,89.5,0.145,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T00:00:00+00:00,98.567,1.244,76.023,75.47,49.929,25.804,87.5,0.093,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T00:05:00+00:00,105.996,0.798,76.243,75.22,50.501,26.013,88.4,0.118,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T00:10:00+00:00,106.096,1.054,74.033,70.96,50.842,26.089,89.2,0.087,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T00:15:00+00:00,97.225,0.857,77.635,74.45,46.827,25.813,85.6,0.057,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T00:20:00+00:00,106.559,0.743,77.716,71.82,46.599,25.506,85.9,0.145,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T00:25:00+00:00,97.075,0.965,74.438,70.68,46.931,24.996,85.9,0.15,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T00:30:00+00:00,100.538,0.733,77.828,72.44,49.571,25.49,87.8,0.161,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T00:35:00+00:00,103.42,0.745,76.106,73.07,50.261,26.649,88.8,0.099,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T00:40:00+00:00,105.511,1.16,77.17,73.67,46.524,26.21,88.2,0.17,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T00:45:00+00:00,98.352,1.146,74.676,74.35,47.861,26.37,89.0,0.075,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T00:50:00+00:00,102.11,1.266,73.922,75.78,49.192,26.109,87.8,0.052,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T00:55:00+00:00,103.963,0.941,77.667,72.87,50.005,25.412,87.4,0.045,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T01:00:00+00:00,99.978,0.822,76.379,72.79,45.555,26.066,85.5,0.069,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T01:05:00+00:00,102.897,0.98,75.322,71.78,47.375,25.67,87.1,0.086,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T01:10:00+00:00,102.814,1.3,75.065,73.43,45.398,25.936,85.5,0.112,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T01:15:00+00:00,102.3,1.242,73.883,73.27,47.315,26.277,87.1,0.056,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T01:20:00+00:00,100.332,0.95,75.227,72.06,49.145,26.26,87.1,0.054,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T01:25:00+00:00,102.204,0.861,77.048,74.11,47.674,26.155,87.3,0.098,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T01:30:00+00:00,103.037,0.968,76.277,71.02,48.84,26.932,88.9,0.132,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T01:35:00+00:00,106.631,1.125,77.009,73.58,46.481,26.158,87.3,0.087,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T01:40:00+00:00,104.68,1.193,74.522,71.52,45.98,25.323,85.0,0.155,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T01:45:00+00:00,97.731,0.909,77.82,70.8,49.403,25.677,87.7,0.09,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T01:50:00+00:00,103.066,0.788,77.873,76.18,46.844,26.49,85.8,0.055,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T01:55:00+00:00,100.496,1.178,77.226,74.94,49.993,27.282,88.4,0.126,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T02:00:00+00:00,98.804,1.013,76.22,70.82,47.185,26.017,88.3,0.043,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T02:05:00+00:00,103.727,1.201,75.978,73.38,45.948,25.995,85.0,0.134,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T02:10:00+00:00,99.753,1.134,76.006,76.31,46.474,25.665,87.9,0.1,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T02:15:00+00:00,102.055,0.811,77.08,71.16,48.705,26.8,88.0,0.082,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T02:20:00+00:00,105.824,0.94,74.95,76.01,46.169,25.684,86.0,0.078,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T02:25:00+00:00,99.853,0.901,75.281,71.71,47.661,24.993,84.7,0.076,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T02:30:00+00:00,102.785,1.222,77.238,74.74,48.093,25.723,85.1,0.115,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T02:35:00+00:00,97.198,1.033,77.587,73.64,46.062,25.936,85.8,0.134,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T02:40:00+00:00,104.705,1.209,77.145,72.89,47.737,25.689,84.8,0.17,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T02:45:00+00:00,97.265,0.909,76.653,72.22,48.11,25.902,84.4,0.092,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T02:50:00+00:00,104.623,0.778,75.4,73.93,49.518,25.712,87.9,0.158,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T02:55:00+00:00,101.24,0.999,74.234,74.21,46.87,25.855,85.3,0.081,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T03:00:00+00:00,102.232,1.122,73.868,73.89,45.614,26.217,84.4,0.086,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T03:05:00+00:00,97.459,1.179,77.454,73.31,48.307,26.402,86.7,0.147,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T03:10:00+00:00,106.217,1.096,77.371,73.72,48.386,25.443,85.7,0.079,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T03:15:00+00:00,105.784,1.066,74.679,72.84,46.838,26.279,87.6,0.125,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T03:20:00+00:00,102.892,0.967,77.603,71.98,47.872,25.078,86.6,0.039,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T03:25:00+00:00,103.983,0.981,77.248,73.29,48.536,25.652,85.8,0.091,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T03:30:00+00:00,102.891,0.881,75.703,75.41,48.463,26.705,87.9,0.05,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T03:35:00+00:00,103.722,0.924,76.734,70.98,45.764,25.981,84.6,0.049,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T03:40:00+00:00,103.433,1.186,77.328,71.57,48.715,25.944,85.2,0.139,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T03:45:00+00:00,101.446,1.155,76.184,76.39,48.464,26.501,86.8,0.135,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T03:50:00+00:00,105.098,1.115,74.524,72.48,46.386,26.72,87.2,0.113,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T03:55:00+00:00,104.928,1.3,74.982,72.76,44.774,26.091,84.7,0.108,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T04:00:00+00:00,101.116,0.875,75.776,75.34,46.62,25.915,86.6,0.127,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T04:05:00+00:00,97.785,0.987,77.513,76.01,46.628,26.52,86.9,0.154,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T04:10:00+00:00,97.833,0.981,76.482,76.65,48.103,25.609,85.7,0.172,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T04:15:00+00:00,103.441,0.851,78.236,72.02,48.71,25.383,86.3,0.109,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T04:20:00+00:00,102.452,1.064,76.151,71.25,45.456,24.951,84.6,0.117,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T04:25:00+00:00,103.536,0.947,76.18,74.06,49.978,26.735,87.5,0.05,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T04:30:00+00:00,98.514,1.374,76.419,72.03,45.468,25.191,83.9,0.116,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T04:35:00+00:00,98.983,1.372,75.495,73.89,45.541,24.564,84.5,0.134,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T04:40:00+00:00,106.766,0.79,76.444,72.74,46.349,26.943,87.1,0.101,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T04:45:00+00:00,105.927,0.785,74.99,75.01,45.763,26.56,85.9,0.101,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T04:50:00+00:00,105.487,0.869,75.53,73.34,46.206,25.326,85.9,0.146,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T04:55:00+00:00,99.149,0.798,75.065,72.0,45.459,26.207,84.5,0.18,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T05:00:00+00:00,105.626,1.15,73.921,76.21,46.41,24.173,83.6,0.09,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T05:05:00+00:00,105.483,1.193,74.64,76.37,43.932,24.583,83.5,0.146,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T05:10:00+00:00,106.937,1.197,76.319,73.93,47.762,25.834,85.4,0.064,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T05:15:00+00:00,97.454,1.366,74.608,73.28,46.572,25.712,84.0,0.127,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T05:20:00+00:00,103.372,1.238,75.061,72.06,47.129,25.129,85.5,0.183,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T05:25:00+00:00,102.886,1.325,73.578,71.75,47.59,24.465,83.3,0.173,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T05:30:00+00:00,103.909,0.923,74.989,75.35,47.917,25.963,84.0,0.14,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T05:35:00+00:00,99.556,1.222,77.411,72.93,46.378,24.913,84.5,0.176,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T05:40:00+00:00,103.075,1.208,76.216,75.93,45.179,25.486,84.7,0.051,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T05:45:00+00:00,103.469,0.978,77.697,73.45,47.176,25.969,84.6,0.172,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T05:50:00+00:00,99.608,1.212,75.529,76.93,44.714,24.894,84.6,0.053,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T05:55:00+00:00,99.854,1.336,74.957,71.72,46.357,24.416,83.7,0.102,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T06:00:00+00:00,104.91,0.919,76.962,72.44,45.293,25.689,84.5,0.086,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T06:05:00+00:00,100.991,1.275,77.104,74.81,48.889,24.917,85.7,0.092,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T06:10:00+00:00,97.977,1.032,76.112,75.81,48.472,26.319,84.9,0.123,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T06:15:00+00:00,104.726,1.094,76.764,73.84,47.314,26.468,84.9,0.172,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T06:20:00+00:00,106.605,0.892,74.421,75.85,46.186,25.722,84.9,0.067,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T06:25:00+00:00,104.224,0.917,77.037,74.76,44.827,25.216,83.2,0.151,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T06:30:00+00:00,102.868,0.904,77.199,73.98,44.047,25.514,83.1,0.159,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T06:35:00+00:00,102.815,0.899,75.904,75.33,49.345,24.993,86.6,0.131,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T06:40:00+00:00,98.049,0.975,75.631,73.71,47.904,25.654,83.5,0.09,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T06:45:00+00:00,100.706,1.406,74.08,74.87,47.461,25.019,83.9,0.16,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T06:50:00+00:00,100.513,1.172,77.035,73.42,44.977,25.994,85.1,0.129,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T06:55:00+00:00,98.064,1.198,75.139,72.27,44.789,24.817,83.7,0.166,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T07:00:00+00:00,105.655,1.011,74.705,71.73,45.639,25.552,82.9,0.095,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T07:05:00+00:00,104.029,1.081,74.147,74.59,48.547,25.945,85.8,0.137,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T07:10:00+00:00,104.347,1.39,74.4,74.37,45.192,24.819,85.1,0.113,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T07:15:00+00:00,103.896,1.18,76.609,71.32,46.43,25.741,85.4,0.172,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T07:20:00+00:00,101.162,1.171,75.479,76.8,44.616,24.295,83.7,0.184,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T07:25:00+00:00,100.487,1.244,74.859,72.8,46.75,25.51,82.5,0.072,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T07:30:00+00:00,102.872,1.193,76.674,77.08,46.149,26.1,86.4,0.047,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T07:35:00+00:00,102.694,1.336,75.434,75.52,47.763,24.809,83.9,0.08,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T07:40:00+00:00,105.873,1.122,77.63,76.38,48.729,25.126,86.2,0.134,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T07:45:00+00:00,98.191,1.403,76.329,75.11,46.224,25.629,85.1,0.154,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T07:50:00+00:00,98.374,0.954,77.171,77.03,45.601,24.569,84.6,0.117,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T07:55:00+00:00,100.587,1.161,75.177,71.36,47.135,24.891,82.3,0.168,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T08:00:00+00:00,105.885,1.152,76.201,71.69,44.485,23.96,82.4,0.114,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T08:05:00+00:00,104.43,1.136,77.311,71.87,45.096,24.574,82.7,0.193,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T08:10:00+00:00,105.122,1.369,74.584,74.52,47.617,24.959,85.2,0.086,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T08:15:00+00:00,102.89,1.284,75.106,74.84,46.351,26.217,85.7,0.183,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T08:20:00+00:00,97.086,1.338,76.461,71.82,46.303,26.129,85.8,0.086,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T08:25:00+00:00,104.858,1.038,76.66,73.89,46.563,25.399,82.1,0.15,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T08:30:00+00:00,99.481,1.062,75.117,72.85,45.212,24.907,82.0,0.14,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T08:35:00+00:00,97.666,0.853,76.684,74.6,48.88,24.838,85.8,0.078,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T08:40:00+00:00,103.045,0.918,76.525,75.88,44.922,24.108,83.1,0.188,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T08:45:00+00:00,98.658,1.388,77.214,75.38,43.56,24.587,82.7,0.097,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T08:50:00+00:00,100.057,0.922,77.737,71.73,44.32,24.183,83.5,0.152,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T08:55:00+00:00,105.238,1.094,75.162,73.75,44.722,24.952,82.4,0.064,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T09:00:00+00:00,97.211,1.269,77.305,73.88,47.542,24.925,85.2,0.102,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T09:05:00+00:00,98.526,0.927,77.62,71.86,45.962,24.709,84.0,0.074,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T09:10:00+00:00,104.501,1.429,73.447,73.93,48.573,26.627,85.5,0.128,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T09:15:00+00:00,97.3,1.196,75.042,75.75,43.247,23.847,82.1,0.06,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T09:20:00+00:00,99.98,1.417,74.528,73.34,48.173,24.285,84.1,0.171,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T09:25:00+00:00,101.246,1.23,76.0,71.55,45.996,26.214,84.9,0.157,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T09:30:00+00:00,101.263,1.351,75.232,73.06,46.921,23.846,81.9,0.098,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T09:35:00+00:00,103.32,1.327,73.791,71.45,45.619,24.473,84.4,0.196,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T09:40:00+00:00,103.063,0.858,75.477,72.14,47.803,25.989,84.5,0.152,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T09:45:00+00:00,106.357,1.26,74.767,72.83,46.343,25.565,81.9,0.086,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T09:50:00+00:00,99.131,0.995,76.116,75.65,46.13,24.041,82.5,0.109,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T09:55:00+00:00,101.473,1.102,76.182,77.25,44.661,25.783,84.5,0.05,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T10:00:00+00:00,102.942,0.989,74.532,74.37,44.357,23.984,83.2,0.155,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T10:05:00+00:00,103.326,0.968,75.981,76.76,44.16,24.631,82.3,0.089,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T10:10:00+00:00,106.384,1.064,76.564,74.47,45.309,25.621,83.6,0.05,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T10:15:00+00:00,105.126,1.278,73.771,76.0,44.637,24.953,83.4,0.106,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T10:20:00+00:00,103.658,0.931,74.449,76.21,47.735,24.683,84.4,0.118,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T10:25:00+00:00,101.219,1.279,75.132,74.49,47.86,26.365,84.8,0.059,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T10:30:00+00:00,98.467,1.45,74.814,76.27,46.649,23.839,81.7,0.13,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T10:35:00+00:00,105.166,1.027,75.499,77.06,48.452,25.64,84.5,0.054,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T10:40:00+00:00,98.887,0.933,76.383,72.58,47.805,25.471,84.6,0.164,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T10:45:00+00:00,102.896,1.268,74.117,72.1,47.944,26.277,84.8,0.16,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T10:50:00+00:00,97.807,1.256,75.689,76.52,44.359,24.949,83.0,0.13,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T10:55:00+00:00,106.96,0.955,74.804,75.89,46.733,24.437,84.6,0.136,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T11:00:00+00:00,104.205,1.138,75.273,75.03,46.213,25.486,83.0,0.171,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T11:05:00+00:00,103.5,0.963,74.956,76.26,44.861,25.903,84.4,0.183,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T11:10:00+00:00,104.552,1.036,74.971,75.22,44.117,24.867,83.5,0.13,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T11:15:00+00:00,98.681,1.192,74.745,75.72,45.516,25.29,82.2,0.073,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T11:20:00+00:00,106.227,1.286,75.591,75.01,43.424,24.345,81.5,0.068,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T11:25:00+00:00,106.837,0.916,74.539,77.43,44.604,25.162,80.9,0.164,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T11:30:00+00:00,105.234,1.234,74.388,76.36,45.1,24.426,82.9,0.19,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T11:35:00+00:00,102.287,1.442,73.138,75.49,46.151,23.946,81.7,0.155,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T11:40:00+00:00,101.245,1.084,77.034,72.84,43.306,24.385,81.9,0.114,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T11:45:00+00:00,105.661,1.471,73.868,75.72,47.397,25.247,82.9,0.111,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T11:50:00+00:00,106.361,1.454,76.273,73.9,47.936,25.021,84.5,0.126,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T11:55:00+00:00,98.387,1.398,74.457,73.72,45.384,24.387,81.4,0.114,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T12:00:00+00:00,98.81,1.154,74.11,74.45,44.825,25.193,83.3,0.184,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T12:05:00+00:00,103.386,0.919,74.453,77.45,47.006,24.686,83.1,0.18,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T12:10:00+00:00,103.615,1.23,75.881,76.3,43.647,24.279,82.9,0.121,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T12:15:00+00:00,103.113,1.371,74.842,72.74,44.809,25.847,83.3,0.087,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T12:20:00+00:00,102.44,1.156,73.951,73.25,47.024,25.288,84.2,0.135,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T12:25:00+00:00,99.347,0.89,75.502,75.88,45.798,24.693,82.1,0.173,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T12:30:00+00:00,105.461,1.132,76.069,72.5,45.237,24.177,82.0,0.087,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T12:35:00+00:00,99.646,1.054,76.641,71.89,44.5,24.059,80.3,0.151,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T12:40:00+00:00,97.625,1.239,73.649,74.86,47.616,24.678,83.5,0.152,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T12:45:00+00:00,99.563,1.184,75.238,73.86,46.593,23.777,82.0,0.145,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T12:50:00+00:00,103.43,1.215,73.714,74.12,43.01,25.124,80.6,0.192,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T12:55:00+00:00,104.959,1.233,74.101,77.45,43.737,24.707,81.7,0.128,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T13:00:00+00:00,104.528,1.113,75.343,75.36,43.13,24.36,80.3,0.097,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T13:05:00+00:00,97.672,0.936,75.621,73.1,46.041,25.104,81.8,0.069,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T13:10:00+00:00,104.652,1.05,76.915,72.07,46.592,23.428,81.3,0.104,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T13:15:00+00:00,103.291,0.936,78.061,72.51,44.718,25.324,81.2,0.188,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T13:20:00+00:00,102.362,1.025,76.045,74.09,47.037,25.197,83.8,0.109,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T13:25:00+00:00,100.0,1.377,76.457,74.25,45.069,24.04,80.8,0.065,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T13:30:00+00:00,98.358,1.183,77.527,77.21,43.063,24.763,80.4,0.096,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T13:35:00+00:00,105.567,1.454,74.226,72.47,45.899,24.369,83.6,0.151,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T13:40:00+00:00,105.102,1.071,74.519,76.57,44.439,24.07,81.3,0.141,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T13:45:00+00:00,100.247,1.393,74.898,75.42,44.539,25.16,81.1,0.195,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T13:50:00+00:00,100.288,1.344,74.113,77.0,46.964,24.936,81.9,0.062,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T13:55:00+00:00,100.04,1.254,75.995,72.06,46.124,24.064,82.0,0.18,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T14:00:00+00:00,100.15,1.408,74.713,76.04,42.633,23.163,79.9,0.14,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T14:05:00+00:00,105.827,1.192,75.245,72.38,43.384,24.387,81.5,0.193,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T14:10:00+00:00,97.246,1.14,77.72,77.31,45.382,25.284,82.8,0.158,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T14:15:00+00:00,101.585,1.107,76.244,76.4,47.343,24.827,82.9,0.181,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T14:20:00+00:00,101.097,1.156,75.954,76.04,46.449,23.913,82.5,0.118,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T14:25:00+00:00,97.386,1.353,75.691,72.31,45.394,23.459,80.7,0.168,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T14:30:00+00:00,104.159,1.423,77.03,74.92,44.443,25.531,82.0,0.083,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T14:35:00+00:00,101.513,1.392,73.486,72.93,46.527,25.047,81.3,0.061,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T14:40:00+00:00,103.992,1.174,75.128,75.25,45.134,23.618,81.2,0.152,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T14:45:00+00:00,97.668,1.332,76.806,73.4,45.196,24.487,80.7,0.166,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T14:50:00+00:00,106.143,1.054,76.966,73.28,45.691,24.995,82.4,0.14,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T14:55:00+00:00,102.512,1.442,73.293,77.27,44.16,23.755,80.7,0.156,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T15:00:00+00:00,98.223,1.452,73.752,74.05,45.029,24.267,80.0,0.072,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T15:05:00+00:00,100.942,1.303,73.748,72.98,42.537,25.166,80.8,0.174,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T15:10:00+00:00,104.661,1.156,77.299,71.96,43.065,23.394,80.3,0.057,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T15:15:00+00:00,104.735,1.513,73.515,76.87,44.502,24.015,79.6,0.056,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T15:20:00+00:00,100.551,0.919,74.88,76.42,45.796,24.836,80.6,0.197,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T15:25:00+00:00,98.635,1.068,75.795,72.81,45.796,24.675,82.1,0.07,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T15:30:00+00:00,98.286,1.003,77.164,72.4,46.289,24.41,82.9,0.164,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T15:35:00+00:00,102.225,1.043,75.342,73.22,45.39,24.825,81.2,0.105,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T15:40:00+00:00,97.318,1.04,77.461,73.59,43.921,24.53,82.4,0.133,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T15:45:00+00:00,105.523,1.096,73.868,75.03,43.292,24.373,80.7,0.171,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T15:50:00+00:00,104.946,1.124,75.434,72.1,44.414,24.367,79.5,0.15,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T15:55:00+00:00,103.036,1.334,75.427,73.5,46.18,23.579,80.4,0.112,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T16:00:00+00:00,99.836,1.231,74.048,74.21,46.448,25.573,82.2,0.12,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T16:05:00+00:00,98.388,1.111,74.349,72.95,42.421,24.558,80.5,0.167,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T16:10:00+00:00,103.92,1.043,76.651,74.69,44.976,24.673,82.0,0.149,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T16:15:00+00:00,104.629,0.977,75.071,76.7,46.008,23.803,81.9,0.186,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T16:20:00+00:00,104.296,1.068,75.662,72.6,42.236,23.211,78.9,0.165,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T16:25:00+00:00,99.587,0.934,76.674,75.89,42.305,24.869,80.1,0.088,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T16:30:00+00:00,100.487,1.192,75.296,73.54,42.632,24.266,79.7,0.065,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T16:35:00+00:00,105.493,1.121,74.977,73.07,45.176,24.624,81.1,0.145,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T16:40:00+00:00,103.848,1.374,77.111,74.29,44.225,24.433,80.1,0.183,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T16:45:00+00:00,98.165,1.073,76.648,76.7,45.335,24.062,82.5,0.13,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T16:50:00+00:00,98.925,1.363,74.687,74.02,43.361,23.034,79.1,0.113,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T16:55:00+00:00,100.65,1.047,75.891,77.13,42.22,24.052,78.7,0.177,Slight degradation detected. Monitor lamp health.,True
+2026-04-27T17:00:00+00:00,106.89,1.145,76.075,73.48,42.876,23.926,79.8,0.176,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T17:05:00+00:00,101.357,1.087,75.907,73.3,44.121,24.824,80.5,0.192,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T17:10:00+00:00,104.393,0.953,76.032,72.78,43.015,22.895,78.8,0.126,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T17:15:00+00:00,106.909,1.246,73.954,77.24,42.794,23.847,79.5,0.137,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T17:20:00+00:00,99.809,1.108,74.864,75.06,43.069,24.824,79.6,0.206,No rule triggered.,False
+2026-04-27T17:25:00+00:00,98.96,1.277,73.447,73.25,43.543,24.929,80.5,0.179,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T17:30:00+00:00,100.416,1.014,77.925,74.17,45.158,25.265,81.6,0.14,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T17:35:00+00:00,106.446,1.426,73.657,73.06,45.394,23.933,80.4,0.129,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T17:40:00+00:00,100.305,1.338,75.197,75.94,44.363,23.008,78.8,0.136,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T17:45:00+00:00,97.726,1.494,74.869,77.87,43.346,24.537,80.7,0.138,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T17:50:00+00:00,97.713,1.398,75.517,75.45,44.539,24.47,79.0,0.141,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T17:55:00+00:00,105.763,1.396,74.794,74.3,43.283,24.424,80.9,0.063,Slight degradation detected. Monitor lamp health.,False
+2026-04-27T18:00:00+00:00,100.252,2.578,73.222,80.18,39.716,22.997,75.2,0.223,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T18:05:00+00:00,100.339,2.663,71.529,82.24,41.059,21.298,72.7,0.257,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T18:10:00+00:00,105.906,2.453,74.808,81.14,40.354,21.435,73.5,0.308,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T18:15:00+00:00,106.772,2.522,73.859,80.1,42.804,21.572,74.3,0.205,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-27T18:20:00+00:00,97.213,2.535,73.574,80.45,40.657,22.19,73.4,0.272,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T18:25:00+00:00,97.058,2.67,73.154,82.77,38.025,22.411,72.5,0.294,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T18:30:00+00:00,102.183,2.547,73.296,81.7,38.547,22.176,72.6,0.28,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T18:35:00+00:00,102.608,2.64,73.537,81.89,40.109,23.592,76.5,0.21,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T18:40:00+00:00,105.086,1.999,75.844,82.64,42.735,23.956,77.0,0.257,No rule triggered.,False
+2026-04-27T18:45:00+00:00,101.32,2.289,71.84,83.92,39.275,21.013,72.7,0.237,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-27T18:50:00+00:00,106.393,1.927,75.472,80.97,42.982,23.538,76.7,0.293,No rule triggered.,False
+2026-04-27T18:55:00+00:00,104.641,2.617,72.002,79.72,42.994,22.837,77.1,0.27,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-27T19:00:00+00:00,101.322,2.421,73.774,84.7,41.133,23.184,75.3,0.264,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T19:05:00+00:00,101.243,2.618,71.848,79.19,41.061,21.81,73.1,0.233,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-27T19:10:00+00:00,101.89,2.072,74.893,82.7,41.49,21.245,72.1,0.284,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T19:15:00+00:00,101.706,2.091,73.411,79.61,42.503,22.521,75.1,0.365,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T19:20:00+00:00,100.609,1.979,72.601,82.74,42.66,23.751,76.5,0.332,No rule triggered.,True
+2026-04-27T19:25:00+00:00,97.26,2.071,72.87,82.57,41.031,22.075,71.3,0.253,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T19:30:00+00:00,106.284,2.42,71.297,84.48,44.199,22.095,76.9,0.219,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-27T19:35:00+00:00,106.857,2.692,72.657,82.35,40.326,22.623,72.6,0.237,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-27T19:40:00+00:00,101.818,1.964,73.616,82.03,41.081,23.25,75.7,0.285,No rule triggered.,False
+2026-04-27T19:45:00+00:00,105.161,2.464,73.846,82.39,38.413,22.837,73.2,0.282,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T19:50:00+00:00,100.594,1.981,74.475,80.33,40.051,22.248,73.9,0.316,No rule triggered.,True
+2026-04-27T19:55:00+00:00,106.852,2.783,72.001,83.12,41.439,22.358,74.0,0.241,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T20:00:00+00:00,106.838,2.281,74.88,82.73,39.778,22.603,72.6,0.271,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T20:05:00+00:00,104.554,2.153,75.445,82.4,39.812,21.665,71.4,0.249,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T20:10:00+00:00,98.598,2.756,72.069,83.83,38.379,22.649,72.2,0.228,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-27T20:15:00+00:00,105.888,1.855,75.919,82.39,42.384,22.408,74.6,0.282,No rule triggered.,True
+2026-04-27T20:20:00+00:00,98.396,2.071,71.91,85.07,40.46,21.753,72.4,0.357,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-27T20:25:00+00:00,102.585,2.58,71.843,81.81,42.925,23.171,75.7,0.238,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T20:30:00+00:00,104.039,2.353,72.441,80.61,40.168,22.534,73.5,0.287,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T20:35:00+00:00,101.38,2.361,75.076,79.52,42.074,22.979,73.9,0.366,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T20:40:00+00:00,102.304,2.809,73.592,84.27,42.062,21.602,72.9,0.341,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-27T20:45:00+00:00,100.821,2.12,73.873,85.21,38.313,21.22,71.8,0.298,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-27T20:50:00+00:00,103.127,1.915,72.554,83.43,39.52,22.251,74.8,0.319,No rule triggered.,True
+2026-04-27T20:55:00+00:00,101.924,2.676,72.899,84.79,42.445,23.015,75.2,0.324,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T21:00:00+00:00,99.8,2.175,75.087,83.84,38.802,20.568,70.1,0.239,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T21:05:00+00:00,97.428,2.421,73.904,83.95,42.495,22.882,73.6,0.327,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T21:10:00+00:00,98.452,1.833,72.855,79.87,39.324,22.502,72.9,0.289,No rule triggered.,False
+2026-04-27T21:15:00+00:00,99.969,2.649,71.481,81.33,37.898,21.964,70.5,0.345,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-27T21:20:00+00:00,100.15,2.63,71.685,80.42,36.852,21.974,70.0,0.31,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-27T21:25:00+00:00,100.054,1.95,73.573,81.9,38.304,21.201,73.2,0.381,No rule triggered.,False
+2026-04-27T21:30:00+00:00,103.017,2.784,71.225,84.03,42.202,23.37,75.1,0.25,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-27T21:35:00+00:00,102.322,2.607,72.795,84.25,38.466,20.282,69.8,0.253,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-27T21:40:00+00:00,105.251,2.746,71.264,84.94,38.038,21.477,71.4,0.249,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T21:45:00+00:00,99.32,1.875,73.712,83.25,41.363,21.779,74.8,0.285,No rule triggered.,False
+2026-04-27T21:50:00+00:00,105.837,2.213,72.132,82.35,41.095,21.985,71.2,0.33,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T21:55:00+00:00,99.953,2.837,72.872,82.8,40.144,20.181,69.6,0.313,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-27T22:00:00+00:00,101.279,2.204,74.52,85.01,39.156,22.003,71.9,0.268,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-27T22:05:00+00:00,106.664,2.131,72.071,81.16,39.83,20.964,69.7,0.387,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-27T22:10:00+00:00,98.885,1.978,73.136,81.96,37.822,21.544,71.2,0.334,No rule triggered.,False
+2026-04-27T22:15:00+00:00,101.691,2.375,71.606,81.67,39.358,22.865,74.5,0.278,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-27T22:20:00+00:00,104.982,2.42,72.499,80.79,41.427,22.019,74.1,0.337,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T22:25:00+00:00,100.923,2.018,75.87,84.22,42.205,21.486,73.6,0.294,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-27T22:30:00+00:00,98.282,2.745,72.93,81.91,39.977,21.136,70.9,0.314,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T22:35:00+00:00,102.162,2.105,71.914,83.89,38.778,21.416,71.5,0.348,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T22:40:00+00:00,103.928,2.605,71.476,82.34,40.627,22.621,73.9,0.395,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T22:45:00+00:00,106.543,1.946,73.965,84.38,37.397,20.578,70.9,0.344,No rule triggered.,True
+2026-04-27T22:50:00+00:00,98.864,2.213,74.092,82.22,40.681,21.938,74.2,0.355,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-27T22:55:00+00:00,106.478,2.06,74.719,84.22,39.565,20.653,70.6,0.383,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T23:00:00+00:00,98.242,2.303,73.232,79.85,41.341,22.718,72.6,0.285,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T23:05:00+00:00,101.773,2.196,72.447,85.62,41.868,22.791,73.6,0.358,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T23:10:00+00:00,97.277,2.846,73.372,82.77,38.613,22.305,72.9,0.381,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T23:15:00+00:00,97.707,2.684,72.333,81.75,40.486,21.296,70.6,0.375,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-27T23:20:00+00:00,106.773,2.131,72.843,81.11,37.446,21.429,68.9,0.415,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-27T23:25:00+00:00,103.21,2.027,73.397,82.94,36.943,19.876,69.2,0.35,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-27T23:30:00+00:00,102.454,2.751,72.798,84.11,39.103,20.72,72.4,0.314,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T23:35:00+00:00,98.163,2.354,75.282,82.34,41.905,21.714,72.8,0.401,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T23:40:00+00:00,103.999,2.459,72.841,81.37,39.131,21.562,70.4,0.376,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-27T23:45:00+00:00,103.821,2.367,72.531,85.52,40.32,22.016,73.4,0.299,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-27T23:50:00+00:00,101.975,2.733,73.734,84.53,38.841,21.371,71.6,0.322,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-27T23:55:00+00:00,99.934,2.075,74.84,82.22,37.1,22.135,70.7,0.4,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-28T00:00:00+00:00,101.074,2.341,71.847,83.12,39.76,20.322,70.9,0.284,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-28T00:05:00+00:00,105.077,2.192,71.948,83.04,36.191,20.601,69.2,0.287,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T00:10:00+00:00,100.832,2.395,74.367,85.49,38.231,21.448,68.4,0.32,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T00:15:00+00:00,104.79,1.95,75.653,83.36,38.42,20.653,70.0,0.38,No rule triggered.,False
+2026-04-28T00:20:00+00:00,97.007,2.696,71.672,81.81,37.65,21.932,71.5,0.292,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-28T00:25:00+00:00,100.841,2.369,73.774,80.12,39.692,21.583,73.1,0.333,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-28T00:30:00+00:00,101.749,2.418,71.224,82.29,38.983,20.852,69.9,0.316,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T00:35:00+00:00,104.304,2.752,73.232,82.88,38.468,19.515,68.0,0.289,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T00:40:00+00:00,104.042,2.716,72.485,80.06,38.893,21.086,68.8,0.347,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T00:45:00+00:00,102.021,2.256,74.481,83.46,37.448,20.36,70.4,0.419,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-28T00:50:00+00:00,105.635,1.911,75.085,80.45,36.914,19.681,66.9,0.368,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T00:55:00+00:00,101.723,2.814,73.952,82.27,35.917,19.666,68.8,0.31,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T01:00:00+00:00,97.15,2.045,72.615,80.43,41.719,22.176,72.7,0.404,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-28T01:05:00+00:00,97.203,2.3,74.489,80.41,38.077,20.331,68.9,0.389,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T01:10:00+00:00,106.336,2.396,74.873,80.48,39.766,20.845,70.0,0.377,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T01:15:00+00:00,106.748,2.644,71.412,83.4,38.134,20.224,67.7,0.42,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T01:20:00+00:00,98.211,2.487,72.766,81.47,38.542,19.763,68.2,0.435,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T01:25:00+00:00,100.537,1.96,73.263,85.84,37.797,19.655,68.1,0.402,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T01:30:00+00:00,103.421,2.815,71.954,84.39,37.048,20.104,67.3,0.346,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T01:35:00+00:00,104.43,2.369,74.933,80.66,39.522,20.572,69.5,0.425,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T01:40:00+00:00,98.591,2.329,73.623,84.42,36.395,20.958,68.7,0.376,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T01:45:00+00:00,106.903,2.796,73.283,81.94,40.542,21.591,71.2,0.343,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-28T01:50:00+00:00,101.796,2.267,71.55,82.93,40.039,21.476,69.6,0.391,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T01:55:00+00:00,104.59,2.108,75.444,81.57,40.717,21.801,71.7,0.336,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-28T02:00:00+00:00,100.029,2.65,71.584,83.92,39.222,21.614,71.2,0.423,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-28T02:05:00+00:00,100.602,2.833,73.952,84.26,35.45,20.716,67.8,0.443,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T02:10:00+00:00,102.858,2.762,71.229,80.45,40.076,21.447,71.2,0.34,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-28T02:15:00+00:00,97.217,1.895,73.872,81.2,38.398,20.051,67.3,0.33,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T02:20:00+00:00,101.893,2.179,75.312,81.3,39.435,21.236,71.1,0.417,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-28T02:25:00+00:00,98.506,2.782,74.142,81.62,40.977,20.561,70.9,0.378,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-28T02:30:00+00:00,101.588,2.538,72.361,86.01,37.967,21.438,71.2,0.403,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-28T02:35:00+00:00,106.999,2.389,73.95,84.7,37.857,20.754,67.9,0.328,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T02:40:00+00:00,99.243,2.641,71.422,84.15,38.077,20.624,67.8,0.356,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T02:45:00+00:00,98.003,2.413,72.653,83.77,37.951,21.543,68.9,0.452,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T02:50:00+00:00,104.354,2.816,70.527,82.75,37.612,19.731,66.6,0.43,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T02:55:00+00:00,102.099,2.005,73.879,85.96,36.856,18.85,65.8,0.378,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T03:00:00+00:00,101.576,2.836,70.5,81.73,35.517,20.29,68.0,0.425,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T03:05:00+00:00,100.37,2.809,70.719,81.53,37.939,20.545,69.9,0.352,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T03:10:00+00:00,98.273,2.666,72.298,82.76,36.839,20.189,70.1,0.444,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-28T03:15:00+00:00,98.221,2.283,71.768,85.75,37.328,20.039,69.1,0.42,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T03:20:00+00:00,105.52,2.193,73.04,85.16,37.277,20.65,70.7,0.415,CRITICAL: High turbidity. Check pre-filters.,True
+2026-04-28T03:25:00+00:00,101.231,2.659,70.912,83.63,36.034,20.603,65.7,0.368,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T03:30:00+00:00,106.858,1.981,75.668,80.46,37.144,22.128,70.7,0.393,No rule triggered.,True
+2026-04-28T03:35:00+00:00,100.798,2.254,73.169,80.44,36.255,19.383,66.6,0.448,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T03:40:00+00:00,101.419,2.403,72.818,80.46,39.504,21.89,70.1,0.368,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-28T03:45:00+00:00,100.605,2.591,72.449,84.81,39.179,20.311,69.8,0.336,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T03:50:00+00:00,98.361,2.332,71.981,84.31,37.75,20.479,66.2,0.346,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T03:55:00+00:00,97.882,2.722,73.775,85.33,37.356,20.042,68.9,0.405,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T04:00:00+00:00,102.577,2.742,71.934,83.71,35.321,19.524,66.3,0.351,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T04:05:00+00:00,97.505,2.536,71.873,82.93,35.115,20.493,66.4,0.474,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T04:10:00+00:00,104.044,1.946,74.904,82.56,36.389,19.498,66.4,0.356,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T04:15:00+00:00,99.36,2.116,75.553,80.76,39.319,20.634,70.1,0.438,CRITICAL: High turbidity. Check pre-filters.,False
+2026-04-28T04:20:00+00:00,106.92,2.563,72.641,83.26,34.756,19.007,64.5,0.333,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T04:25:00+00:00,101.862,2.121,73.903,81.76,38.723,19.481,67.7,0.467,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T04:30:00+00:00,102.334,2.763,73.705,81.67,35.823,18.727,65.5,0.455,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T04:35:00+00:00,104.622,2.449,73.249,84.59,37.685,19.137,66.5,0.482,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T04:40:00+00:00,103.633,2.472,71.129,84.09,38.984,20.728,69.5,0.437,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T04:45:00+00:00,104.145,2.008,75.342,84.31,37.057,20.166,67.9,0.419,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T04:50:00+00:00,101.305,2.129,71.964,83.9,37.507,19.613,68.0,0.445,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T04:55:00+00:00,97.356,2.369,72.875,80.71,37.736,19.552,66.5,0.414,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T05:00:00+00:00,102.986,2.464,72.278,82.95,40.099,21.412,69.5,0.338,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T05:05:00+00:00,97.792,1.933,72.924,82.34,34.194,19.362,65.1,0.353,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T05:10:00+00:00,97.607,2.585,72.678,85.25,35.881,20.119,65.5,0.453,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T05:15:00+00:00,98.339,2.625,74.549,83.6,36.456,19.212,67.4,0.45,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T05:20:00+00:00,97.375,2.035,73.78,83.97,34.599,18.653,65.0,0.446,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T05:25:00+00:00,98.963,2.473,74.907,85.26,35.326,19.537,66.9,0.395,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T05:30:00+00:00,101.685,2.494,72.554,84.92,36.019,19.895,63.7,0.382,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T05:35:00+00:00,102.983,2.421,73.302,83.15,38.613,19.88,69.3,0.455,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T05:40:00+00:00,98.641,2.736,73.152,84.38,36.639,19.069,64.7,0.459,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T05:45:00+00:00,97.957,2.055,75.799,81.82,33.912,18.412,64.1,0.476,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T05:50:00+00:00,98.401,2.44,71.938,83.29,34.417,19.614,66.2,0.42,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T05:55:00+00:00,106.13,2.657,74.407,84.88,36.164,18.68,63.9,0.43,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T06:00:00+00:00,100.817,2.126,75.314,80.96,36.117,18.374,64.0,0.459,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T06:05:00+00:00,103.603,2.213,73.649,83.77,34.763,19.455,66.5,0.47,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T06:10:00+00:00,104.709,2.268,71.663,82.25,36.366,21.071,67.8,0.446,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T06:15:00+00:00,97.532,2.779,74.271,83.74,37.765,21.079,67.6,0.37,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T06:20:00+00:00,104.404,2.081,75.225,80.72,33.85,18.782,64.1,0.483,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T06:25:00+00:00,104.829,2.188,75.356,82.29,36.264,19.016,66.2,0.445,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T06:30:00+00:00,101.781,2.646,73.949,81.84,34.875,19.643,63.8,0.426,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T06:35:00+00:00,98.22,2.569,73.506,86.14,38.215,20.245,67.1,0.367,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T06:40:00+00:00,102.232,2.116,74.723,83.55,35.005,20.027,66.6,0.475,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T06:45:00+00:00,105.748,2.21,74.273,84.71,33.873,19.395,63.9,0.499,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T06:50:00+00:00,104.599,2.582,72.406,85.53,37.742,19.569,67.9,0.394,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T06:55:00+00:00,101.027,2.013,73.949,83.11,34.495,19.261,65.0,0.5,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T07:00:00+00:00,105.606,2.557,73.521,82.99,34.328,19.347,65.4,0.496,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T07:05:00+00:00,101.008,2.277,72.488,83.54,37.751,19.022,65.4,0.411,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T07:10:00+00:00,97.729,2.625,74.353,82.18,36.932,19.917,65.4,0.476,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T07:15:00+00:00,103.666,2.112,73.348,84.5,35.42,20.823,67.0,0.488,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T07:20:00+00:00,100.4,2.822,73.437,83.42,36.202,20.383,66.0,0.379,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T07:25:00+00:00,104.085,2.133,72.464,86.36,35.347,20.361,65.2,0.385,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T07:30:00+00:00,98.975,2.005,72.227,82.77,35.543,17.963,62.6,0.436,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T07:35:00+00:00,97.562,2.552,73.425,86.52,34.189,18.841,63.9,0.474,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T07:40:00+00:00,99.408,2.034,75.445,84.27,36.365,20.16,66.1,0.372,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T07:45:00+00:00,100.285,2.258,75.308,82.94,33.166,17.689,62.1,0.378,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T07:50:00+00:00,102.489,2.187,72.463,85.69,32.69,18.034,61.7,0.411,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T07:55:00+00:00,100.374,2.907,70.347,86.42,34.972,18.975,65.7,0.505,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T08:00:00+00:00,104.401,2.565,73.956,82.05,37.697,19.692,67.2,0.429,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T08:05:00+00:00,103.596,2.635,72.302,85.4,34.349,19.785,63.4,0.391,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T08:10:00+00:00,106.399,2.686,74.382,84.61,36.611,19.97,66.8,0.489,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T08:15:00+00:00,101.673,2.072,71.906,84.97,34.045,19.095,62.1,0.492,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T08:20:00+00:00,100.383,2.125,75.423,83.19,34.244,19.522,64.7,0.489,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T08:25:00+00:00,104.014,2.588,71.36,82.02,36.008,19.024,65.0,0.496,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T08:30:00+00:00,100.152,2.216,74.233,84.01,35.819,19.751,63.3,0.391,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T08:35:00+00:00,106.75,2.302,72.262,84.92,34.595,19.69,63.4,0.492,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T08:40:00+00:00,105.669,2.033,74.257,81.84,38.149,19.69,66.6,0.414,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T08:45:00+00:00,99.031,2.055,75.603,83.7,34.847,18.864,62.8,0.416,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T08:50:00+00:00,100.563,2.576,74.545,85.79,33.876,19.003,62.8,0.47,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T08:55:00+00:00,105.4,2.506,72.665,83.25,34.349,19.472,64.0,0.509,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T09:00:00+00:00,102.547,2.813,72.929,82.5,35.826,18.93,61.7,0.417,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T09:05:00+00:00,99.037,2.587,72.678,83.46,37.552,20.729,66.2,0.529,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T09:10:00+00:00,98.484,2.446,74.605,86.64,34.806,19.415,62.1,0.496,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T09:15:00+00:00,103.886,2.354,75.171,81.52,36.322,18.934,62.7,0.459,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T09:20:00+00:00,99.608,2.17,74.622,85.16,35.626,19.184,65.2,0.524,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T09:25:00+00:00,100.81,2.881,73.601,83.16,37.062,19.19,65.4,0.428,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T09:30:00+00:00,104.926,1.983,73.169,86.53,35.231,17.548,61.0,0.524,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T09:35:00+00:00,99.989,2.221,74.587,84.59,33.224,19.866,63.1,0.419,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T09:40:00+00:00,98.67,2.569,71.132,83.01,36.233,19.98,65.1,0.447,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T09:45:00+00:00,100.868,2.296,74.885,82.86,33.913,18.59,61.5,0.501,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T09:50:00+00:00,99.097,2.385,75.028,82.92,36.92,18.804,64.6,0.439,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T09:55:00+00:00,97.429,2.279,74.992,84.57,32.113,17.671,61.0,0.534,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T10:00:00+00:00,99.256,2.504,71.279,85.14,31.396,18.134,60.4,0.489,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T10:05:00+00:00,101.53,2.863,71.229,83.36,37.019,19.753,65.0,0.441,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T10:10:00+00:00,103.794,2.128,73.358,86.09,34.71,19.488,62.9,0.475,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T10:15:00+00:00,102.09,2.063,74.587,83.5,35.159,18.822,65.4,0.543,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T10:20:00+00:00,104.588,2.479,74.777,82.61,34.843,19.109,64.6,0.519,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T10:25:00+00:00,105.646,2.929,73.053,81.94,36.025,19.918,64.9,0.455,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T10:30:00+00:00,104.07,2.457,73.943,83.47,35.678,17.849,62.1,0.469,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T10:35:00+00:00,99.539,2.436,71.523,85.7,37.056,19.675,64.3,0.443,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T10:40:00+00:00,106.486,2.479,74.311,86.28,33.762,19.364,64.2,0.444,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T10:45:00+00:00,100.394,2.425,74.766,85.33,35.949,19.472,64.5,0.427,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T10:50:00+00:00,98.38,2.499,74.481,82.29,33.862,19.072,62.5,0.543,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T10:55:00+00:00,98.429,2.294,72.081,85.51,32.02,18.916,61.4,0.54,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T11:00:00+00:00,99.766,2.926,73.426,81.29,35.524,17.646,61.8,0.55,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T11:05:00+00:00,105.628,2.339,75.085,86.09,33.333,18.064,62.0,0.436,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T11:10:00+00:00,102.118,2.289,73.647,84.38,36.865,19.091,65.0,0.553,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T11:15:00+00:00,98.648,2.736,74.15,85.25,32.184,17.912,60.2,0.491,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T11:20:00+00:00,102.2,2.108,73.235,85.63,34.596,18.523,61.3,0.533,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T11:25:00+00:00,100.127,2.561,72.052,84.64,37.255,18.477,64.5,0.537,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T11:30:00+00:00,102.11,2.279,73.828,83.24,36.213,19.25,64.0,0.473,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T11:35:00+00:00,100.124,2.902,73.366,84.47,34.848,19.39,61.4,0.46,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T11:40:00+00:00,103.023,2.547,72.7,85.46,34.191,18.675,64.7,0.433,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T11:45:00+00:00,105.409,2.583,74.699,85.91,33.268,19.95,64.0,0.479,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T11:50:00+00:00,101.405,2.612,71.638,85.31,33.133,18.845,63.5,0.423,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T11:55:00+00:00,101.593,2.845,73.344,81.27,35.396,19.244,62.7,0.484,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T12:00:00+00:00,97.678,2.928,73.383,87.22,31.969,18.028,60.8,0.456,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T12:05:00+00:00,101.159,2.806,73.475,81.8,35.994,19.159,61.8,0.564,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T12:10:00+00:00,97.736,2.957,71.85,81.52,33.76,20.267,64.3,0.551,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T12:15:00+00:00,104.435,2.15,73.146,84.17,33.968,18.141,61.7,0.457,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T12:20:00+00:00,98.961,2.397,74.743,86.02,34.107,19.607,62.7,0.47,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T12:25:00+00:00,106.864,2.062,72.491,81.95,31.987,17.401,60.5,0.547,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T12:30:00+00:00,102.777,2.749,71.779,81.57,36.469,19.487,63.6,0.525,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T12:35:00+00:00,97.06,2.969,72.905,85.88,33.647,18.898,62.1,0.441,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T12:40:00+00:00,101.046,2.133,72.256,85.47,34.46,19.649,62.6,0.527,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T12:45:00+00:00,101.182,2.699,74.039,83.32,32.996,18.613,59.9,0.536,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T12:50:00+00:00,102.009,2.479,73.363,82.81,35.171,19.041,61.2,0.529,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T12:55:00+00:00,101.301,2.861,74.144,85.68,33.884,17.486,60.2,0.548,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T13:00:00+00:00,100.015,2.317,73.706,81.71,35.398,18.233,62.7,0.49,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T13:05:00+00:00,101.052,2.647,71.565,85.38,32.777,19.382,61.6,0.581,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T13:10:00+00:00,102.45,2.97,70.331,85.54,32.928,17.33,59.5,0.567,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T13:15:00+00:00,102.242,2.045,75.192,84.89,33.53,18.894,60.1,0.442,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T13:20:00+00:00,97.6,2.524,72.305,81.53,35.182,17.349,60.4,0.538,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T13:25:00+00:00,105.858,2.055,71.978,84.39,34.703,18.925,62.5,0.559,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T13:30:00+00:00,105.261,2.326,75.181,86.96,33.229,19.047,61.2,0.592,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T13:35:00+00:00,101.799,2.401,71.306,82.1,36.149,17.995,62.9,0.536,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T13:40:00+00:00,101.402,2.536,73.787,82.41,32.223,17.755,60.3,0.554,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T13:45:00+00:00,102.488,2.225,72.895,81.82,32.697,16.868,59.4,0.536,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T13:50:00+00:00,100.445,2.819,73.277,85.72,32.876,17.582,59.3,0.559,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T13:55:00+00:00,99.751,2.112,72.44,85.96,30.215,17.261,58.2,0.551,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T14:00:00+00:00,103.946,2.096,75.312,82.21,29.997,17.33,57.9,0.583,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T14:05:00+00:00,99.147,2.518,71.496,82.46,31.478,18.051,59.9,0.55,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T14:10:00+00:00,97.856,2.061,72.546,83.04,31.913,18.774,60.2,0.503,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T14:15:00+00:00,97.536,2.153,71.779,84.51,31.607,18.906,60.3,0.549,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T14:20:00+00:00,97.531,2.866,72.523,82.81,32.199,19.219,61.9,0.518,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T14:25:00+00:00,97.468,2.509,72.263,84.55,32.518,17.425,57.6,0.515,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T14:30:00+00:00,105.55,2.535,72.377,81.91,34.835,18.625,61.2,0.535,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T14:35:00+00:00,99.333,2.837,73.734,85.75,34.272,18.249,61.9,0.538,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T14:40:00+00:00,100.814,2.437,74.477,85.97,32.038,18.107,61.2,0.465,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T14:45:00+00:00,100.208,2.411,71.624,82.14,29.621,16.258,56.6,0.604,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T14:50:00+00:00,104.44,2.075,72.964,85.78,33.956,18.967,60.6,0.51,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T14:55:00+00:00,101.621,2.854,73.842,83.98,32.065,17.061,57.1,0.584,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T15:00:00+00:00,98.724,2.784,70.736,82.47,31.408,17.128,57.6,0.594,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T15:05:00+00:00,106.073,2.202,73.29,83.24,32.701,17.779,60.8,0.582,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T15:10:00+00:00,101.357,2.695,73.833,83.77,31.488,18.551,58.7,0.528,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T15:15:00+00:00,99.762,2.981,70.943,84.04,30.937,17.755,59.2,0.51,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T15:20:00+00:00,104.539,2.131,72.479,84.49,30.448,17.74,56.1,0.606,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T15:25:00+00:00,102.808,2.81,70.64,87.47,32.294,17.289,59.5,0.511,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T15:30:00+00:00,105.025,2.556,71.694,85.58,30.828,16.832,57.8,0.527,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T15:35:00+00:00,100.339,2.016,75.911,82.22,34.504,19.153,61.2,0.569,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T15:40:00+00:00,100.435,2.279,74.664,87.42,33.187,18.34,57.9,0.524,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T15:45:00+00:00,101.581,2.279,73.389,82.48,30.031,16.689,56.5,0.535,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T15:50:00+00:00,98.646,2.629,71.776,82.83,34.005,17.649,61.1,0.533,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T15:55:00+00:00,98.249,2.542,73.784,82.08,32.405,18.159,61.4,0.573,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T16:00:00+00:00,100.589,2.599,72.581,84.84,33.347,18.213,61.0,0.538,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T16:05:00+00:00,103.421,2.592,71.241,86.75,29.97,17.806,57.9,0.526,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T16:10:00+00:00,97.109,2.779,73.076,83.3,31.753,17.435,55.5,0.609,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T16:15:00+00:00,100.212,2.705,74.338,84.98,34.365,18.529,60.3,0.587,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T16:20:00+00:00,106.403,2.846,72.916,82.45,32.094,18.23,58.2,0.624,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T16:25:00+00:00,105.649,2.083,75.665,84.59,34.824,18.652,60.4,0.618,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T16:30:00+00:00,98.752,2.819,70.98,82.34,30.592,16.495,55.8,0.488,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T16:35:00+00:00,103.377,2.404,72.995,84.78,32.141,16.58,57.1,0.581,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T16:40:00+00:00,98.008,2.939,73.646,84.66,31.441,17.668,56.9,0.516,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T16:45:00+00:00,98.454,2.894,73.836,82.58,30.442,16.883,57.5,0.615,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T16:50:00+00:00,102.017,2.266,73.026,85.8,31.999,16.817,56.6,0.616,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T16:55:00+00:00,97.425,2.102,73.539,85.91,31.006,16.474,55.6,0.609,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T17:00:00+00:00,102.168,2.279,74.494,83.86,31.531,18.338,59.4,0.535,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T17:05:00+00:00,104.433,2.387,74.63,85.33,33.191,17.129,58.3,0.637,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T17:10:00+00:00,105.746,2.641,74.201,84.89,29.855,15.921,56.3,0.551,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T17:15:00+00:00,101.619,3.012,70.089,86.18,28.941,16.932,55.6,0.552,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T17:20:00+00:00,100.133,3.007,70.615,86.78,31.144,17.084,58.1,0.607,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T17:25:00+00:00,99.089,2.113,74.149,83.12,30.939,18.061,58.9,0.639,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T17:30:00+00:00,98.702,3.02,70.536,86.37,33.255,16.725,57.3,0.508,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T17:35:00+00:00,105.739,2.318,72.616,87.68,32.404,18.551,59.7,0.509,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T17:40:00+00:00,99.152,2.413,74.709,85.12,31.78,17.787,58.9,0.562,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T17:45:00+00:00,101.569,3.019,72.01,82.31,31.09,17.538,57.2,0.606,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T17:50:00+00:00,106.634,2.723,70.852,87.55,32.968,18.082,59.1,0.561,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T17:55:00+00:00,97.195,2.438,72.97,82.89,30.542,17.799,56.2,0.608,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T18:00:00+00:00,106.668,2.91,73.202,83.49,30.447,17.748,56.7,0.539,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T18:05:00+00:00,97.939,2.365,73.034,84.01,32.125,17.348,58.6,0.642,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T18:10:00+00:00,106.329,2.557,71.957,85.81,31.651,16.66,55.9,0.52,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T18:15:00+00:00,103.046,2.322,74.964,82.95,29.872,17.729,57.8,0.524,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T18:20:00+00:00,101.058,2.304,71.408,83.29,31.379,16.256,54.7,0.573,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T18:25:00+00:00,99.372,2.653,73.141,84.63,32.068,18.151,57.2,0.65,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T18:30:00+00:00,104.928,2.494,72.295,83.34,30.027,16.26,56.5,0.626,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T18:35:00+00:00,102.192,2.215,74.473,84.27,33.689,17.287,58.1,0.529,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T18:40:00+00:00,104.458,2.37,74.966,83.26,30.07,17.377,56.2,0.532,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T18:45:00+00:00,99.818,2.494,74.086,86.25,33.183,17.796,59.3,0.629,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T18:50:00+00:00,101.176,2.382,71.777,86.15,30.912,16.087,56.9,0.568,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T18:55:00+00:00,101.545,2.311,71.986,86.52,33.048,17.773,58.8,0.634,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T19:00:00+00:00,99.571,2.157,75.291,83.84,32.508,16.042,56.0,0.616,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T19:05:00+00:00,104.285,2.313,74.793,84.12,29.985,16.908,54.1,0.54,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T19:10:00+00:00,103.532,2.681,73.714,84.92,29.88,16.355,54.4,0.531,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T19:15:00+00:00,98.11,2.336,74.202,83.88,31.121,17.094,57.9,0.621,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T19:20:00+00:00,97.23,2.158,75.211,87.77,32.261,16.316,57.5,0.558,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T19:25:00+00:00,105.44,2.954,72.792,86.41,30.937,15.679,53.4,0.581,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T19:30:00+00:00,100.898,2.962,71.356,87.07,30.561,16.192,56.2,0.527,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T19:35:00+00:00,99.409,2.139,75.023,85.24,32.931,17.664,57.8,0.584,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T19:40:00+00:00,103.613,2.243,75.094,86.25,28.743,16.041,55.2,0.568,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T19:45:00+00:00,98.31,2.618,72.961,87.82,29.481,17.079,53.6,0.544,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T19:50:00+00:00,98.683,2.242,72.542,85.13,32.835,16.706,57.8,0.646,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T19:55:00+00:00,103.19,2.828,70.7,86.93,32.992,17.392,57.2,0.543,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T20:00:00+00:00,103.058,2.748,73.962,82.31,29.713,16.447,54.7,0.64,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T20:05:00+00:00,104.295,2.685,73.174,82.95,29.176,17.024,56.1,0.6,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T20:10:00+00:00,100.601,2.324,73.735,85.31,28.924,15.643,55.1,0.63,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T20:15:00+00:00,100.1,2.362,74.611,86.78,31.768,16.35,57.2,0.548,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T20:20:00+00:00,98.256,2.994,71.382,85.94,29.083,17.06,56.3,0.678,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T20:25:00+00:00,103.409,2.745,74.232,84.54,31.13,15.717,53.0,0.658,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T20:30:00+00:00,105.814,2.079,75.749,85.88,31.029,16.478,54.5,0.596,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T20:35:00+00:00,102.823,2.097,73.055,83.32,31.864,17.194,55.3,0.643,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T20:40:00+00:00,97.663,2.624,71.746,83.34,30.724,16.607,55.9,0.557,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T20:45:00+00:00,100.857,2.653,73.592,82.95,27.614,15.534,52.2,0.566,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T20:50:00+00:00,104.348,2.08,74.97,87.48,32.441,16.982,57.8,0.631,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T20:55:00+00:00,103.253,2.789,73.796,83.93,28.444,15.005,51.9,0.656,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T21:00:00+00:00,104.276,2.378,72.119,87.08,29.522,16.243,52.5,0.571,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T21:05:00+00:00,99.586,2.444,73.502,87.03,31.29,16.756,57.3,0.659,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T21:10:00+00:00,98.097,2.907,73.59,84.65,29.049,16.742,55.7,0.549,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T21:15:00+00:00,105.658,2.23,72.09,87.26,31.262,15.721,54.7,0.674,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T21:20:00+00:00,105.925,2.869,73.653,84.91,31.622,16.905,54.0,0.584,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T21:25:00+00:00,100.727,2.206,73.627,84.89,31.708,16.01,56.6,0.654,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T21:30:00+00:00,101.598,2.509,73.38,87.08,28.558,16.236,54.3,0.578,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T21:35:00+00:00,103.186,3.037,71.491,83.37,30.785,16.174,53.4,0.678,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T21:40:00+00:00,102.665,2.86,73.955,85.16,31.697,17.098,57.1,0.682,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T21:45:00+00:00,105.081,2.343,73.051,85.98,27.765,14.947,51.4,0.57,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T21:50:00+00:00,101.249,2.483,73.163,85.2,27.955,15.344,52.6,0.635,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T21:55:00+00:00,98.356,2.764,72.832,83.92,28.932,16.302,54.9,0.624,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T22:00:00+00:00,100.962,2.111,73.074,84.41,29.879,17.564,56.9,0.627,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T22:05:00+00:00,101.558,2.402,72.865,87.05,28.966,14.696,51.0,0.669,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T22:10:00+00:00,102.083,2.525,74.502,85.53,29.421,17.222,56.1,0.647,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T22:15:00+00:00,97.514,2.261,74.409,85.66,30.177,16.891,55.9,0.572,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T22:20:00+00:00,99.505,2.773,72.861,82.57,28.378,16.8,54.6,0.578,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T22:25:00+00:00,106.37,2.964,73.285,84.44,30.28,15.014,52.9,0.563,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T22:30:00+00:00,104.33,2.171,73.999,86.99,29.893,15.905,52.3,0.649,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T22:35:00+00:00,97.113,2.35,74.652,83.2,27.798,15.975,51.3,0.581,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T22:40:00+00:00,103.547,2.204,74.292,83.3,30.652,16.12,53.3,0.61,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T22:45:00+00:00,104.088,2.393,73.537,87.89,31.026,16.749,53.6,0.643,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T22:50:00+00:00,102.796,2.77,73.31,87.96,27.999,14.93,51.4,0.655,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T22:55:00+00:00,105.259,2.615,71.945,86.66,31.111,15.416,53.2,0.646,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T23:00:00+00:00,100.483,2.129,72.395,86.44,28.823,14.822,51.3,0.568,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T23:05:00+00:00,101.297,2.89,73.233,85.36,28.137,14.759,52.1,0.61,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T23:10:00+00:00,100.035,2.517,73.338,85.51,27.938,15.183,50.5,0.657,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T23:15:00+00:00,99.737,2.98,72.259,83.67,31.151,15.765,54.3,0.64,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T23:20:00+00:00,101.214,2.981,71.183,86.53,27.167,16.296,53.0,0.609,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T23:25:00+00:00,98.801,2.519,72.943,88.4,26.602,14.822,51.1,0.616,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T23:30:00+00:00,97.577,2.356,72.338,85.69,28.949,16.719,54.5,0.613,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T23:35:00+00:00,105.322,2.709,72.889,86.8,30.854,17.459,55.0,0.709,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-28T23:40:00+00:00,105.466,2.286,72.116,83.94,28.489,14.49,51.1,0.599,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T23:45:00+00:00,104.533,2.298,74.48,84.83,26.136,15.335,50.8,0.663,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T23:50:00+00:00,101.167,2.778,74.244,84.92,27.496,14.65,50.8,0.601,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-28T23:55:00+00:00,106.278,2.164,73.972,84.08,28.503,14.487,50.9,0.697,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T00:00:00+00:00,104.639,2.21,73.843,88.6,29.184,16.672,52.7,0.702,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T00:05:00+00:00,97.159,2.878,72.879,85.08,29.021,15.194,52.5,0.598,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T00:10:00+00:00,98.391,2.638,72.327,85.14,26.169,14.951,51.0,0.627,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T00:15:00+00:00,106.379,2.851,73.459,84.76,26.498,15.881,51.4,0.623,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T00:20:00+00:00,106.21,2.358,71.823,84.97,29.72,15.982,54.3,0.615,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T00:25:00+00:00,104.793,2.962,72.163,84.36,28.137,16.692,52.8,0.722,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T00:30:00+00:00,99.731,2.591,70.951,85.02,29.466,15.634,52.1,0.629,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T00:35:00+00:00,100.292,2.326,73.457,87.23,28.72,15.468,53.6,0.714,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T00:40:00+00:00,101.807,2.959,70.354,86.83,27.652,15.875,52.3,0.631,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T00:45:00+00:00,102.952,2.215,74.672,86.27,26.079,14.692,50.7,0.671,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T00:50:00+00:00,102.605,2.897,70.771,83.81,30.629,16.621,53.7,0.679,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T00:55:00+00:00,97.849,2.691,73.3,85.16,26.743,15.345,49.8,0.736,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T01:00:00+00:00,106.231,2.71,71.368,83.99,27.526,15.813,52.2,0.701,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T01:05:00+00:00,101.543,2.887,73.933,86.68,29.194,16.638,52.6,0.726,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T01:10:00+00:00,106.102,2.528,73.676,88.01,27.324,15.604,49.2,0.605,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T01:15:00+00:00,98.062,2.505,72.836,85.24,29.475,14.837,50.1,0.674,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T01:20:00+00:00,105.928,3.026,72.483,83.54,29.929,15.577,51.7,0.694,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T01:25:00+00:00,101.75,2.303,73.244,87.73,29.052,15.961,53.3,0.704,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T01:30:00+00:00,100.442,2.868,74.111,83.29,27.871,15.979,52.0,0.682,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T01:35:00+00:00,100.131,2.691,74.151,87.51,29.979,16.231,52.1,0.685,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T01:40:00+00:00,98.716,3.093,70.187,86.33,30.231,15.77,52.8,0.623,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T01:45:00+00:00,100.832,2.949,71.287,83.53,26.994,15.241,50.1,0.684,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T01:50:00+00:00,104.756,2.254,72.377,87.31,27.99,14.456,49.4,0.709,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T01:55:00+00:00,106.996,2.85,71.823,88.2,28.85,15.221,53.4,0.696,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T02:00:00+00:00,99.361,2.379,74.679,86.51,30.295,16.738,53.7,0.713,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T02:05:00+00:00,101.695,2.125,73.743,86.55,26.92,15.204,51.6,0.641,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T02:10:00+00:00,100.106,3.069,70.428,88.84,28.559,14.155,48.9,0.625,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T02:15:00+00:00,102.261,2.869,71.33,88.87,27.325,15.996,50.1,0.631,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T02:20:00+00:00,105.465,2.756,73.36,86.56,26.675,13.594,47.9,0.696,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T02:25:00+00:00,103.388,2.269,71.642,83.37,26.581,15.406,48.6,0.658,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T02:30:00+00:00,98.523,2.776,72.998,88.06,25.968,15.182,48.0,0.683,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T02:35:00+00:00,102.693,2.984,73.839,84.61,27.569,14.684,52.3,0.684,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T02:40:00+00:00,97.442,2.244,73.143,84.82,30.396,15.457,52.0,0.723,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T02:45:00+00:00,104.318,2.322,71.934,87.11,27.563,15.663,51.1,0.654,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T02:50:00+00:00,98.66,2.165,72.151,84.5,27.172,14.676,52.2,0.76,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T02:55:00+00:00,106.926,2.645,72.16,84.69,28.455,15.041,49.2,0.681,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T03:00:00+00:00,103.752,2.766,72.903,87.13,27.04,15.667,48.9,0.628,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T03:05:00+00:00,103.683,3.103,70.68,87.58,27.706,14.36,48.3,0.628,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T03:10:00+00:00,103.223,2.28,73.836,86.91,28.247,16.802,52.9,0.727,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T03:15:00+00:00,105.072,2.145,74.912,87.57,26.829,15.364,48.6,0.662,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T03:20:00+00:00,104.187,3.024,72.022,87.71,27.975,14.586,48.3,0.746,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T03:25:00+00:00,104.245,2.772,71.74,83.41,27.904,14.843,48.7,0.622,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T03:30:00+00:00,99.515,2.275,74.478,84.12,29.397,15.489,52.8,0.746,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T03:35:00+00:00,99.824,3.049,73.347,89.17,27.521,15.726,52.6,0.65,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T03:40:00+00:00,101.435,2.307,71.538,83.95,25.053,13.503,46.9,0.667,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T03:45:00+00:00,105.361,2.994,71.762,84.75,27.87,15.45,49.6,0.652,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T03:50:00+00:00,101.057,2.138,75.369,83.86,25.304,14.386,46.7,0.686,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T03:55:00+00:00,102.767,2.209,73.944,85.91,25.756,15.576,49.6,0.685,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T04:00:00+00:00,97.102,2.722,72.621,84.9,27.545,15.24,48.4,0.775,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T04:05:00+00:00,97.719,2.885,71.645,85.07,27.442,14.783,47.5,0.691,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T04:10:00+00:00,103.391,2.217,73.726,86.57,26.79,14.818,48.0,0.666,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T04:15:00+00:00,103.824,2.251,74.98,85.63,30.654,15.112,52.2,0.751,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T04:20:00+00:00,99.559,2.91,70.661,83.58,24.68,13.526,47.4,0.734,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T04:25:00+00:00,102.685,2.366,74.202,85.25,26.596,15.393,50.9,0.728,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T04:30:00+00:00,106.133,2.962,70.236,87.65,27.654,14.11,49.2,0.638,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T04:35:00+00:00,97.299,2.335,74.537,86.65,28.902,14.952,51.3,0.686,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T04:40:00+00:00,105.713,2.483,74.029,88.26,26.22,15.178,49.3,0.68,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T04:45:00+00:00,103.788,2.291,74.488,86.51,28.931,15.248,50.4,0.728,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T04:50:00+00:00,98.388,2.656,74.361,89.29,24.825,13.601,46.3,0.784,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T04:55:00+00:00,103.831,2.91,74.012,85.2,27.63,14.025,47.3,0.639,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T05:00:00+00:00,103.294,2.886,71.255,84.57,25.899,15.014,49.1,0.691,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T05:05:00+00:00,100.89,2.526,71.12,89.06,29.749,15.179,50.8,0.74,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T05:10:00+00:00,100.111,2.203,74.91,84.4,26.515,15.202,50.1,0.648,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T05:15:00+00:00,106.501,2.205,73.145,84.49,27.127,14.516,46.2,0.693,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T05:20:00+00:00,99.978,2.294,73.107,86.15,27.245,14.172,48.4,0.707,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T05:25:00+00:00,105.973,2.544,72.561,89.03,24.867,13.859,46.5,0.67,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T05:30:00+00:00,99.803,2.502,72.786,87.13,25.782,14.9,47.2,0.753,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T05:35:00+00:00,104.774,2.822,70.747,88.58,26.539,13.601,48.4,0.675,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T05:40:00+00:00,101.834,2.486,72.121,84.33,24.167,14.969,46.7,0.773,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T05:45:00+00:00,97.792,2.347,73.985,83.68,25.413,13.338,46.0,0.656,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T05:50:00+00:00,101.597,2.559,73.761,85.74,29.544,15.747,50.3,0.785,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T05:55:00+00:00,99.123,2.36,73.314,84.82,25.063,14.594,47.0,0.77,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T06:00:00+00:00,105.69,2.939,71.109,87.92,27.362,13.677,48.8,0.762,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T06:05:00+00:00,101.551,3.057,72.302,88.77,29.353,15.237,50.0,0.704,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T06:10:00+00:00,103.615,2.756,72.054,88.15,26.409,13.176,46.4,0.656,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T06:15:00+00:00,100.854,2.187,71.807,88.1,25.512,13.539,47.5,0.754,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T06:20:00+00:00,98.668,2.586,74.199,86.66,26.967,14.899,47.9,0.722,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T06:25:00+00:00,101.328,2.554,74.519,88.45,27.422,14.816,46.2,0.739,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T06:30:00+00:00,105.108,2.826,71.767,87.42,26.495,14.526,47.7,0.665,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T06:35:00+00:00,98.687,2.574,71.966,87.5,24.543,13.34,47.1,0.781,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T06:40:00+00:00,97.338,2.93,72.398,89.19,26.163,12.65,44.9,0.793,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T06:45:00+00:00,101.106,2.691,74.56,89.35,25.169,14.193,44.9,0.75,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T06:50:00+00:00,99.052,3.106,70.547,87.18,27.121,15.021,49.1,0.799,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T06:55:00+00:00,98.401,2.652,72.055,88.6,22.762,13.507,44.9,0.786,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T07:00:00+00:00,106.402,2.267,72.455,86.46,25.512,13.98,47.1,0.691,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T07:05:00+00:00,100.304,2.779,73.285,84.15,24.403,14.401,47.4,0.676,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T07:10:00+00:00,104.899,3.057,70.894,89.22,26.359,12.529,44.8,0.814,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T07:15:00+00:00,98.328,2.997,71.211,83.84,25.191,14.718,48.6,0.732,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T07:20:00+00:00,104.691,3.112,72.369,84.29,24.853,14.49,46.1,0.71,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T07:25:00+00:00,105.483,2.509,74.716,87.95,28.6,14.413,49.5,0.726,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T07:30:00+00:00,102.989,2.73,73.97,84.97,24.357,14.468,46.1,0.726,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T07:35:00+00:00,102.514,2.563,73.87,87.95,24.123,13.068,45.4,0.701,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T07:40:00+00:00,103.862,2.49,73.971,87.27,27.514,14.095,48.9,0.79,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T07:45:00+00:00,104.391,2.398,71.503,86.89,26.251,14.4,49.4,0.814,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T07:50:00+00:00,101.905,2.723,73.868,87.21,26.027,15.135,47.7,0.74,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T07:55:00+00:00,100.937,2.211,74.81,83.93,27.861,14.765,49.4,0.729,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T08:00:00+00:00,100.608,3.06,72.247,89.03,24.884,13.596,48.4,0.718,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T08:05:00+00:00,101.352,2.245,71.947,88.76,25.25,14.143,44.4,0.711,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T08:10:00+00:00,105.795,3.107,70.135,87.67,26.654,13.612,45.3,0.719,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T08:15:00+00:00,104.937,2.302,71.461,84.53,25.703,14.293,45.4,0.721,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T08:20:00+00:00,100.813,2.753,72.518,85.52,25.75,13.668,48.5,0.779,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T08:25:00+00:00,103.77,3.024,70.993,86.53,24.469,12.592,43.9,0.817,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T08:30:00+00:00,101.234,3.027,70.706,87.24,23.306,14.088,45.3,0.733,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T08:35:00+00:00,98.782,2.858,74.173,87.51,28.202,14.462,48.2,0.686,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T08:40:00+00:00,101.83,2.422,73.426,84.85,27.413,14.298,48.6,0.737,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T08:45:00+00:00,103.846,2.713,73.547,86.49,25.416,13.687,46.1,0.738,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T08:50:00+00:00,100.904,2.736,72.014,88.4,24.363,14.652,47.7,0.789,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T08:55:00+00:00,105.551,2.676,71.513,86.06,25.063,13.548,43.4,0.757,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T09:00:00+00:00,105.783,2.515,73.07,89.61,25.557,12.858,43.5,0.817,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T09:05:00+00:00,100.417,2.832,71.17,85.79,25.429,14.201,44.3,0.78,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T09:10:00+00:00,102.967,2.221,73.885,84.18,25.721,13.601,47.5,0.796,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T09:15:00+00:00,98.582,2.205,72.083,84.44,26.06,14.241,47.3,0.793,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T09:20:00+00:00,102.677,2.943,72.814,86.06,25.313,14.82,46.7,0.787,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T09:25:00+00:00,97.32,2.567,74.401,86.32,25.688,13.879,43.7,0.711,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T09:30:00+00:00,101.927,3.036,71.884,87.38,22.826,13.618,43.5,0.813,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T09:35:00+00:00,97.165,2.714,72.662,85.32,27.342,14.71,47.3,0.749,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T09:40:00+00:00,98.7,2.377,74.014,88.61,27.702,13.781,48.1,0.787,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T09:45:00+00:00,100.272,2.829,73.317,88.59,23.745,14.399,46.7,0.766,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T09:50:00+00:00,99.436,2.968,73.507,85.14,24.881,13.344,47.2,0.77,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T09:55:00+00:00,101.747,2.382,72.249,84.79,23.41,13.772,44.9,0.707,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T10:00:00+00:00,97.47,2.899,70.253,87.95,26.382,13.249,44.6,0.743,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T10:05:00+00:00,105.83,2.533,72.372,89.36,24.201,12.089,42.4,0.806,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T10:10:00+00:00,100.606,3.141,70.79,86.82,21.515,13.531,42.7,0.788,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T10:15:00+00:00,102.346,3.028,71.937,84.58,25.441,13.828,42.9,0.799,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T10:20:00+00:00,104.795,2.425,72.417,89.48,27.212,14.611,46.3,0.721,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T10:25:00+00:00,103.83,3.027,73.247,84.51,23.488,14.137,45.7,0.74,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T10:30:00+00:00,106.924,2.529,73.326,87.84,27.11,13.574,47.3,0.713,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T10:35:00+00:00,105.294,2.484,74.395,88.83,23.486,12.993,44.1,0.713,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T10:40:00+00:00,98.457,2.729,74.321,85.49,24.449,13.882,43.0,0.806,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T10:45:00+00:00,106.712,3.147,71.818,87.15,27.682,14.271,46.9,0.752,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T10:50:00+00:00,103.803,2.601,74.432,90.07,24.346,12.791,42.5,0.78,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T10:55:00+00:00,100.215,2.893,74.057,86.06,26.214,13.605,46.9,0.733,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T11:00:00+00:00,97.745,2.244,75.165,84.49,23.939,13.831,46.0,0.82,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T11:05:00+00:00,103.716,2.374,75.127,85.76,27.745,14.983,47.1,0.848,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T11:10:00+00:00,100.064,2.807,73.808,88.03,26.305,13.631,45.4,0.719,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T11:15:00+00:00,100.965,2.967,71.589,87.94,22.456,13.663,43.3,0.769,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T11:20:00+00:00,100.471,2.965,71.668,86.64,24.65,14.867,46.5,0.743,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T11:25:00+00:00,105.865,2.661,71.756,89.32,24.245,12.569,43.4,0.771,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T11:30:00+00:00,105.607,2.577,73.014,89.5,23.783,12.503,43.3,0.79,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T11:35:00+00:00,102.06,2.723,70.978,84.82,22.094,11.584,41.8,0.829,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T11:40:00+00:00,100.321,3.009,70.774,86.25,23.31,12.932,45.7,0.784,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T11:45:00+00:00,104.668,3.108,70.971,89.79,23.147,12.319,41.6,0.807,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T11:50:00+00:00,101.015,2.703,72.514,85.67,23.577,13.154,44.1,0.837,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T11:55:00+00:00,106.402,2.43,72.277,87.55,26.568,13.372,46.3,0.871,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T12:00:00+00:00,105.655,2.688,71.111,86.07,22.229,13.781,43.9,0.827,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T12:05:00+00:00,104.281,2.829,70.975,88.67,24.768,13.731,42.6,0.77,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T12:10:00+00:00,101.615,3.047,70.88,88.85,24.653,13.608,44.1,0.743,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T12:15:00+00:00,97.957,2.374,71.627,89.16,23.599,12.304,41.0,0.875,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T12:20:00+00:00,104.112,3.123,71.369,84.91,22.925,13.96,45.2,0.768,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T12:25:00+00:00,104.51,2.633,71.683,87.86,22.709,12.985,42.4,0.83,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T12:30:00+00:00,98.765,2.976,73.925,85.49,25.369,12.857,44.7,0.833,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T12:35:00+00:00,103.906,3.087,72.903,88.81,23.271,12.382,44.6,0.789,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T12:40:00+00:00,98.6,3.001,72.431,89.45,23.202,14.116,45.5,0.748,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T12:45:00+00:00,104.46,3.011,70.924,89.75,25.854,12.688,45.4,0.781,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T12:50:00+00:00,102.968,2.356,73.916,84.38,26.236,13.828,44.9,0.816,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T12:55:00+00:00,100.679,2.871,72.621,89.04,23.077,13.596,43.4,0.833,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T13:00:00+00:00,98.249,2.652,74.049,89.62,22.977,12.476,41.4,0.835,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T13:05:00+00:00,100.678,3.054,72.279,88.09,23.631,11.282,40.9,0.83,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T13:10:00+00:00,105.319,2.297,71.805,85.21,24.811,14.576,45.6,0.823,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T13:15:00+00:00,102.676,2.295,71.938,85.45,24.476,13.203,43.0,0.756,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T13:20:00+00:00,98.616,3.092,71.782,85.13,20.834,12.671,40.4,0.884,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T13:25:00+00:00,106.787,2.689,73.121,87.54,21.284,11.345,40.4,0.871,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T13:30:00+00:00,103.172,2.438,71.362,85.18,23.471,13.83,43.5,0.809,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T13:35:00+00:00,101.436,3.17,72.996,89.5,25.425,14.177,44.2,0.807,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T13:40:00+00:00,99.139,2.895,70.413,88.52,24.88,14.208,44.7,0.778,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T13:45:00+00:00,97.601,2.633,73.566,85.54,26.293,13.059,44.8,0.852,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T13:50:00+00:00,103.283,2.831,73.013,89.52,21.52,11.853,41.8,0.823,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T13:55:00+00:00,98.554,2.239,74.822,89.93,25.366,14.292,44.6,0.808,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T14:00:00+00:00,105.385,2.371,71.507,88.64,21.919,13.053,42.3,0.769,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T14:05:00+00:00,98.376,2.96,70.687,90.17,24.383,11.444,40.8,0.843,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T14:10:00+00:00,104.055,2.448,73.425,84.72,22.337,13.097,43.9,0.838,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T14:15:00+00:00,106.465,2.78,73.379,84.59,20,11.958,38.9,0.828,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T14:20:00+00:00,101.738,2.876,73.595,86.56,22.582,11.645,38.9,0.881,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T14:25:00+00:00,101.472,2.407,74.344,89.65,24.076,13.346,43.5,0.768,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T14:30:00+00:00,103.185,2.381,72.349,86.07,21.922,12.118,38.8,0.854,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T14:35:00+00:00,103.494,2.728,72.695,88.24,24.22,12.007,42.4,0.907,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T14:40:00+00:00,100.902,2.499,72.239,85.21,23.819,12.801,43.9,0.884,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T14:45:00+00:00,104.062,2.761,71.394,86.05,20.852,11.673,39.6,0.799,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T14:50:00+00:00,106.788,2.545,71.864,89.93,23.006,13.766,43.2,0.828,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T14:55:00+00:00,104.933,2.299,71.529,86.96,22.152,12.048,40.7,0.769,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T15:00:00+00:00,104.953,2.596,72.604,86.0,20,11.605,39.0,0.763,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T15:05:00+00:00,100.64,2.723,73.669,84.73,25.733,12.222,43.8,0.881,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T15:10:00+00:00,101.279,2.808,72.428,87.79,23.184,12.281,41.9,0.793,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T15:15:00+00:00,97.007,3.104,71.133,88.55,20.271,11.937,39.9,0.912,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T15:20:00+00:00,103.654,2.632,72.439,86.36,21.575,11.047,40.1,0.914,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T15:25:00+00:00,106.136,2.957,72.914,90.26,25.021,12.928,42.1,0.847,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T15:30:00+00:00,102.247,2.635,74.431,87.43,22.84,11.07,39.2,0.85,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T15:35:00+00:00,97.988,2.486,72.114,85.53,23.338,13.451,43.5,0.867,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T15:40:00+00:00,103.284,3.213,69.674,85.88,22.972,11.679,38.2,0.864,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T15:45:00+00:00,101.339,2.409,72.982,88.31,20.765,11.195,37.8,0.895,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T15:50:00+00:00,106.1,3.141,73.448,86.12,20.464,11.426,38.0,0.798,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T15:55:00+00:00,102.115,2.912,72.242,86.16,22.627,12.618,40.3,0.844,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T16:00:00+00:00,104.734,2.811,73.567,89.07,20,10.76,38.7,0.776,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T16:05:00+00:00,106.001,2.825,72.671,89.75,21.764,13.014,40.4,0.916,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T16:10:00+00:00,98.606,2.475,72.682,85.88,21.556,12.703,41.2,0.792,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T16:15:00+00:00,105.529,2.771,72.899,86.03,23.139,11.5,40.8,0.863,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T16:20:00+00:00,98.275,3.137,70.315,87.54,23.132,11.1,38.5,0.927,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T16:25:00+00:00,102.859,2.542,73.492,87.94,24.87,12.406,42.6,0.829,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T16:30:00+00:00,97.301,2.504,71.203,88.87,20.7,11.2,37.4,0.887,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T16:35:00+00:00,97.635,2.344,72.653,87.24,22.722,13.761,42.6,0.895,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T16:40:00+00:00,103.01,2.793,72.996,88.96,20.388,11.157,39.8,0.819,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T16:45:00+00:00,101.882,3.151,71.27,85.35,23.271,12.219,38.7,0.888,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T16:50:00+00:00,101.762,2.732,74.216,87.34,21.463,11.577,40.2,0.809,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T16:55:00+00:00,105.375,2.917,70.468,84.93,20.16,11.766,37.2,0.874,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T17:00:00+00:00,104.718,2.728,70.882,89.38,21.98,13.183,41.4,0.886,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T17:05:00+00:00,104.997,2.658,74.238,85.17,23.77,11.655,40.3,0.804,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T17:10:00+00:00,99.05,2.748,72.995,86.23,20,12.307,37.7,0.849,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T17:15:00+00:00,101.083,2.891,73.832,88.59,22.116,11.267,37.3,0.927,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T17:20:00+00:00,105.101,2.952,73.854,88.4,22.574,12.214,42.3,0.8,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T17:25:00+00:00,103.083,2.534,71.961,87.62,24.408,12.579,41.8,0.836,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T17:30:00+00:00,105.25,2.713,73.935,90.39,22.242,12.44,38.8,0.805,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T17:35:00+00:00,101.868,2.96,72.666,86.5,23.026,12.382,39.8,0.812,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T17:40:00+00:00,105.817,3.084,72.821,87.02,22.992,12.547,39.4,0.938,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T17:45:00+00:00,104.416,2.565,73.541,85.2,22.78,11.279,40.4,0.853,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T17:50:00+00:00,100.733,2.929,74.09,85.31,20,11.871,36.4,0.829,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T17:55:00+00:00,101.413,3.277,69.818,87.09,23.568,11.428,41.0,0.853,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T18:00:00+00:00,102.649,3.08,71.502,87.49,20,11.68,36.7,0.897,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T18:05:00+00:00,104.301,2.302,72.335,88.38,22.1,12.303,37.7,0.906,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T18:10:00+00:00,105.844,2.993,72.361,89.06,20.543,12.09,40.5,0.833,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T18:15:00+00:00,103.155,2.537,71.176,90.9,22.069,10.313,37.4,0.858,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T18:20:00+00:00,97.483,2.519,73.252,90.09,21.529,11.104,37.6,0.926,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T18:25:00+00:00,101.167,2.292,75.35,89.09,20.656,10.375,37.2,0.911,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T18:30:00+00:00,101.444,2.813,72.474,85.72,20.558,10.325,35.7,0.857,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T18:35:00+00:00,97.951,2.451,71.756,86.5,20,10.425,36.9,0.893,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T18:40:00+00:00,98.198,3.192,71.033,85.97,20.314,11.879,37.7,0.905,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T18:45:00+00:00,97.42,2.306,71.967,90.05,20,11.632,37.1,0.918,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T18:50:00+00:00,104.796,2.529,73.486,85.27,21.309,10.856,36.6,0.839,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T18:55:00+00:00,103.272,2.88,72.569,89.13,20.832,10.918,35.3,0.865,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T19:00:00+00:00,104.766,2.757,70.513,88.91,20.591,11.727,37.1,0.824,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T19:05:00+00:00,103.521,2.747,72.088,89.34,20.86,12.323,38.4,0.927,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T19:10:00+00:00,98.307,3.013,69.996,86.92,21.357,11.501,38.9,0.872,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T19:15:00+00:00,99.486,2.624,70.921,89.74,20.479,12.802,40.0,0.904,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T19:20:00+00:00,98.777,2.836,74.206,89.86,20.945,10,35.8,0.938,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T19:25:00+00:00,99.648,3.201,71.543,88.52,20,10.752,36.6,0.907,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T19:30:00+00:00,104.235,2.932,73.282,86.65,21.659,11.558,38.1,0.881,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T19:35:00+00:00,97.315,2.481,71.267,88.75,20,10.132,35.9,0.903,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T19:40:00+00:00,101.413,2.739,72.286,88.33,20.441,11.212,38.0,0.844,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T19:45:00+00:00,98.827,2.769,73.009,89.31,21.961,12.949,40.2,0.909,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T19:50:00+00:00,98.086,2.492,72.833,87.78,23.003,12.273,38.5,0.842,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T19:55:00+00:00,97.403,2.714,73.908,87.71,21.688,12.123,37.8,0.883,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T20:00:00+00:00,104.235,2.565,74.578,88.82,20,12.08,38.6,0.853,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T20:05:00+00:00,103.899,2.467,74.287,88.79,23.011,12.601,39.4,0.857,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T20:10:00+00:00,105.199,2.928,72.338,89.06,20,11.177,37.0,0.857,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T20:15:00+00:00,106.467,2.328,74.506,88.26,23.102,11.307,39.1,0.971,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T20:20:00+00:00,102.723,3.071,70.893,86.24,20,10.72,38.6,0.851,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T20:25:00+00:00,98.751,2.515,73.394,87.93,22.025,11.819,36.5,0.913,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T20:30:00+00:00,106.284,2.648,73.047,90.02,20.413,10,34.9,0.962,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T20:35:00+00:00,98.514,2.714,73.639,89.28,21.029,10.966,35.4,0.872,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T20:40:00+00:00,106.344,2.547,72.072,90.56,20.542,10.323,37.6,0.885,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T20:45:00+00:00,104.935,2.678,73.444,86.01,22.449,12.602,38.9,0.846,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T20:50:00+00:00,106.033,3.306,71.092,85.54,21.05,12.143,38.1,0.957,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T20:55:00+00:00,106.633,2.905,70.887,86.12,22.389,11.953,37.8,0.883,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T21:00:00+00:00,106.507,2.935,70.637,85.61,20.265,12.175,39.4,0.947,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T21:05:00+00:00,102.058,2.512,72.649,89.58,20,10,34.8,0.915,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T21:10:00+00:00,104.826,2.793,70.743,85.58,20,10.908,37.6,0.911,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T21:15:00+00:00,104.803,3.063,73.65,88.68,20,10.09,35.5,0.85,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T21:20:00+00:00,97.462,2.695,71.177,91.22,20,11.146,34.8,0.851,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T21:25:00+00:00,100.769,2.563,72.958,85.45,20.974,10,35.6,0.889,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T21:30:00+00:00,101.912,2.889,70.426,89.96,20.386,11.44,38.5,0.976,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T21:35:00+00:00,105.923,2.893,73.801,88.62,20.782,12.014,37.4,0.992,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T21:40:00+00:00,101.43,2.8,74.225,88.8,20,11.713,37.7,0.99,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T21:45:00+00:00,101.588,2.582,72.653,87.48,20,11.753,37.6,0.956,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T21:50:00+00:00,101.066,2.736,74.328,88.17,20,10.926,35.8,0.987,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T21:55:00+00:00,105.737,3.165,72.083,89.1,20,10.395,36.9,0.97,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T22:00:00+00:00,98.735,3.073,73.258,87.75,20,10.168,34.9,0.912,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T22:05:00+00:00,104.712,2.936,72.58,91.1,20,11.68,37.0,0.947,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T22:10:00+00:00,101.639,2.561,73.862,91.25,20.878,11.257,38.6,0.978,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T22:15:00+00:00,101.257,2.854,70.329,85.79,20,10.101,34.1,0.932,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T22:20:00+00:00,103.424,3.22,71.05,86.37,20.456,10,35.9,0.999,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T22:25:00+00:00,101.241,3.234,72.609,89.88,21.017,10.587,35.7,0.992,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T22:30:00+00:00,99.139,3.186,70.22,91.55,20.518,11.41,35.3,1,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T22:35:00+00:00,103.344,2.989,72.994,86.93,20,10.3,35.5,0.921,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T22:40:00+00:00,106.16,3.303,70.754,87.9,20,10,32.7,1,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T22:45:00+00:00,102.115,2.712,73.404,86.06,20.674,11.265,38.4,0.997,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T22:50:00+00:00,102.843,3.279,72.16,85.66,21.871,10,36.2,0.994,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T22:55:00+00:00,97.567,2.984,70.068,88.14,20,11.287,37.7,0.873,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T23:00:00+00:00,98.214,2.637,72.829,87.65,20,11.088,35.1,0.974,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T23:05:00+00:00,99.95,2.479,71.107,90.05,20,10.335,32.4,0.89,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T23:10:00+00:00,98.696,3.153,70.1,90.22,22.033,10.566,37.8,0.97,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T23:15:00+00:00,104.951,2.699,73.384,86.89,20,10.051,32.6,0.869,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T23:20:00+00:00,101.186,2.617,73.264,87.02,20,10.383,36.1,0.898,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T23:25:00+00:00,104.961,2.545,71.146,90.53,20,10,32.1,0.974,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T23:30:00+00:00,99.172,3.327,70.265,89.15,20,10.663,34.5,0.89,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T23:35:00+00:00,97.369,3.005,72.291,86.61,20.654,11.297,34.6,0.994,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T23:40:00+00:00,105.419,2.625,73.646,90.2,20,10,36.2,0.888,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T23:45:00+00:00,104.391,2.625,72.833,87.53,21.272,10.671,36.4,0.938,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-29T23:50:00+00:00,97.936,2.52,72.181,86.12,20,10.473,33.7,0.973,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-29T23:55:00+00:00,103.705,3.201,73.44,90.14,20.771,10.788,37.4,0.945,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T00:00:00+00:00,100.181,3.107,72.951,86.1,20,10.385,32.6,0.93,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T00:05:00+00:00,99.193,3.146,72.943,89.93,20,10.134,32.1,0.962,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T00:10:00+00:00,98.119,3.34,72.788,86.63,20,10.005,33.3,0.998,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T00:15:00+00:00,102.921,3.053,73.847,91.41,20,10,35.0,1,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T00:20:00+00:00,101.884,3.036,70.826,85.82,20,11.034,36.2,0.938,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T00:25:00+00:00,102.826,2.661,74.047,90.02,21.573,10.495,36.4,0.986,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T00:30:00+00:00,100.525,3.139,71.635,86.23,20,10.086,33.2,0.945,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T00:35:00+00:00,98.21,2.671,71.33,86.97,20,10,35.7,0.935,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T00:40:00+00:00,106.494,3.034,70.296,87.86,20,10.617,33.3,0.994,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T00:45:00+00:00,103.199,2.387,72.889,88.58,20.083,10.006,33.8,0.983,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T00:50:00+00:00,98.15,2.378,71.462,91.14,20,10.928,35.9,0.916,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T00:55:00+00:00,103.007,2.4,71.967,87.3,20,10.773,35.5,0.911,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T01:00:00+00:00,101.675,2.496,71.725,87.5,20,10,31.4,0.978,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T01:05:00+00:00,103.937,3.141,69.775,87.96,20,10,32.5,0.98,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T01:10:00+00:00,99.18,2.356,72.836,89.25,20,10,32.9,0.981,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T01:15:00+00:00,100.183,3.245,72.378,88.21,20,10,30.7,0.996,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T01:20:00+00:00,97.907,2.359,74.403,91.06,20,10.299,36.1,0.933,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T01:25:00+00:00,99.097,3.27,69.895,89.46,20,10,30.8,0.967,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T01:30:00+00:00,99.0,3.084,71.133,87.8,20.334,10.801,34.8,0.948,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T01:35:00+00:00,99.089,3.171,72.343,86.78,20.246,10,33.3,0.947,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T01:40:00+00:00,97.8,2.421,74.099,86.14,20,10.649,35.9,0.971,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T01:45:00+00:00,102.848,2.462,72.801,87.0,20,10.27,35.6,0.909,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T01:50:00+00:00,105.296,3.323,70.245,89.51,20,10,30.2,0.974,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T01:55:00+00:00,106.421,2.436,72.591,90.49,20.088,10.247,34.3,0.942,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T02:00:00+00:00,98.959,3.325,72.111,87.14,20,10,30.4,0.999,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T02:05:00+00:00,101.418,3.13,72.18,91.5,20,10,31.3,1,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T02:10:00+00:00,102.143,2.867,73.094,86.83,20,10.659,34.1,0.945,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T02:15:00+00:00,100.008,2.814,73.403,86.58,20,11.052,35.2,1,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T02:20:00+00:00,98.522,3.159,71.174,88.55,20,10,32.2,0.932,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T02:25:00+00:00,105.047,3.236,73.459,89.88,20,10,34.0,0.947,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T02:30:00+00:00,102.835,2.497,73.118,89.83,20,11.349,34.6,0.978,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T02:35:00+00:00,104.842,2.966,73.33,91.63,20,10.817,32.8,0.962,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T02:40:00+00:00,99.753,2.43,72.898,91.63,20,10.154,33.2,0.972,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T02:45:00+00:00,105.43,3.046,72.488,91.34,20,10,31.9,1,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T02:50:00+00:00,100.597,3.179,71.175,88.48,20,10,33.5,0.916,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T02:55:00+00:00,103.122,2.484,74.379,89.72,20,10.125,32.5,0.947,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T03:00:00+00:00,106.483,3.288,72.646,88.41,20,10,29.4,0.994,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T03:05:00+00:00,102.78,2.947,73.001,86.53,20,10,32.0,1,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T03:10:00+00:00,99.973,2.663,71.923,87.07,20,10,31.0,0.928,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T03:15:00+00:00,104.337,2.986,71.846,91.56,20,10.064,31.1,1,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T03:20:00+00:00,103.241,2.587,72.305,88.29,20,10,29.5,1,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T03:25:00+00:00,101.464,2.66,72.017,86.7,20,10,31.8,1,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T03:30:00+00:00,101.536,2.623,70.947,88.18,20,10,32.4,0.966,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T03:35:00+00:00,97.062,2.909,71.571,89.86,20,10,31.2,0.992,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T03:40:00+00:00,97.028,2.47,74.169,89.38,20,10,33.8,0.95,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T03:45:00+00:00,97.002,3.027,72.253,92.12,20,10,28.9,0.968,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T03:50:00+00:00,97.243,2.921,72.346,86.24,20,11.004,33.4,0.939,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T03:55:00+00:00,101.222,2.958,73.085,87.29,20,10,28.7,0.956,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T04:00:00+00:00,98.621,2.425,72.367,90.37,20,10,32.7,0.991,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T04:05:00+00:00,102.048,2.745,71.57,90.58,20,10,29.2,1,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T04:10:00+00:00,103.814,3.245,72.104,91.13,20,10,29.3,0.995,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T04:15:00+00:00,100.983,3.22,71.049,88.45,20,10,29.3,1,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T04:20:00+00:00,101.065,3.142,70.538,86.98,20,10,31.1,1,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T04:25:00+00:00,98.398,3.043,73.389,88.83,20,10,31.8,1,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T04:30:00+00:00,104.298,3.213,71.128,91.2,20,10,32.1,0.954,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T04:35:00+00:00,103.75,3.008,73.859,89.73,20,10,29.0,0.98,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T04:40:00+00:00,102.862,2.963,70.474,90.03,20,10,33.9,0.97,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T04:45:00+00:00,103.416,2.746,72.392,91.14,20,10,31.1,1,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T04:50:00+00:00,98.126,3.284,72.817,86.89,20,10,29.4,0.939,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T04:55:00+00:00,104.225,2.617,74.268,87.08,20,10,29.1,0.985,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T05:00:00+00:00,98.241,3.137,73.458,88.76,20,10,28.6,1,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T05:05:00+00:00,103.101,2.523,72.315,92.37,20,10.247,31.3,1,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T05:10:00+00:00,102.019,2.746,74.1,89.42,20,10,28.4,0.946,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T05:15:00+00:00,99.034,3.339,69.671,87.1,20,10,28.4,0.952,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T05:20:00+00:00,100.228,3.034,71.19,86.9,20,10.224,32.2,1,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T05:25:00+00:00,97.613,2.958,73.509,88.79,20,10,29.3,0.967,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T05:30:00+00:00,101.393,3.265,69.829,90.97,20,10,31.4,0.978,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T05:35:00+00:00,106.148,2.432,72.709,86.66,20,10,29.6,1,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T05:40:00+00:00,103.565,2.464,71.261,86.57,20,10,33.2,1,CRITICAL: Lamp health degraded. Plan maintenance.,True
+2026-04-30T05:45:00+00:00,98.8,3.035,72.522,92.44,20,10,27.6,1,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T05:50:00+00:00,98.788,2.615,71.434,91.84,20,10,32.0,1,CRITICAL: Lamp health degraded. Plan maintenance.,False
+2026-04-30T05:55:00+00:00,98.551,3.324,71.325,87.42,20,10,29.9,0.963,CRITICAL: Lamp health degraded. Plan maintenance.,False

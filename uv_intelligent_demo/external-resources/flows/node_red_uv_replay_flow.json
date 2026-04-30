@@ -1,0 +1,203 @@
+[
+  {
+    "id": "a1f2d3e4f5a6b701",
+    "type": "tab",
+    "label": "UV Telemetry Replay",
+    "disabled": false,
+    "info": "Replay digital twin CSV in near real time to MQTT and InfluxDB."
+  },
+  {
+    "id": "b1f2d3e4f5a6b701",
+    "type": "inject",
+    "z": "a1f2d3e4f5a6b701",
+    "name": "Start replay",
+    "props": [
+      {
+        "p": "payload"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "x": 140,
+    "y": 100,
+    "wires": [
+      [
+        "c1f2d3e4f5a6b701"
+      ]
+    ]
+  },
+  {
+    "id": "c1f2d3e4f5a6b701",
+    "type": "file in",
+    "z": "a1f2d3e4f5a6b701",
+    "name": "Read simulated_telemetry.csv",
+    "filename": "/home/shinra/uvReactor/uv_intelligent_demo/simulated_telemetry.csv",
+    "filenameType": "str",
+    "format": "utf8",
+    "chunk": false,
+    "sendError": true,
+    "encoding": "none",
+    "allProps": false,
+    "x": 380,
+    "y": 100,
+    "wires": [
+      [
+        "d1f2d3e4f5a6b701"
+      ]
+    ]
+  },
+  {
+    "id": "d1f2d3e4f5a6b701",
+    "type": "csv",
+    "z": "a1f2d3e4f5a6b701",
+    "name": "CSV to rows",
+    "sep": ",",
+    "hdrin": true,
+    "hdrout": "none",
+    "multi": "one",
+    "ret": "\\n",
+    "temp": "",
+    "skip": "0",
+    "strings": false,
+    "include_empty_strings": "",
+    "include_null_values": "",
+    "x": 590,
+    "y": 100,
+    "wires": [
+      [
+        "e1f2d3e4f5a6b701"
+      ]
+    ]
+  },
+  {
+    "id": "e1f2d3e4f5a6b701",
+    "type": "delay",
+    "z": "a1f2d3e4f5a6b701",
+    "name": "Replay speed (1 msg / 1s)",
+    "pauseType": "rate",
+    "timeout": "1",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 830,
+    "y": 100,
+    "wires": [
+      [
+        "f1f2d3e4f5a6b701"
+      ]
+    ]
+  },
+  {
+    "id": "f1f2d3e4f5a6b701",
+    "type": "function",
+    "z": "a1f2d3e4f5a6b701",
+    "name": "Format MQTT + Influx payload",
+    "func": "const row = msg.payload;\nconst ts = new Date(row.timestamp).getTime();\n\nconst telemetry = {\n    timestamp: row.timestamp,\n    flow_m3h: Number(row.flow_m3h),\n    turbidity_ntu: Number(row.turbidity_ntu),\n    uvt: Number(row.uvt),\n    lamp_power_pct: Number(row.lamp_power_pct),\n    uv_intensity: Number(row.uv_intensity),\n    uv_dose_mj_cm2: Number(row.uv_dose_mj_cm2),\n    lamp_health_pct: Number(row.lamp_health_pct),\n    anomaly_score: Number(row.anomaly_score),\n    cusum_event: String(row.cusum_event).toLowerCase() === 'true'\n};\n\nconst mqttMsg = {\n    topic: 'uv/telemetry',\n    payload: telemetry\n};\n\nconst influxMsg = {\n    payload: telemetry,\n    timestamp: ts\n};\n\nreturn [mqttMsg, influxMsg];",
+    "outputs": 2,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1080,
+    "y": 100,
+    "wires": [
+      [
+        "g1f2d3e4f5a6b701"
+      ],
+      [
+        "h1f2d3e4f5a6b701"
+      ]
+    ]
+  },
+  {
+    "id": "g1f2d3e4f5a6b701",
+    "type": "mqtt out",
+    "z": "a1f2d3e4f5a6b701",
+    "name": "MQTT uv/telemetry",
+    "topic": "",
+    "qos": "",
+    "retain": "",
+    "respTopic": "",
+    "contentType": "",
+    "userProps": "",
+    "correl": "",
+    "expiry": "",
+    "broker": "mqttbroker_uv_demo",
+    "x": 1320,
+    "y": 80,
+    "wires": []
+  },
+  {
+    "id": "h1f2d3e4f5a6b701",
+    "type": "influxdb out",
+    "z": "a1f2d3e4f5a6b701",
+    "influxdb": "influxdb_uv_demo",
+    "name": "Influx write uv_reactor",
+    "measurement": "uv_reactor",
+    "precision": "ms",
+    "retentionPolicy": "",
+    "database": "",
+    "precisionV18FluxV20": "ms",
+    "retentionPolicyV18Flux": "",
+    "org": "",
+    "bucket": "",
+    "x": 1320,
+    "y": 130,
+    "wires": []
+  },
+  {
+    "id": "mqttbroker_uv_demo",
+    "type": "mqtt-broker",
+    "name": "Mosquitto Local",
+    "broker": "127.0.0.1",
+    "port": "1883",
+    "clientid": "",
+    "autoConnect": true,
+    "usetls": false,
+    "protocolVersion": "4",
+    "keepalive": "60",
+    "cleansession": true,
+    "birthTopic": "",
+    "birthQos": "0",
+    "birthRetain": "false",
+    "birthPayload": "",
+    "closeTopic": "",
+    "closeQos": "0",
+    "closeRetain": "false",
+    "closePayload": "",
+    "willTopic": "",
+    "willQos": "0",
+    "willRetain": "false",
+    "willPayload": "",
+    "userProps": "",
+    "sessionExpiry": ""
+  },
+  {
+    "id": "influxdb_uv_demo",
+    "type": "influxdb",
+    "hostname": "127.0.0.1",
+    "port": "8086",
+    "protocol": "http",
+    "database": "",
+    "name": "InfluxDB v2 Local",
+    "usetls": false,
+    "tls": "",
+    "influxdbVersion": "2.0",
+    "url": "http://127.0.0.1:8086",
+    "timeout": "10",
+    "rejectUnauthorized": true
+  }
+]

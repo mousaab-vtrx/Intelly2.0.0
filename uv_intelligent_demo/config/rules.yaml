@@ -1,0 +1,25 @@
+rules:
+  - name: low_uvt_boost_power
+    when:
+      metric: uvt
+      operator: "<"
+      value: 60
+    advise:
+      lamp_power_pct: 85
+      note: "Low UVT detected, increase lamp power."
+  - name: high_turbidity_raise_dose
+    when:
+      metric: turbidity_ntu
+      operator: ">"
+      value: 2.5
+    advise:
+      lamp_power_pct: 90
+      note: "High turbidity inflow, raise UV dose."
+  - name: clear_water_energy_save
+    when:
+      metric: turbidity_ntu
+      operator: "<"
+      value: 0.8
+    advise:
+      lamp_power_pct: 65
+      note: "Water is clear, save energy while staying compliant."

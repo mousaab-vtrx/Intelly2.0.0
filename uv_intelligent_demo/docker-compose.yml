@@ -1,0 +1,177 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: uv_postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-uvreactor}
+      POSTGRES_USER: ${POSTGRES_USER:-uvreactor}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-uvreactor}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-uvreactor} -d ${POSTGRES_DB:-uvreactor}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    restart: unless-stopped
+
+  redis:
+    image: redis:7.4-alpine
+    container_name: uv_redis
+    ports:
+      - "6379:6379"
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 5s
+    restart: unless-stopped
+
+  mosquitto:
+    image: eclipse-mosquitto:2
+    container_name: uv_mosquitto
+    ports:
+      - "1883:1883"
+    volumes:
+      - ./deploy/mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - mosquitto_data:/mosquitto/data
+      - mosquitto_log:/mosquitto/log
+    healthcheck:
+      test: ["CMD-SHELL", "mosquitto -h >/dev/null 2>&1 || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    restart: unless-stopped
+
+  influxdb:
+    image: influxdb:2.7
+    container_name: uv_influxdb
+    ports:
+      - "8086:8086"
+    environment:
+      DOCKER_INFLUXDB_INIT_MODE: setup
+      DOCKER_INFLUXDB_INIT_USERNAME: ${DOCKER_INFLUXDB_INIT_USERNAME:-uv_admin}
+      DOCKER_INFLUXDB_INIT_PASSWORD: ${DOCKER_INFLUXDB_INIT_PASSWORD:-uv_admin_password}
+      DOCKER_INFLUXDB_INIT_ORG: ${DOCKER_INFLUXDB_INIT_ORG:-uv_org}
+      DOCKER_INFLUXDB_INIT_BUCKET: ${DOCKER_INFLUXDB_INIT_BUCKET:-uv_demo}
+      DOCKER_INFLUXDB_INIT_ADMIN_TOKEN: ${DOCKER_INFLUXDB_INIT_ADMIN_TOKEN:-uv_admin_token}
+    volumes:
+      - influxdb_data:/var/lib/influxdb2
+      - influxdb_config:/etc/influxdb2
+    healthcheck:
+      test: ["CMD", "influx", "ping", "--host", "http://localhost:8086"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 20s
+    restart: unless-stopped
+
+  nodered:
+    image: nodered/node-red:3.1
+    container_name: uv_nodered
+    depends_on:
+      mosquitto:
+        condition: service_started
+      influxdb:
+        condition: service_healthy
+    ports:
+      - "1880:1880"
+    environment:
+      TZ: UTC
+      FLOWS: flows.json
+      INFLUX_HOST: influxdb
+      INFLUX_PORT: 8086
+      MQTT_BROKER: mqtt://mosquitto:1883
+    command: ["node", "/data/wait-for-influx.js"]
+    volumes:
+      - ./deploy/nodered:/data
+      - ./:/workspace:ro
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O- http://localhost:1880 >/dev/null 2>&1 || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: ..
+      dockerfile: Dockerfile.app
+    container_name: uv_backend
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      influxdb:
+        condition: service_healthy
+      nodered:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-uvreactor}:${POSTGRES_PASSWORD:-uvreactor}@postgres:5432/${POSTGRES_DB:-uvreactor}
+      REDIS_URL: ${REDIS_URL:-redis://redis:6379/0}
+      INFLUX_HOST: ${INFLUX_HOST:-influxdb}
+      INFLUX_PORT: ${INFLUX_PORT:-8086}
+      INFLUX_ORG: ${DOCKER_INFLUXDB_INIT_ORG:-uv_org}
+      INFLUX_BUCKET: ${DOCKER_INFLUXDB_INIT_BUCKET:-uv_demo}
+      INFLUX_TOKEN: ${DOCKER_INFLUXDB_INIT_ADMIN_TOKEN:-uv_admin_token}
+      MQTT_BROKER: ${MQTT_BROKER:-mqtt://mosquitto:1883}
+      NODE_RED_URL: ${NODE_RED_URL:-http://nodered:1880}
+    volumes:
+      - ./:/app
+    command: >
+      sh -c "
+      echo 'Waiting for services to be healthy...' &&
+      sleep 10 &&
+      cd /app/uv_intelligent_demo/webapp/backend &&
+      python -m uvicorn app:app --host 0.0.0.0 --port 8000
+      "
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O- http://localhost:8000/api/health >/dev/null 2>&1 || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 45s
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ..
+      dockerfile: Dockerfile.app
+    container_name: uv_frontend
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "5173:5173"
+    environment:
+      VITE_API_URL: http://localhost:8000
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    command: >
+      sh -c "
+      cd /app/uv_intelligent_demo/webapp/frontend &&
+      npm install -q 2>/dev/null || true &&
+      npm run dev -- --host 0.0.0.0 --port 5173
+      "
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  redis_data:
+  mosquitto_data:
+  mosquitto_log:
+  influxdb_data:
+  influxdb_config:

@@ -1,0 +1,22 @@
+UV Reactor SOP Highlights
+
+1) UV dose target:
+- Keep delivered UV dose >= 40 mJ/cm2 for disinfection compliance.
+- Absolute minimum is 35 mJ/cm2 in emergency mode only.
+
+2) Lamp health:
+- Baseline lamp intensity decays over runtime and fouling.
+- If estimated health drops below 70%, schedule replacement within 7 days.
+- If estimated health drops below 60%, trigger urgent maintenance alert.
+
+3) Quartz sleeve fouling:
+- Watch pressure differential and UV intensity mismatch.
+- Rising delta-pressure with falling UV intensity indicates fouling.
+
+4) Operating response:
+- If UVT falls sharply, increase lamp power and reduce flow if needed.
+- If water is clear and dose margin is high, reduce lamp power to save energy.
+
+5) Safety guardrails:
+- Never send control setpoints outside engineering min/max ranges.
+- Always require operator approval for high-risk actions.

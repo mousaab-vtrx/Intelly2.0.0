@@ -1,0 +1,245 @@
+[
+    {
+        "id": "uvflowtab001",
+        "type": "tab",
+        "label": "UV Replay Docker",
+        "disabled": false,
+        "info": "Replay simulation CSV to MQTT and InfluxDB in Docker."
+    },
+    {
+        "id": "uvmqttbroker001",
+        "type": "mqtt-broker",
+        "name": "Mosquitto",
+        "broker": "mosquitto",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": ""
+    },
+    {
+        "id": "uvinject001",
+        "type": "inject",
+        "z": "uvflowtab001",
+        "name": "Start Replay",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "9300",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 100,
+        "wires": [
+            [
+                "uvfile001"
+            ]
+        ]
+    },
+    {
+        "id": "uvfile001",
+        "type": "file in",
+        "z": "uvflowtab001",
+        "name": "Read Telemetry CSV",
+        "filename": "/workspace/external-resources/datasets/simulated_telemetry_16x.csv",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": true,
+        "allProps": false,
+        "x": 340,
+        "y": 100,
+        "wires": [
+            [
+                "uvcsv001"
+            ]
+        ]
+    },
+    {
+        "id": "uvcsv001",
+        "type": "csv",
+        "z": "uvflowtab001",
+        "name": "CSV to Rows",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "strings": false,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 520,
+        "y": 100,
+        "wires": [
+            [
+                "uvdelay001"
+            ]
+        ]
+    },
+    {
+        "id": "uvdelay001",
+        "type": "delay",
+        "z": "uvflowtab001",
+        "name": "1 msg / sec",
+        "pauseType": "rate",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 680,
+        "y": 100,
+        "wires": [
+            [
+                "uvformat001"
+            ]
+        ]
+    },
+    {
+        "id": "uvformat001",
+        "type": "function",
+        "z": "uvflowtab001",
+        "name": "Build MQTT + Line Protocol",
+        "func": "const row = msg.payload;\nif (!row || !row.timestamp) {\n  return null;\n}\n\nconst numericFields = [\n  'flow_m3h',\n  'turbidity_ntu',\n  'uvt',\n  'lamp_power_pct',\n  'uv_intensity',\n  'uv_dose_mj_cm2',\n  'lamp_health_pct',\n  'anomaly_score'\n];\n\nfor (const field of numericFields) {\n  const value = Number(row[field]);\n  if (!Number.isFinite(value)) {\n    node.warn(`Skipping replay row with invalid ${field}: ${row[field]}`);\n    return null;\n  }\n}\n\nconst replayIndex = (flow.get('replay_index') || 0) + 1;\nflow.set('replay_index', replayIndex);\n\nconst liveTimestamp = new Date().toISOString();\nconst tsNs = Date.now() * 1000000;\nconst telemetry = {\n  timestamp: liveTimestamp,\n  source_timestamp: row.timestamp,\n  simulated: true,\n  replay_index: replayIndex,\n  flow_m3h: Number(row.flow_m3h),\n  turbidity_ntu: Number(row.turbidity_ntu),\n  uvt: Number(row.uvt),\n  lamp_power_pct: Number(row.lamp_power_pct),\n  uv_intensity: Number(row.uv_intensity),\n  uv_dose_mj_cm2: Number(row.uv_dose_mj_cm2),\n  lamp_health_pct: Number(row.lamp_health_pct),\n  anomaly_score: Number(row.anomaly_score),\n  advisory: row.advisory || '',\n  cusum_event: String(row.cusum_event).toLowerCase() === 'true'\n};\n\nconst lp = `uv_reactor,simulated=true flow_m3h=${telemetry.flow_m3h},turbidity_ntu=${telemetry.turbidity_ntu},uvt=${telemetry.uvt},lamp_power_pct=${telemetry.lamp_power_pct},uv_intensity=${telemetry.uv_intensity},uv_dose_mj_cm2=${telemetry.uv_dose_mj_cm2},lamp_health_pct=${telemetry.lamp_health_pct},anomaly_score=${telemetry.anomaly_score},cusum_event=${telemetry.cusum_event} ${tsNs}`;\n\nconst suggestedPower = Math.max(55, Math.min(95, telemetry.lamp_power_pct));\nconst controlMsg = {\n  topic: 'uv/control/advisory',\n  payload: {\n    timestamp: telemetry.timestamp,\n    simulated: true,\n    mode: 'advisory',\n    requested_lamp_power_pct: suggestedPower,\n    uv_dose_mj_cm2: telemetry.uv_dose_mj_cm2\n  }\n};\n\nconst mqttMsg = { topic: 'uv/telemetry', payload: telemetry };\nconst influxMsg = {\n  headers: {\n    'Authorization': 'Token uv_admin_token',\n    'Content-Type': 'text/plain; charset=utf-8'\n  },\n  url: 'http://influxdb:8086/api/v2/write?org=uv_org&bucket=uv_demo&precision=ns',\n  method: 'POST',\n  payload: lp\n};\n\nreturn [mqttMsg, influxMsg, controlMsg];",
+        "outputs": 3,
+        "x": 910,
+        "y": 100,
+        "wires": [
+            [
+                "uvmqttout001"
+            ],
+            [
+                "uvhttp001"
+            ],
+            [
+                "uvcontrolout001"
+            ]
+        ]
+    },
+    {
+        "id": "uvmqttout001",
+        "type": "mqtt out",
+        "z": "uvflowtab001",
+        "name": "MQTT uv/telemetry",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "broker": "uvmqttbroker001",
+        "x": 1160,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "uvhttp001",
+        "type": "http request",
+        "z": "uvflowtab001",
+        "name": "Write to InfluxDB",
+        "method": "use",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1140,
+        "y": 130,
+        "wires": [
+            [
+                "uvdebug001"
+            ]
+        ]
+    },
+    {
+        "id": "uvcontrolout001",
+        "type": "mqtt out",
+        "z": "uvflowtab001",
+        "name": "MQTT uv/control/advisory",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "broker": "uvmqttbroker001",
+        "x": 1180,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "uvmanualcmd001",
+        "type": "inject",
+        "z": "uvflowtab001",
+        "name": "Manual Command 82%",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "uv/control/command",
+        "payload": "{\"mode\":\"command\",\"requested_lamp_power_pct\":82,\"uv_dose_mj_cm2\":42}",
+        "payloadType": "json",
+        "x": 180,
+        "y": 220,
+        "wires": [
+            [
+                "uvmanualout001"
+            ]
+        ]
+    },
+    {
+        "id": "uvmanualout001",
+        "type": "mqtt out",
+        "z": "uvflowtab001",
+        "name": "MQTT uv/control/command",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "broker": "uvmqttbroker001",
+        "x": 470,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "uvdebug001",
+        "type": "debug",
+        "z": "uvflowtab001",
+        "name": "Influx HTTP Response",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1370,
+        "y": 130,
+        "wires": []
+    }
+]
