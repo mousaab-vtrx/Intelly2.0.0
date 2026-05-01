@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { AlertCircle, AlertTriangle, Bell, Filter, Info } from "lucide-react";
+import { AlertCircle, AlertTriangle, Bell, ChevronDown, Filter, Info, ShieldCheck } from "lucide-react";
 
 const LEVEL_ORDER = { high: 0, medium: 1, low: 2 };
 const LEVEL_LABELS = { high: "Critical", medium: "Warning", low: "Info" };
@@ -12,23 +12,18 @@ const CATEGORY_LABELS = {
   system: "System",
 };
 
-function severityIcon(level) {
+function SeverityIcon({ level, size = 18 }) {
   switch (level) {
-    case "high":
-      return <AlertCircle size={18} />;
-    case "medium":
-      return <AlertTriangle size={18} />;
-    default:
-      return <Info size={18} />;
+    case "high":   return <AlertCircle size={size} />;
+    case "medium": return <AlertTriangle size={size} />;
+    default:       return <Info size={size} />;
   }
 }
 
 function formatTimestamp(iso) {
   if (!iso) return "Unknown";
   const date = new Date(iso);
-  const now = new Date();
-  const diffMs = now - date;
-  const diffMins = Math.floor(diffMs / 60000);
+  const diffMins = Math.floor((Date.now() - date) / 60000);
   if (diffMins < 1) return "Just now";
   if (diffMins < 60) return `${diffMins}m ago`;
   const diffHours = Math.floor(diffMins / 60);
@@ -36,236 +31,208 @@ function formatTimestamp(iso) {
   return date.toLocaleDateString();
 }
 
-function sortAlerts(alerts) {
-  return [...alerts].sort((a, b) => {
-    const levelDelta = (LEVEL_ORDER[a.level] ?? 99) - (LEVEL_ORDER[b.level] ?? 99);
-    if (levelDelta !== 0) return levelDelta;
-    return new Date(b.timestamp || 0).getTime() - new Date(a.timestamp || 0).getTime();
-  });
-}
-
-function alertKey(alert, index = 0) {
-  return [
-    alert.id,
-    alert.category,
-    alert.level,
-    alert.timestamp,
-    alert.message,
-    alert.recommended_action,
-    index,
-  ]
-    .filter(Boolean)
-    .join("|");
-}
-
-function summarizeAlerts(alerts) {
-  const grouped = alerts.reduce((acc, alert) => {
-    const key = `${alert.level || "low"}|${alert.category || "system"}`;
-    if (!acc[key]) {
-      acc[key] = { level: alert.level || "low", category: alert.category || "system", count: 0 };
+function groupAlerts(alerts) {
+  // Produce one group per category×level combo, keeping only the most recent alert in each bucket
+  const map = new Map();
+  for (const alert of alerts) {
+    const key = `${alert.level}|${alert.category}`;
+    const existing = map.get(key);
+    if (!existing || new Date(alert.timestamp) > new Date(existing.latest.timestamp)) {
+      map.set(key, {
+        level: alert.level,
+        category: alert.category,
+        latest: alert,
+        count: (existing?.count ?? 0) + 1,
+      });
+    } else {
+      existing.count += 1;
     }
-    acc[key].count += 1;
-    return acc;
-  }, {});
-
-  return Object.values(grouped).sort((a, b) => {
-    const levelDelta = (LEVEL_ORDER[a.level] ?? 99) - (LEVEL_ORDER[b.level] ?? 99);
-    if (levelDelta !== 0) return levelDelta;
-    return b.count - a.count;
+  }
+  return [...map.values()].sort((a, b) => {
+    const ld = (LEVEL_ORDER[a.level] ?? 99) - (LEVEL_ORDER[b.level] ?? 99);
+    if (ld !== 0) return ld;
+    return new Date(b.latest.timestamp) - new Date(a.latest.timestamp);
   });
 }
 
 export function EventsPanel({ alerts }) {
   const [selectedLevel, setSelectedLevel] = useState("all");
-  const [expandedId, setExpandedId] = useState("");
+  const [expandedKey, setExpandedKey] = useState(null);
 
-  const orderedAlerts = useMemo(() => sortAlerts(alerts || []), [alerts]);
-  const counts = useMemo(
-    () => ({
-      all: orderedAlerts.length,
-      high: orderedAlerts.filter((alert) => alert.level === "high").length,
-      medium: orderedAlerts.filter((alert) => alert.level === "medium").length,
-      low: orderedAlerts.filter((alert) => alert.level === "low").length,
-    }),
-    [orderedAlerts]
+  const allAlerts = alerts || [];
+  const counts = useMemo(() => ({
+    all:    allAlerts.length,
+    high:   allAlerts.filter(a => a.level === "high").length,
+    medium: allAlerts.filter(a => a.level === "medium").length,
+    low:    allAlerts.filter(a => a.level === "low").length,
+  }), [allAlerts]);
+
+  const filtered = useMemo(() =>
+    selectedLevel === "all" ? allAlerts : allAlerts.filter(a => a.level === selectedLevel),
+    [allAlerts, selectedLevel]
   );
 
-  const filteredAlerts = useMemo(() => {
-    if (selectedLevel === "all") return orderedAlerts;
-    return orderedAlerts.filter((alert) => alert.level === selectedLevel);
-  }, [orderedAlerts, selectedLevel]);
-  const alertSummary = useMemo(() => summarizeAlerts(filteredAlerts), [filteredAlerts]);
+  const groups = useMemo(() => groupAlerts(filtered), [filtered]);
+  const topAlert = groups[0]?.latest ?? null;
 
-  const highlightAlert = filteredAlerts[0] || null;
+  if (allAlerts.length === 0) {
+    return (
+      <section className="events-panel">
+        <div className="events-header">
+          <div>
+            <h3><Bell size={20} /> Alerts &amp; Incidents</h3>
+            <p className="events-subtitle">Prioritized incidents with operator guidance.</p>
+          </div>
+        </div>
+        <div className="empty-state">
+          <ShieldCheck size={40} style={{ color: "var(--color-success, #22c55e)" }} />
+          <p>All systems nominal. No active incidents.</p>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section className="events-panel">
+      {/* ── Header ── */}
       <div className="events-header">
         <div>
-          <h3>
-            <Bell size={20} />
-            Alerts & Incidents
-          </h3>
-          <p className="events-subtitle">
-            Prioritized incidents with compact context and operator guidance.
-          </p>
+          <h3><Bell size={20} /> Alerts &amp; Incidents</h3>
+          <p className="events-subtitle">Prioritized incidents with operator guidance.</p>
         </div>
-
         <div className="events-filter-bar" aria-label="Alert severity filter">
           <Filter size={14} />
           {[
-            { id: "all", label: "All" },
-            { id: "high", label: "Critical" },
+            { id: "all",    label: "All" },
+            { id: "high",   label: "Critical" },
             { id: "medium", label: "Warning" },
-            { id: "low", label: "Info" },
-          ].map((option) => (
+            { id: "low",    label: "Info" },
+          ].map(opt => (
             <button
-              key={option.id}
+              key={opt.id}
               type="button"
-              className={`events-filter-chip ${selectedLevel === option.id ? "active" : ""}`}
-              onClick={() => setSelectedLevel(option.id)}
+              className={`events-filter-chip ${selectedLevel === opt.id ? "active" : ""}`}
+              onClick={() => setSelectedLevel(opt.id)}
             >
-              {option.label}
-              <span>{counts[option.id]}</span>
+              {opt.label}
+              <span>{counts[opt.id]}</span>
             </button>
           ))}
         </div>
       </div>
 
-      {orderedAlerts.length === 0 ? (
-        <div className="empty-state">
-          <Bell size={36} style={{ color: "#8ea0ba" }} />
-          <p>No active incidents. Telemetry is currently within expected bands.</p>
-        </div>
-      ) : (
-        <div className="events-layout">
-          {highlightAlert ? (
-            <article className={`event-highlight event-${highlightAlert.level}`}>
-              <div className="event-highlight-top">
-                <div className={`event-severity-icon event-${highlightAlert.level}`}>
-                  {severityIcon(highlightAlert.level)}
-                </div>
-                <div>
-                  <div className="event-highlight-label">
-                    {LEVEL_LABELS[highlightAlert.level] || "Event"}
-                  </div>
-                  <h4>{CATEGORY_LABELS[highlightAlert.category] || highlightAlert.category}</h4>
-                </div>
+      <div className="events-layout">
+        {/* ── Hero Card (most critical) ── */}
+        {topAlert && (
+          <article className={`event-highlight event-${topAlert.level}`}>
+            <div className="event-highlight-top">
+              <div className={`event-severity-icon event-${topAlert.level}`}>
+                <SeverityIcon level={topAlert.level} size={20} />
               </div>
-              <p className="event-highlight-message">{highlightAlert.message}</p>
-              <div className="event-highlight-meta">
-                <span>{formatTimestamp(highlightAlert.timestamp)}</span>
-                <span>{highlightAlert.telemetry?.simulated ? "Simulation stream" : "Live stream"}</span>
+              <div>
+                <div className="event-highlight-label">{LEVEL_LABELS[topAlert.level] || "Event"}</div>
+                <h4>{CATEGORY_LABELS[topAlert.category] || topAlert.category}</h4>
               </div>
-              {highlightAlert.recommended_action ? (
-                <div className="event-highlight-action">
-                  <strong>Recommended action</strong>
-                  <p>{highlightAlert.recommended_action}</p>
-                </div>
-              ) : null}
-            </article>
-          ) : null}
+            </div>
+            <p className="event-highlight-message">{topAlert.message}</p>
+            <div className="event-highlight-meta">
+              <span>{formatTimestamp(topAlert.timestamp)}</span>
+              <span>{topAlert.telemetry?.simulated ? "Simulation stream" : "Live stream"}</span>
+            </div>
+            {topAlert.recommended_action && (
+              <div className="event-highlight-action">
+                <strong>Recommended action</strong>
+                <p>{topAlert.recommended_action}</p>
+              </div>
+            )}
+          </article>
+        )}
 
-          <div className="events-column">
-            {alertSummary.length > 0 ? (
-              <div className="events-summary-strip">
-                {alertSummary.slice(0, 4).map((item) => (
-                  <div key={`${item.level}-${item.category}`} className={`events-summary-card event-${item.level}`}>
-                    <span className="events-summary-count">{item.count}</span>
-                    <span className="events-summary-label">
-                      {CATEGORY_LABELS[item.category] || item.category}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            ) : null}
-            <div className="events-list">
-            {filteredAlerts.map((alert, index) => {
-              const alertId = alertKey(alert, index);
-              const isExpanded = expandedId === alertId;
+        {/* ── Grouped incident list ── */}
+        <div className="events-column">
+          <div className="events-list events-list-grouped">
+            {groups.map(group => {
+              const key = `${group.level}|${group.category}`;
+              const isExpanded = expandedKey === key;
+              const alert = group.latest;
               return (
                 <article
-                  key={alertId}
-                  className={`event-row event-${alert.level} ${isExpanded ? "expanded" : ""}`}
+                  key={key}
+                  className={`event-row event-${group.level} ${isExpanded ? "expanded" : ""}`}
                 >
                   <button
                     type="button"
                     className="event-row-button"
-                    onClick={() => setExpandedId(isExpanded ? "" : alertId)}
+                    onClick={() => setExpandedKey(isExpanded ? null : key)}
                   >
-                    <div className={`event-severity-icon event-${alert.level}`}>
-                      {severityIcon(alert.level)}
+                    <div className={`event-severity-icon event-${group.level}`}>
+                      <SeverityIcon level={group.level} />
                     </div>
+
                     <div className="event-row-copy">
                       <div className="event-row-top">
                         <span className="event-category">
-                          {CATEGORY_LABELS[alert.category] || alert.category}
+                          {CATEGORY_LABELS[group.category] || group.category}
                         </span>
-                        <span className={`event-badge event-${alert.level}`}>
-                          {LEVEL_LABELS[alert.level] || alert.level}
-                        </span>
+                        <div className="event-row-badges">
+                          <span className={`event-badge event-${group.level}`}>
+                            {LEVEL_LABELS[group.level]}
+                          </span>
+                          {group.count > 1 && (
+                            <span className="event-badge event-count">
+                              ×{group.count}
+                            </span>
+                          )}
+                        </div>
                       </div>
                       <div className="event-message">{alert.message}</div>
                       <div className="event-meta-line">
                         <span>{formatTimestamp(alert.timestamp)}</span>
-                        {alert.telemetry?.uv_dose_mj_cm2 !== undefined ? (
-                          <span>UV dose {Number(alert.telemetry.uv_dose_mj_cm2).toFixed(1)} mJ/cm²</span>
-                        ) : null}
+                        {alert.telemetry?.uv_dose_mj_cm2 !== undefined && (
+                          <span>UV {Number(alert.telemetry.uv_dose_mj_cm2).toFixed(1)} mJ/cm²</span>
+                        )}
                       </div>
                     </div>
+
+                    <ChevronDown
+                      size={16}
+                      className={`event-chevron ${isExpanded ? "rotated" : ""}`}
+                    />
                   </button>
 
-                  {isExpanded ? (
+                  {isExpanded && (
                     <div className="event-details">
                       <div className="event-details-grid">
-                        <div className="detail-item">
-                          <span className="detail-key">UV Dose</span>
-                          <span className="detail-value">
-                            {Number.isFinite(Number(alert.telemetry?.uv_dose_mj_cm2))
-                              ? `${Number(alert.telemetry.uv_dose_mj_cm2).toFixed(1)} mJ/cm²`
-                              : "--"}
-                          </span>
-                        </div>
-                        <div className="detail-item">
-                          <span className="detail-key">Lamp Power</span>
-                          <span className="detail-value">
-                            {Number.isFinite(Number(alert.telemetry?.lamp_power_pct))
-                              ? `${Number(alert.telemetry.lamp_power_pct).toFixed(1)}%`
-                              : "--"}
-                          </span>
-                        </div>
-                        <div className="detail-item">
-                          <span className="detail-key">Lamp Health</span>
-                          <span className="detail-value">
-                            {Number.isFinite(Number(alert.telemetry?.lamp_health_pct))
-                              ? `${Number(alert.telemetry.lamp_health_pct).toFixed(1)}%`
-                              : "--"}
-                          </span>
-                        </div>
-                        <div className="detail-item">
-                          <span className="detail-key">Turbidity</span>
-                          <span className="detail-value">
-                            {Number.isFinite(Number(alert.telemetry?.turbidity_ntu))
-                              ? `${Number(alert.telemetry.turbidity_ntu).toFixed(2)} NTU`
-                              : "--"}
-                          </span>
-                        </div>
+                        {[
+                          { label: "UV Dose",    value: alert.telemetry?.uv_dose_mj_cm2,   unit: " mJ/cm²", decimals: 1 },
+                          { label: "Lamp Power", value: alert.telemetry?.lamp_power_pct,   unit: "%",       decimals: 1 },
+                          { label: "Lamp Health",value: alert.telemetry?.lamp_health_pct,  unit: "%",       decimals: 1 },
+                          { label: "Turbidity",  value: alert.telemetry?.turbidity_ntu,    unit: " NTU",    decimals: 2 },
+                        ].map(({ label, value, unit, decimals }) => (
+                          <div key={label} className="detail-item">
+                            <span className="detail-key">{label}</span>
+                            <span className="detail-value">
+                              {Number.isFinite(Number(value))
+                                ? `${Number(value).toFixed(decimals)}${unit}`
+                                : "—"}
+                            </span>
+                          </div>
+                        ))}
                       </div>
-                      {alert.recommended_action ? (
+                      {alert.recommended_action && (
                         <div className="event-detail-action">
                           <strong>Operator guidance</strong>
                           <p>{alert.recommended_action}</p>
                         </div>
-                      ) : null}
+                      )}
                     </div>
-                  ) : null}
+                  )}
                 </article>
               );
             })}
-            </div>
           </div>
         </div>
-      )}
+      </div>
     </section>
   );
 }

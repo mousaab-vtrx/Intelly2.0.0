@@ -1085,6 +1085,49 @@ svg {
   margin-top: 14px;
 }
 
+/* ── Grouped alert list additions ──────────────────────────── */
+
+/* Badge row inside each alert card */
+.event-row-badges {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+/* Occurrence count badge (×N) */
+.event-badge.event-count {
+  background: rgba(115, 92, 255, 0.1);
+  color: var(--accent-strong);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Chevron expand indicator */
+.event-chevron {
+  flex-shrink: 0;
+  color: var(--text-tertiary);
+  margin-top: 2px;
+  transition: transform 0.2s ease;
+}
+
+.event-chevron.rotated {
+  transform: rotate(180deg);
+}
+
+/* Grouped list — slightly more breathing room between cards */
+.events-list-grouped {
+  gap: 10px;
+}
+
+/* Clamp event-message to 2 lines when collapsed to avoid strips */
+.event-row:not(.expanded) .event-message {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+
 .copilot-panel {
   position: relative;
   display: flex;

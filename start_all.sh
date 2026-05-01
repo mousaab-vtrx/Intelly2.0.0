@@ -18,7 +18,7 @@ if ! docker compose version >/dev/null 2>&1; then
 fi
 
 # Bring up the entire stack, building frontend and backend if necessary
-if ! $DOCKER_COMPOSE_CMD -f "$COMPOSE_FILE" up -d --build; then
+if ! $DOCKER_COMPOSE_CMD -f "$COMPOSE_FILE" up -d; then
   echo "Error: Failed to start docker containers." >&2
   exit 1
 fi

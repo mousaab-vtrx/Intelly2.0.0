@@ -1,9 +1,4 @@
-# Environment variables
-.env
-.env.local
-.env.*.local
-
-# Python
+# ── Python ─────────────────────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
 *$py.class
@@ -22,7 +17,6 @@ sdist/
 var/
 wheels/
 pip-wheel-metadata/
-share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -32,73 +26,60 @@ ENV/
 env/
 .venv/
 
-# Database
+# ── Database files ─────────────────────────────────────────────────────────────
 *.db
 *.sqlite
 *.sqlite3
 
-# Node/Frontend
+# ── Node / Frontend ────────────────────────────────────────────────────────────
 node_modules/
 npm-debug.log
 yarn-error.log
-dist/
 .next/
 
-# IDE
+# ── IDE / Editor ───────────────────────────────────────────────────────────────
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
-.DS_Store
 .project
 .classpath
 
-# Logs
+# ── Logs ───────────────────────────────────────────────────────────────────────
 .logs/
 *.log
 *.log.*
 
-# OS
+# ── OS ─────────────────────────────────────────────────────────────────────────
 Thumbs.db
 .DS_Store
 
-# Temporary files
+# ── Temp / Backup ──────────────────────────────────────────────────────────────
 *.tmp
 *.temp
 *.bak
 *.backup
-*.swp
-*.swo
 
-# Build artifacts
-build/
-dist/
-*.egg-info/
-
-# Chroma DB
-chroma_db/
-
-# Documentation & Reference (excluding main README)
-DATA_PIPELINE_FIXES.md
-DEPLOYMENT_AND_TEST_GUIDE.md
-ML_MODEL_RECOMMENDATIONS.md
-PDF_FLICKER_ANALYSIS.md
-QUICK_START_REDEPLOY.md
-STARTUP_SCRIPTS_FIXES.md
-*.pdf
-
-# PDF reports
+# ── LaTeX / Report artifacts ───────────────────────────────────────────────────
 *.aux
 *.toc
 *.tex
+uv_intelligent_demo/webapp/backend/report_artifacts/
 
-# Node-Red NPM cache
-deploy/nodered/.npm/
+# ── ChromaDB (large binary files, rebuilt via rag_setup.py) ───────────────────
+chroma_db/
 
-# Development scripts
+# ── Node-RED npm cache ────────────────────────────────────────────────────────
+uv_intelligent_demo/deploy/nodered/.npm/
+
+# ── Legacy dev scripts already moved to archive ───────────────────────────────
 hackathon.txt
 available_dependencies.txt
 generate_realistic_telemetry.py
 send_telemetry.py
 redesign_references/
+
+# ── Keep these in the repo ────────────────────────────────────────────────────
+# .env                  <- intentionally tracked (deployment credentials)
+# DEPLOY_AWS_EC2.txt    <- intentionally tracked (deployment guide)

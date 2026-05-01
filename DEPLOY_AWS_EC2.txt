@@ -1,0 +1,273 @@
+===========================================================================
+  UV REACTOR OPS CENTER — AWS EC2 DEPLOYMENT GUIDE
+  intelly / Reactor data simplified
+===========================================================================
+
+PREREQUISITES
+─────────────
+  • An AWS account with EC2 permissions
+  • AWS CLI installed on your local machine (optional but recommended)
+  • The project source on your local machine at ~/uvReactor
+
+---------------------------------------------------------------------------
+STEP 1 — Launch an EC2 Instance
+---------------------------------------------------------------------------
+
+1.1  Open the AWS Management Console → EC2 → Launch Instance.
+
+1.2  Configure the instance:
+     • Name:           uv-reactor-ops-center
+     • AMI:            Ubuntu Server 24.04 LTS (64-bit x86)
+     • Instance type:  t3.large  (2 vCPU / 8 GB RAM minimum)
+                       t3.xlarge recommended for the AI pipeline
+     • Key pair:       Create or select an existing .pem key pair
+     • Storage:        At least 30 GB gp3 EBS volume
+
+1.3  Security Group — open the following inbound ports:
+     ┌──────────┬──────────┬──────────────────────────────┐
+     │ Port     │ Protocol │ Purpose                      │
+     ├──────────┼──────────┼──────────────────────────────┤
+     │ 22       │ TCP      │ SSH (restrict to your IP)    │
+     │ 80       │ TCP      │ HTTP (optional reverse proxy) │
+     │ 443      │ TCP      │ HTTPS (optional)             │
+     │ 5173     │ TCP      │ Frontend UI                  │
+     │ 8000     │ TCP      │ Backend API                  │
+     │ 1880     │ TCP      │ Node-RED simulation          │
+     │ 8086     │ TCP      │ InfluxDB                     │
+     └──────────┴──────────┴──────────────────────────────┘
+     Leave all other ports closed.
+
+1.4  Launch the instance and note the Public IPv4 address.
+
+---------------------------------------------------------------------------
+STEP 2 — Connect to the Instance
+---------------------------------------------------------------------------
+
+  chmod 400 /path/to/your-key.pem
+  ssh -i /path/to/your-key.pem ubuntu@<EC2_PUBLIC_IP>
+
+---------------------------------------------------------------------------
+STEP 3 — Install Docker & Docker Compose
+---------------------------------------------------------------------------
+
+  # Update packages
+  sudo apt-get update && sudo apt-get upgrade -y
+
+  # Install Docker
+  curl -fsSL https://get.docker.com | sudo sh
+
+  # Add ubuntu user to docker group (no sudo needed after)
+  sudo usermod -aG docker ubuntu
+
+  # Install Docker Compose plugin
+  sudo apt-get install -y docker-compose-plugin
+
+  # Apply group change without logging out
+  newgrp docker
+
+  # Verify
+  docker --version
+  docker compose version
+
+---------------------------------------------------------------------------
+STEP 4 — Copy the Project to EC2
+---------------------------------------------------------------------------
+
+  Run this on your LOCAL machine (not on EC2):
+
+  rsync -avz --exclude '.git' --exclude '__pycache__' --exclude 'node_modules' \
+    -e "ssh -i /path/to/your-key.pem" \
+    ~/uvReactor/ ubuntu@<EC2_PUBLIC_IP>:~/uvReactor/
+
+  Alternative — if you have the code in a Git repository:
+  git clone <YOUR_REPO_URL> ~/uvReactor
+
+---------------------------------------------------------------------------
+STEP 5 — Configure Environment Variables
+---------------------------------------------------------------------------
+
+  On the EC2 instance:
+
+  cd ~/uvReactor
+  cp .env.example .env
+  nano .env
+
+  Fill in all values. At minimum, change these from the defaults:
+
+  ┌─────────────────────────────────────────────────────────────────┐
+  │ # Postgres                                                      │
+  │ POSTGRES_DB=uvreactor                                           │
+  │ POSTGRES_USER=uvreactor                                         │
+  │ POSTGRES_PASSWORD=<STRONG_RANDOM_PASSWORD>                      │
+  │                                                                 │
+  │ # InfluxDB                                                      │
+  │ DOCKER_INFLUXDB_INIT_USERNAME=uv_admin                          │
+  │ DOCKER_INFLUXDB_INIT_PASSWORD=<STRONG_RANDOM_PASSWORD>          │
+  │ DOCKER_INFLUXDB_INIT_ORG=uv_org                                 │
+  │ DOCKER_INFLUXDB_INIT_BUCKET=uv_demo                             │
+  │ DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=<STRONG_RANDOM_TOKEN>          │
+  │                                                                 │
+  │ # AI (Mistral API — required for Copilot and Reports)           │
+  │ MISTRAL_API_KEY=<YOUR_MISTRAL_API_KEY>                          │
+  │                                                                 │
+  │ # Frontend — point to the EC2 public IP                         │
+  │ VITE_API_URL=http://<EC2_PUBLIC_IP>:8000                        │
+  └─────────────────────────────────────────────────────────────────┘
+
+  Save and close (Ctrl+X → Y → Enter in nano).
+
+  SECURITY: The .env file is excluded from Docker builds by .dockerignore.
+  It is read at runtime by docker compose. Never commit it to Git.
+
+---------------------------------------------------------------------------
+STEP 6 — Vectorize the Documentation (First Run Only)
+---------------------------------------------------------------------------
+
+  The ChromaDB vector store is pre-populated locally but will be empty on
+  a fresh EC2 instance. Run rag_setup.py after the services are up
+  (see Step 7), or pre-populate it before by running:
+
+  NOTE: This step requires the Python dependencies installed locally.
+  If you copied a local chroma_db/ that already has vectors, skip this.
+  Otherwise, after Step 7:
+
+    docker exec -it uv_backend python3 /app/uv_intelligent_demo/rag_setup.py
+
+---------------------------------------------------------------------------
+STEP 7 — Build and Start the Stack
+---------------------------------------------------------------------------
+
+  cd ~/uvReactor
+
+  # First-time build (takes ~10–15 minutes, pulls images & installs deps)
+  docker compose -f uv_intelligent_demo/docker-compose.yml up -d --build
+
+  # Watch the logs until everything is healthy
+  docker compose -f uv_intelligent_demo/docker-compose.yml logs -f
+
+  # Check health of all services
+  docker compose -f uv_intelligent_demo/docker-compose.yml ps
+
+  All services should show "healthy" within 2–3 minutes:
+    uv_postgres    healthy
+    uv_redis       healthy
+    uv_influxdb    healthy
+    uv_mosquitto   healthy
+    uv_nodered     healthy
+    uv_backend     healthy
+    uv_frontend    running
+
+---------------------------------------------------------------------------
+STEP 8 — Access the Application
+---------------------------------------------------------------------------
+
+  Open in your browser:
+
+  Frontend UI:    http://<EC2_PUBLIC_IP>:5173
+  Backend API:    http://<EC2_PUBLIC_IP>:8000
+  API Docs:       http://<EC2_PUBLIC_IP>:8000/docs
+  Node-RED:       http://<EC2_PUBLIC_IP>:1880
+  InfluxDB:       http://<EC2_PUBLIC_IP>:8086
+
+---------------------------------------------------------------------------
+STEP 9 — Make the Stack Start on Reboot (Auto-Restart)
+---------------------------------------------------------------------------
+
+  Docker containers already have restart: unless-stopped, which handles
+  container crashes. To also restart after an EC2 reboot, set up a
+  systemd service:
+
+  sudo nano /etc/systemd/system/uv-reactor.service
+
+  Paste:
+  ─────────────────────────────────────────
+  [Unit]
+  Description=UV Reactor Ops Center
+  Requires=docker.service
+  After=docker.service network-online.target
+
+  [Service]
+  User=ubuntu
+  WorkingDirectory=/home/ubuntu/uvReactor
+  ExecStart=/usr/bin/docker compose -f uv_intelligent_demo/docker-compose.yml up -d
+  ExecStop=/usr/bin/docker compose -f uv_intelligent_demo/docker-compose.yml down
+  RemainAfterExit=yes
+  Restart=on-failure
+
+  [Install]
+  WantedBy=multi-user.target
+  ─────────────────────────────────────────
+
+  sudo systemctl daemon-reload
+  sudo systemctl enable uv-reactor
+  sudo systemctl start uv-reactor
+
+---------------------------------------------------------------------------
+STEP 10 — Useful Day-to-Day Commands
+---------------------------------------------------------------------------
+
+  # Start the stack
+  docker compose -f uv_intelligent_demo/docker-compose.yml up -d
+
+  # Stop the stack (preserves data volumes)
+  docker compose -f uv_intelligent_demo/docker-compose.yml down
+
+  # Rebuild after code changes
+  docker compose -f uv_intelligent_demo/docker-compose.yml up -d --build
+
+  # View logs for a specific service
+  docker compose -f uv_intelligent_demo/docker-compose.yml logs -f backend
+  docker compose -f uv_intelligent_demo/docker-compose.yml logs -f frontend
+
+  # Open a shell inside the backend container
+  docker exec -it uv_backend bash
+
+  # Re-run the RAG vectorization after adding new documents
+  docker exec -it uv_backend python3 /app/uv_intelligent_demo/rag_setup.py
+
+  # Wipe all data and start fresh (DESTRUCTIVE)
+  docker compose -f uv_intelligent_demo/docker-compose.yml down -v
+
+---------------------------------------------------------------------------
+TROUBLESHOOTING
+---------------------------------------------------------------------------
+
+  PROBLEM:  Port 5173 / 8000 not accessible in browser
+  SOLUTION: Verify the EC2 Security Group inbound rules (Step 1.3).
+
+  PROBLEM:  uv_backend stays "starting" and never becomes healthy
+  SOLUTION: Run:
+            docker compose -f uv_intelligent_demo/docker-compose.yml logs backend
+            Look for import errors. Ensure MISTRAL_API_KEY is set in .env
+            if using the Mistral API backend.
+
+  PROBLEM:  Copilot returns errors / no AI responses
+  SOLUTION: Confirm MISTRAL_API_KEY is set correctly in .env. The app
+            falls back to a local Ollama model if no key is set — Ollama
+            is not installed inside the container by default.
+
+  PROBLEM:  Disk full errors
+  SOLUTION: The default 30 GB may fill up after extended telemetry capture.
+            Increase the EBS volume via AWS Console → Volumes → Modify.
+            Then: sudo growpart /dev/xvda 1 && sudo resize2fs /dev/xvda1
+
+  PROBLEM:  Out of memory
+  SOLUTION: The sentence-transformers model requires ~1.5 GB RAM during
+            vectorization. Use t3.xlarge or stop other containers first.
+
+---------------------------------------------------------------------------
+COST ESTIMATE (us-east-1 on-demand, approximate)
+---------------------------------------------------------------------------
+
+  t3.large   (2 vCPU / 8 GB)  ~$0.083/hr  ~$60/mo
+  t3.xlarge  (4 vCPU / 16 GB) ~$0.166/hr  ~$120/mo
+  30 GB EBS gp3                            ~$2.40/mo
+  Data transfer (outbound)                 ~$0.09/GB
+
+  TIP: Use a Reserved Instance (1 year) for up to 40% savings.
+       Use an Elastic IP to keep the same address across reboots (free
+       while attached to a running instance).
+
+===========================================================================
+  END OF GUIDE
+===========================================================================

@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets — never include in image
+.env
+*.env.local
+
+# Git
+.git/
+.gitignore
+
+# Dev tools
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and databases (re-created at runtime)
+*.log
+uv_intelligent_demo/webapp/backend/ops_data.db
+uv_intelligent_demo/webapp/backend/report_artifacts/
+
+# Node
+uv_intelligent_demo/webapp/frontend/node_modules/
+
+# Archive / docs not needed in the image
+archive/
+*.pdf
+*.tex
+*.aux
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
