@@ -1,9 +1,4 @@
 # UV Reactor Ops Center
-
-This `README.md` is the current source of truth for the repo. It consolidates the project-owned Markdown that was previously split across architecture notes, verification docs, quickstarts, redesign summaries, and cleanup notes.
-
-Some older `.md` files in this repository were written at different stages of the project and are no longer fully aligned with the code. They are still useful as historical context, but this document reflects the current implementation as it exists in the repo today.
-
 ## What This Project Is
 
 This repository contains a UV reactor monitoring and operator-assistance stack with four main parts:
